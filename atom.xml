@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Sardana Lab</title>
- <link href="http://www.richasardana.wicmb.cornell.edu//" rel="self"/>
- <link href="http://www.richasardana.wicmb.cornell.edu/"/>
- <updated>2021-11-01T19:29:03+00:00</updated>
- <id>http://www.richasardana.wicmb.cornell.edu/</id>
+ <link href="https://richasardana.github.io/SardanaLabWebsite//" rel="self"/>
+ <link href="https://richasardana.github.io/SardanaLabWebsite/"/>
+ <updated>2021-11-02T02:07:46+00:00</updated>
+ <id>https://richasardana.github.io/SardanaLabWebsite/</id>
  <author>
    <name>Richa Sardana</name>
    <email>sardana@cornell.edu</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Membrane protein homeostasis mechanisms</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//projects/home/research"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//projects/home/research"/>
    <updated>2021-10-30T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//projects/home/research</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//projects/home/research</id>
    <content type="html">&lt;p&gt;We study how &lt;strong&gt;membrane protein trafficking&lt;/strong&gt; and &lt;strong&gt;quality control mechanisms&lt;/strong&gt; surveil the membrane proteome, and how their &lt;strong&gt;dysregulation&lt;/strong&gt; results in &lt;strong&gt;human disease&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;Our research studies &lt;strong&gt;how membrane proteins are classified&lt;/strong&gt; as functional or non-functional by cellular protein quality control mechanisms:&lt;/p&gt;
@@ -39,18 +39,18 @@
  
  <entry>
    <title>Sardana lab doors open</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//news/Sardana-lab-opens"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//news/Sardana-lab-opens"/>
    <updated>2021-10-30T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//news/Sardana-lab-opens</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//news/Sardana-lab-opens</id>
    <content type="html">&lt;p&gt;Excited to embark on this new journey. Looking for interested students and postdocs to &lt;a href=&quot;/about.html#join&quot;&gt;join our team!&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Wendy Sweeney</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//team/wendy-sweeney"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//team/wendy-sweeney"/>
    <updated>2021-10-29T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//team/wendy-sweeney</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//team/wendy-sweeney</id>
    <content type="html">&lt;p&gt;Wendy is the Administrative Assistant in &lt;a href=&quot;https://www.vet.cornell.edu/departments/molecular-medicine&quot;&gt;Molecular Medicine&lt;/a&gt;. She provides administrative, teaching, and ordering support to the lab.&lt;/p&gt;
 
 </content>
@@ -58,9 +58,9 @@
  
  <entry>
    <title>Kevin Lyon</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//team/kevin-lyon"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//team/kevin-lyon"/>
    <updated>2021-10-29T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//team/kevin-lyon</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//team/kevin-lyon</id>
    <content type="html">&lt;p&gt;Kevin is the Administrative Manager in &lt;a href=&quot;https://www.vet.cornell.edu/departments/molecular-medicine&quot;&gt;Molecular Medicine&lt;/a&gt;. His administrative support keeps the lab running smoothly.&lt;/p&gt;
 
 </content>
@@ -68,9 +68,9 @@
  
  <entry>
    <title>Chris Chavez</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//team/chris-chavez"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//team/chris-chavez"/>
    <updated>2021-10-29T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//team/chris-chavez</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//team/chris-chavez</id>
    <content type="html">&lt;p&gt;Chris is an undergraduate student at &lt;a href=&quot;https://www.cornell.edu/&quot;&gt;Cornell University&lt;/a&gt;.&lt;/p&gt;
 
 </content>
@@ -78,9 +78,9 @@
  
  <entry>
    <title>Beth Straight</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//team/beth-straight"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//team/beth-straight"/>
    <updated>2021-10-29T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//team/beth-straight</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//team/beth-straight</id>
    <content type="html">&lt;p&gt;Beth is an undergraduate student at &lt;a href=&quot;https://www.cornell.edu/&quot;&gt;Cornell University&lt;/a&gt;.&lt;/p&gt;
 
 </content>
@@ -88,9 +88,9 @@
  
  <entry>
    <title>Ashley Yu</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//team/ashley-yu"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//team/ashley-yu"/>
    <updated>2021-10-29T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//team/ashley-yu</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//team/ashley-yu</id>
    <content type="html">&lt;p&gt;Ashley is an undergraduate student at &lt;a href=&quot;https://www.cornell.edu/&quot;&gt;Cornell University&lt;/a&gt;.&lt;/p&gt;
 
 </content>
@@ -98,9 +98,9 @@
  
  <entry>
    <title>Sardana Lab</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//misc/home/home"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//misc/home/home"/>
    <updated>2021-10-29T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//misc/home/home</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//misc/home/home</id>
    <content type="html">&lt;p&gt;We study how &lt;strong&gt;membrane protein trafficking&lt;/strong&gt; and &lt;strong&gt;quality control mechanisms&lt;/strong&gt; surveil the membrane proteome, and how their &lt;strong&gt;dysregulation&lt;/strong&gt; results in &lt;strong&gt;human disease&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;We are in the &lt;strong&gt;Department of Molecular Medicine&lt;/strong&gt; in the Veterinary Medical Center at &lt;strong&gt;Cornell University&lt;/strong&gt;.&lt;/p&gt;
@@ -110,9 +110,9 @@
  
  <entry>
    <title>About</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//misc/about"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//misc/about"/>
    <updated>2021-10-29T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//misc/about</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//misc/about</id>
    <content type="html">
 &lt;p&gt;&lt;a name=&quot;contact&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -158,9 +158,9 @@ Ithaca, NY 14853-6401&lt;/p&gt;
  
  <entry>
    <title>Richa Sardana</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//team/richa-sardana"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//team/richa-sardana"/>
    <updated>2021-10-28T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//team/richa-sardana</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//team/richa-sardana</id>
    <content type="html">&lt;p&gt;Richa is an Assistant Professor at &lt;a href=&quot;https://www.cornell.edu/&quot;&gt;Cornell University&lt;/a&gt; in the Department of &lt;a href=&quot;https://www.vet.cornell.edu/departments/molecular-medicine&quot;&gt;Molecular Medicine&lt;/a&gt;. She joined the Cornell faculty in November 2021.&lt;/p&gt;
 
 </content>
@@ -168,9 +168,9 @@ Ithaca, NY 14853-6401&lt;/p&gt;
  
  <entry>
    <title>Data Management Planning</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//manual/data-management-plan"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//manual/data-management-plan"/>
    <updated>2021-10-28T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//manual/data-management-plan</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//manual/data-management-plan</id>
    <content type="html">
 &lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#data-management-planning&quot; id=&quot;markdown-toc-data-management-planning&quot;&gt;Data management planning&lt;/a&gt;&lt;/li&gt;
@@ -205,9 +205,9 @@ Ithaca, NY 14853-6401&lt;/p&gt;
  
  <entry>
    <title>Sardana Lab Website</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//blog/sardana-lab-website"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//blog/sardana-lab-website"/>
    <updated>2021-10-28T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//blog/sardana-lab-website</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//blog/sardana-lab-website</id>
    <content type="html">
 &lt;h2 id=&quot;sardana-lab-website-is-up-and-running&quot;&gt;Sardana lab website is up and running!&lt;/h2&gt;
 
@@ -220,9 +220,9 @@ Ithaca, NY 14853-6401&lt;/p&gt;
  
  <entry>
    <title>LaTeX for Biologists</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//blog/LaTeX-biologists"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//blog/LaTeX-biologists"/>
    <updated>2021-10-25T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//blog/LaTeX-biologists</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//blog/LaTeX-biologists</id>
    <content type="html">&lt;h2 id=&quot;about&quot;&gt;About&lt;/h2&gt;
 
 &lt;p&gt;Biologists hardly ever use LaTeX. And I wonder why. With such excellent typesetting, everything you write in LaTeX looks beautiful. And it is absolutely free! Most biologists I know are so used to WYSIWYG (“what you see is what you get”) word processors like Microsoft Word and the ecosystem of everything that connects to them, that there is just too much inertia to try to learn and incorporate LaTeX in their workflow. Additionally, I find myself stuck with using MS Word often because my coworkers or collaborators do not use LaTeX. So I decided to write this primer as an introduction to LaTeX. I myself am no expert at it, was introduced to LaTeX only towards the end of my PhD (but was instantly convinced by its beauty to write &lt;a href=&quot;https://repositories.lib.utexas.edu/handle/2152/30458&quot;&gt;my dissertation&lt;/a&gt; using it), and have only really used an online editor. Hence, my primer is in no way exhaustive or complete, but it is a start.&lt;/p&gt;
@@ -249,9 +249,9 @@ Let’s say you have a document in mind you want to compose in LaTeX. The first 
  
  <entry>
    <title>New start guide</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//manual/newstart"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//manual/newstart"/>
    <updated>2021-09-07T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//manual/newstart</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//manual/newstart</id>
    <content type="html">
 &lt;h1 class=&quot;no_toc&quot; id=&quot;welcome-to-the-sardana-lab&quot;&gt;Welcome to the Sardana lab!&lt;/h1&gt;
 
@@ -365,6 +365,7 @@ If you ask someone else a question and they don’t get back to you, ask again t
 &lt;p&gt;Attendance is encouraged for:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Departmental Journal Club&lt;/li&gt;
+  &lt;li&gt;Departmenal Work in Progress (WIPs)&lt;/li&gt;
   &lt;li&gt;Departmental and other relevant seminars&lt;/li&gt;
   &lt;li&gt;Departmental happy hours and mixers&lt;/li&gt;
 &lt;/ul&gt;
@@ -612,9 +613,9 @@ They will be shown in your lab book page wherever you have placed the link. To d
  
  <entry>
    <title>Meetings: Lab, subgroup, and 1-1</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//manual/meetings-overview"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//manual/meetings-overview"/>
    <updated>2021-09-07T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//manual/meetings-overview</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//manual/meetings-overview</id>
    <content type="html">
 &lt;h1 class=&quot;no_toc&quot; id=&quot;meetings---updated-october-2021&quot;&gt;Meetings - &lt;em&gt;updated October 2021&lt;/em&gt;&lt;/h1&gt;
 
@@ -825,9 +826,9 @@ Edward will work on making that calendar reflect when he is free and when he is 
  
  <entry>
    <title>Lab jobs and ordering</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//manual/lab-jobs"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//manual/lab-jobs"/>
    <updated>2021-06-04T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//manual/lab-jobs</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//manual/lab-jobs</id>
    <content type="html">
 &lt;h1 id=&quot;shared-jobs-in-the-wet-lab&quot;&gt;Shared jobs in the wet lab&lt;/h1&gt;
 
@@ -1019,9 +1020,9 @@ Usually (before COVID-19) we did these jointly with other groups in Wad 2.18/19.
  
  <entry>
    <title>Lab notebook guidelines</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//manual/lab-notebook"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//manual/lab-notebook"/>
    <updated>2021-04-22T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//manual/lab-notebook</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//manual/lab-notebook</id>
    <content type="html">
 &lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#why-lab-notebooks-are-important&quot; id=&quot;markdown-toc-why-lab-notebooks-are-important&quot;&gt;Why lab notebooks are important&lt;/a&gt;&lt;/li&gt;
@@ -1250,9 +1251,9 @@ There are some nice ideas in &lt;a href=&quot;https://doi.org/10.1371/journal.pc
  
  <entry>
    <title>Lab standup</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//manual/standup"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//manual/standup"/>
    <updated>2021-04-14T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//manual/standup</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//manual/standup</id>
    <content type="html">
 &lt;h1 id=&quot;lab-standup-sessions&quot;&gt;Lab standup sessions&lt;/h1&gt;
 
@@ -1377,9 +1378,9 @@ This creates difficulties with structuring time (because we aren’t going to wo
  
  <entry>
    <title>Structuromics-Part 3</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//blog/DNA-origami-cryo-ET"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//blog/DNA-origami-cryo-ET"/>
    <updated>2021-03-30T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//blog/DNA-origami-cryo-ET</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//blog/DNA-origami-cryo-ET</id>
    <content type="html">&lt;p&gt;&lt;em&gt;Research Paper Highlight:&lt;/em&gt;
  &lt;strong&gt;DNA origami signposts for identifying proteins on cell membranes by electron cryotomography&lt;/strong&gt;&lt;/p&gt;
 
@@ -1412,9 +1413,9 @@ whereas immuno-gold labeling puts the gold clusters up to 20-40 nm away. Their t
  
  <entry>
    <title>Where lab stuff belongs</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//manual/where-lab-stuff-belongs"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//manual/where-lab-stuff-belongs"/>
    <updated>2021-03-11T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//manual/where-lab-stuff-belongs</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//manual/where-lab-stuff-belongs</id>
    <content type="html">
 &lt;h1 id=&quot;guidelines-for-materials-equipment-reagents-strains-in-the-wet-lab-space&quot;&gt;Guidelines for materials, equipment, reagents, strains, in the wet lab space.&lt;/h1&gt;
 
@@ -1512,9 +1513,9 @@ For many mutant strains, e.g. CRISPR mutants, it is worth freezing more than one
  
  <entry>
    <title>Where data belongs</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//manual/where-data-belongs"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//manual/where-data-belongs"/>
    <updated>2021-03-11T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//manual/where-data-belongs</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//manual/where-data-belongs</id>
    <content type="html">
 &lt;h1 id=&quot;guidelines-for-storing-and-organizing-data-in-the-wallace-lab&quot;&gt;Guidelines for storing and organizing data in the Wallace lab&lt;/h1&gt;
 
@@ -1680,9 +1681,9 @@ Please ensure that the filename contains your name, the date, and some note of t
  
  <entry>
    <title>Structuromics-Part 2</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//blog/GI-mapping-protein-structure-paper"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//blog/GI-mapping-protein-structure-paper"/>
    <updated>2021-02-20T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//blog/GI-mapping-protein-structure-paper</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//blog/GI-mapping-protein-structure-paper</id>
    <content type="html">&lt;p&gt;&lt;em&gt;Research Paper Highlight:&lt;/em&gt;
  &lt;strong&gt;Genetic interaction mapping informs integrative structure determination of protein complexes&lt;/strong&gt;&lt;/p&gt;
 
@@ -1704,9 +1705,9 @@ Please ensure that the filename contains your name, the date, and some note of t
  
  <entry>
    <title>Structuromics-Part 1</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//blog/LIP-MS-paper"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//blog/LIP-MS-paper"/>
    <updated>2021-01-30T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//blog/LIP-MS-paper</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//blog/LIP-MS-paper</id>
    <content type="html">&lt;p&gt;&lt;em&gt;Research Paper Highlight:&lt;/em&gt;
  &lt;strong&gt;Dynamic 3D proteomes reveal protein functional alterations at high resolution in situ&lt;/strong&gt;&lt;/p&gt;
 
@@ -1732,9 +1733,9 @@ Please ensure that the filename contains your name, the date, and some note of t
  
  <entry>
    <title>Membrane protein quality control mechanisms in the Endo-Lysosome system</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//papers/paper/PQC-review"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//papers/paper/PQC-review"/>
    <updated>2021-01-04T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//papers/paper/PQC-review</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//papers/paper/PQC-review</id>
    <content type="html">
 &lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
 
@@ -1745,9 +1746,9 @@ Please ensure that the filename contains your name, the date, and some note of t
  
  <entry>
    <title>Bud23 promotes the final disassembly of the small subunit Processome in Saccharomyces cerevisiae</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//papers/paper/black-bud23"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//papers/paper/black-bud23"/>
    <updated>2020-12-13T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//papers/paper/black-bud23</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//papers/paper/black-bud23</id>
    <content type="html">
 &lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
 
@@ -1758,9 +1759,9 @@ Please ensure that the filename contains your name, the date, and some note of t
  
  <entry>
    <title>Calcineurin-dependent regulation of endocytosis by a plasma membrane ubiquitin ligase adaptor, Rcr1</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//papers/paper/zhu-rcr1"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//papers/paper/zhu-rcr1"/>
    <updated>2020-08-03T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//papers/paper/zhu-rcr1</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//papers/paper/zhu-rcr1</id>
    <content type="html">
 &lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
 
@@ -1771,9 +1772,9 @@ Please ensure that the filename contains your name, the date, and some note of t
  
  <entry>
    <title>noncanonical ORF translation</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//blog/microproteins-paper"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//blog/microproteins-paper"/>
    <updated>2020-05-29T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//blog/microproteins-paper</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//blog/microproteins-paper</id>
    <content type="html">&lt;p&gt;&lt;em&gt;Research Paper Highlight:&lt;/em&gt;
  &lt;strong&gt;Pervasive functional translation of noncanonical human open reading frames&lt;/strong&gt;&lt;/p&gt;
 
@@ -1795,9 +1796,9 @@ Please ensure that the filename contains your name, the date, and some note of t
  
  <entry>
    <title>WHO hand sanitizer spray recipe</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//non-science/hand-sanitizer-spray"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//non-science/hand-sanitizer-spray"/>
    <updated>2020-03-25T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//non-science/hand-sanitizer-spray</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//non-science/hand-sanitizer-spray</id>
    <content type="html">&lt;p&gt;&lt;strong&gt;WHO guidelines for local production of hand sanitizer spray&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Cannot find hand sanitizer in the grocery stores because people are hoarding it? Don’t panic.  World Health Organization recommends a simple recipe to make your own with three ingredients that you can find in any pharmacy: Ethanol or Isopropyl Alcohol (either works fine), Glycerin, Hydrogen Peroxide.&lt;/p&gt;
@@ -1809,9 +1810,9 @@ This recipe is for a spray sanitizer which can be used to sanitize hands, as wel
  
  <entry>
    <title>Bud23 promotes the progression of the Small Subunit Processome to the pre-40S ribosome in Saccharomyces cerevisiae</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//papers/paper/black-bud23-preprint"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//papers/paper/black-bud23-preprint"/>
    <updated>2020-02-06T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//papers/paper/black-bud23-preprint</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//papers/paper/black-bud23-preprint</id>
    <content type="html">
 &lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
 
@@ -1821,9 +1822,9 @@ This recipe is for a spray sanitizer which can be used to sanitize hands, as wel
  
  <entry>
    <title>Measuring Translation in Yeast by Liquid Scintillation Counting</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//protocols/protocol/translation-w-radioactivity"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//protocols/protocol/translation-w-radioactivity"/>
    <updated>2020-01-31T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//protocols/protocol/translation-w-radioactivity</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//protocols/protocol/translation-w-radioactivity</id>
    <content type="html">&lt;p&gt;This protocol is to measure the translation rate in yeast cells by 35-S incorporation quantified by liquid scintillation counting.&lt;/p&gt;
 
 &lt;p&gt;Based on protocol ‘In Vivo 35-S-Methionine Incorporation’ by Esposito et al. 2014 (https://doi.org/10.1016/B978-0-12-420070-8.00005-2), with modiﬁcations by Cat Triandafillou.&lt;/p&gt;
@@ -1941,9 +1942,9 @@ This recipe is for a spray sanitizer which can be used to sanitize hands, as wel
  
  <entry>
    <title>Representing reproducibility and variability</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//blog/multi-color-beeswarm-plot"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//blog/multi-color-beeswarm-plot"/>
    <updated>2020-01-02T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//blog/multi-color-beeswarm-plot</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//blog/multi-color-beeswarm-plot</id>
    <content type="html">&lt;p&gt;&lt;em&gt;Research Paper Highlight:&lt;/em&gt;
  &lt;strong&gt;If your P value looks too good to be true, it probably is: Communicating reproducibility and variability in cell biology.&lt;/strong&gt;&lt;/p&gt;
 
@@ -1979,9 +1980,9 @@ DOI:10.1083/jcb.202001064&lt;/a&gt;&lt;/p&gt;
  
  <entry>
    <title>DIY Hairpin Leg sidetables</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//non-science/hairpin-leg-table"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//non-science/hairpin-leg-table"/>
    <updated>2019-03-10T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//non-science/hairpin-leg-table</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//non-science/hairpin-leg-table</id>
    <content type="html">&lt;p&gt;Needed side tables. Don’t have any carpentary experience but really wanted to build something. After wasting a lot of time online, here is what I came up with - hair pin leg tables with solid wood cutting boards as table tops!&lt;/p&gt;
 
 &lt;h1 id=&quot;supplies&quot;&gt;Supplies&lt;/h1&gt;
@@ -2013,9 +2014,9 @@ DOI:10.1083/jcb.202001064&lt;/a&gt;&lt;/p&gt;
  
  <entry>
    <title>Introns and growth</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//blog/Introns-regulate-growth"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//blog/Introns-regulate-growth"/>
    <updated>2019-03-04T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//blog/Introns-regulate-growth</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//blog/Introns-regulate-growth</id>
    <content type="html">&lt;p&gt;&lt;em&gt;Research Paper Highlight:&lt;/em&gt;
  &lt;strong&gt;Excised linear introns regulate growth in yeast.&lt;/strong&gt;&lt;/p&gt;
 
@@ -2034,9 +2035,9 @@ DOI:10.1083/jcb.202001064&lt;/a&gt;&lt;/p&gt;
  
  <entry>
    <title>Rsp5 Ubiquitin ligase–mediated quality control system clears membrane proteins mistargeted to the vacuole membrane</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//papers/paper/sardana-vacuole-membrane-degradation"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//papers/paper/sardana-vacuole-membrane-degradation"/>
    <updated>2019-01-07T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//papers/paper/sardana-vacuole-membrane-degradation</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//papers/paper/sardana-vacuole-membrane-degradation</id>
    <content type="html">
 &lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
 
@@ -2047,9 +2048,9 @@ DOI:10.1083/jcb.202001064&lt;/a&gt;&lt;/p&gt;
  
  <entry>
    <title>Ithaca Murals</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//non-science/ithaca-murals-map"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//non-science/ithaca-murals-map"/>
    <updated>2019-01-06T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//non-science/ithaca-murals-map</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//non-science/ithaca-murals-map</id>
    <content type="html">&lt;p&gt;Check out the Ithaca murals website if you haven’t visited it already. Caleb et al. have done a wonderful job putting together a murals map that you could refer to. Great idea for organizing a group mural walk/ bike ride!
 &lt;a href=&quot;https://www.ithacamurals.com/mural-map.html&quot;&gt;Ithaca murals website link&lt;/a&gt;&lt;/p&gt;
 
@@ -2058,9 +2059,9 @@ DOI:10.1083/jcb.202001064&lt;/a&gt;&lt;/p&gt;
  
  <entry>
    <title>Methods for studying the regulation of membrane traffic by ubiquitin and the ESCRT pathway</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//papers/paper/guiney-methods"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//papers/paper/guiney-methods"/>
    <updated>2019-01-01T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//papers/paper/guiney-methods</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//papers/paper/guiney-methods</id>
    <content type="html">
 &lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
 
@@ -2070,9 +2071,9 @@ DOI:10.1083/jcb.202001064&lt;/a&gt;&lt;/p&gt;
  
  <entry>
    <title>Recipe blog</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//non-science/recipe-blog"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//non-science/recipe-blog"/>
    <updated>2018-12-25T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//non-science/recipe-blog</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//non-science/recipe-blog</id>
    <content type="html">&lt;p&gt;Recipes on the internet are easy to find but harder to keep track of and remember. Sometimes Sid and I find one we like and then tweak to fit our liking. We figured why not create a website that logs them in a easy to use and interactive fashion. We came up with this static website using &lt;a href=&quot;https://github.com/seanlane/gochowdown&quot;&gt;Gochowdown&lt;/a&gt; theme for Hugo. Gochowdown was itself built on &lt;a href=&quot;https://github.com/clarklab/chowdown&quot;&gt;Chowdown&lt;/a&gt; for Jekyll. The hope is to experiment more with not just cooking but also with Jekyll and Hugo. Here is the link: &lt;a href=&quot;https://richa-sid-recipe-blog.netlify.app&quot;&gt;Richa and Sid’s Recipe Blog&lt;/a&gt;.&lt;/p&gt;
 
 </content>
@@ -2080,9 +2081,9 @@ DOI:10.1083/jcb.202001064&lt;/a&gt;&lt;/p&gt;
  
  <entry>
    <title>Public art- painting an outdoor electrical box</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//non-science/electrical-box"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//non-science/electrical-box"/>
    <updated>2018-11-10T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//non-science/electrical-box</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//non-science/electrical-box</id>
    <content type="html">&lt;!--
 ## About
 
@@ -2123,9 +2124,9 @@ DOI:10.1083/jcb.202001064&lt;/a&gt;&lt;/p&gt;
  
  <entry>
    <title>Art in the Backyard- painting our backyard garden closet</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//non-science/garden-closet"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//non-science/garden-closet"/>
    <updated>2018-05-12T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//non-science/garden-closet</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//non-science/garden-closet</id>
    <content type="html">
 &lt;p&gt;A bit of color and art in our backyard has made it a happier place. Did this back in 2017, and it is holding up quite well. The mural decorates the door of our garden closet. It took several weeks (mostly because of the weather, time constraints etc.) to finish, and has opened endless possibilities for what all we want to cover in murals in and around the house! Can’t find a pic of how it looked before (or maybe we forgot to click one, but it was a plain wooden cabinet), but here is one of the final product.&lt;/p&gt;
 
@@ -2162,9 +2163,9 @@ DOI:10.1083/jcb.202001064&lt;/a&gt;&lt;/p&gt;
  
  <entry>
    <title>Translocon Declogger Ste24</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//blog/Ste24-IAPP-Toxicity-paper"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//blog/Ste24-IAPP-Toxicity-paper"/>
    <updated>2018-03-14T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//blog/Ste24-IAPP-Toxicity-paper</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//blog/Ste24-IAPP-Toxicity-paper</id>
    <content type="html">&lt;p&gt;&lt;em&gt;Research Paper Highlight:&lt;/em&gt;
  &lt;strong&gt;Translocon Declogger Ste24 Protects against IAPP Oligomer-Induced Proteotoxicity.&lt;/strong&gt;&lt;/p&gt;
 
@@ -2185,9 +2186,9 @@ and Susan Lindquist, &lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/29526462/&
  
  <entry>
    <title>Featured on Traffic Light Cook</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//non-science/Featured-on-Traffic-Light-Cook"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//non-science/Featured-on-Traffic-Light-Cook"/>
    <updated>2018-02-10T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//non-science/Featured-on-Traffic-Light-Cook</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//non-science/Featured-on-Traffic-Light-Cook</id>
    <content type="html">&lt;p&gt;Garima Lal who writes this great blog on heathy eating and cooking practices, featured me on one of her ‘Cooking Motivation’ series! Check out the post &lt;a href=&quot;https://www.trafficlightcook.com/cooking-motivation-richa-sardana-plus-homemade-granola-recipe/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 </content>
@@ -2195,9 +2196,9 @@ and Susan Lindquist, &lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/29526462/&
  
  <entry>
    <title>RNATagSeq: multiplexed library preparation for Illumina RNA sequencing</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//protocols/protocol/rnatagseq-library-prep"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//protocols/protocol/rnatagseq-library-prep"/>
    <updated>2015-11-05T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//protocols/protocol/rnatagseq-library-prep</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//protocols/protocol/rnatagseq-library-prep</id>
    <content type="html">
 &lt;p&gt;This protocol is for RNA sequencing (RNASeq) library preparation using the RNATagSeq method of Shishkin, et al. (2015). &lt;em&gt;Simultaneous generation of many RNA-seq libraries in a single reaction.&lt;/em&gt; Nature Methods, 12(4), 323–325. http://doi.org/10.1038/nmeth.3313 (Broad institute).&lt;/p&gt;
 
@@ -2936,9 +2937,9 @@ NOTE: P5 primer: P5_RNATag, 5’-AAT GAT ACG GCG ACC ACC GAG ATC TAC ACT CTT TCC
  
  <entry>
    <title>Yeast total RNA isolation protocol</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//protocols/protocol/yeast-rna-isolation"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//protocols/protocol/yeast-rna-isolation"/>
    <updated>2015-10-30T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//protocols/protocol/yeast-rna-isolation</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//protocols/protocol/yeast-rna-isolation</id>
    <content type="html">
 &lt;p&gt;This is a yeast total RNA isolation protocol that works very well and reliably. It takes a couple of hours.
 We have also had success with the Zymo Direct-Zol columns which are faster but can be less clean if overloaded.
@@ -3046,9 +3047,9 @@ parallel with the main sample. &lt;a href=&quot;#fnref:1&quot; class=&quot;reve
  
  <entry>
    <title>Sucrose gradient protocol for polysome profiles</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//protocols/protocol/sucrose-gradient"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//protocols/protocol/sucrose-gradient"/>
    <updated>2015-10-30T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//protocols/protocol/sucrose-gradient</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//protocols/protocol/sucrose-gradient</id>
    <content type="html">
 &lt;p&gt;This protocol is for polysome fractionation by sucrose gradient, to view
 translational status of cells and ribosome-association of mRNAs and
@@ -3276,9 +3277,9 @@ at about 0.5 mm/s).&lt;/p&gt;
  
  <entry>
    <title>Anti-RNA blotting with chemiluminescent detection</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//protocols/protocol/rna-blot"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//protocols/protocol/rna-blot"/>
    <updated>2015-10-30T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//protocols/protocol/rna-blot</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//protocols/protocol/rna-blot</id>
    <content type="html">
 &lt;p&gt;This protocol is for northern blotting/dot-blotting to detect specific
 RNAs via chemiluminescence, using biotinylated DNA oligo probes. Gels etc
@@ -3548,9 +3549,9 @@ before loading. Run at 200 V for 60min. &lt;a href=&quot;#fnref:1&quot; class=&
  
  <entry>
    <title>Supernatant/pellet fractionation of budding yeast cells by cryogenic lysis</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//protocols/protocol/yeast-lysis"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//protocols/protocol/yeast-lysis"/>
    <updated>2015-07-23T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//protocols/protocol/yeast-lysis</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//protocols/protocol/yeast-lysis</id>
    <content type="html">
 &lt;p&gt;For studies of protein aggregation, few techniques are simpler than two-phase fractionation by centrifugation: big stuff (aggregates) pellets, small stuff (unaggregated proteins) stays in the supernatant. Breaking open cells (lysis) can alter or even cause protein aggregation. For yeast cells, which have a tough cell wall, lysis requires a lot of force. We and others find that cryogenic milling does a good job in lysing most cells without causing aggregation.&lt;/p&gt;
 
@@ -3806,9 +3807,9 @@ total and soluble fractions. Make aliquots for further analysis.&lt;/p&gt;
  
  <entry>
    <title>Disaggregation assay data visualization</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//data/postheat-disaggregation-yeast-visualization"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//data/postheat-disaggregation-yeast-visualization"/>
    <updated>2015-07-23T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//data/postheat-disaggregation-yeast-visualization</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//data/postheat-disaggregation-yeast-visualization</id>
    <content type="html">&lt;p&gt;Interactive data visualization for disaggregation and new-synthesis data from &lt;a href=&quot;/papers/paper/endogenous-aggregates&quot;&gt;our 2015 paper on heat-triggered protein aggregation in yeast&lt;/a&gt;, Figure 6. (Aggregation data visualization is &lt;a href=&quot;/data/heat-aggregation-yeast-visualization&quot;&gt;here&lt;/a&gt;.)&lt;/p&gt;
 
 &lt;p&gt;Choose detected proteins by official yeast name, from &lt;a href=&quot;http://www.yeastgenome.org/&quot;&gt;SGD&lt;/a&gt;.&lt;/p&gt;
@@ -3822,9 +3823,9 @@ total and soluble fractions. Make aliquots for further analysis.&lt;/p&gt;
  
  <entry>
    <title>Aggregation assay data visualization</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//data/heat-aggregation-yeast-visualization"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//data/heat-aggregation-yeast-visualization"/>
    <updated>2015-07-23T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//data/heat-aggregation-yeast-visualization</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//data/heat-aggregation-yeast-visualization</id>
    <content type="html">&lt;p&gt;Interactive data visualization for data from &lt;a href=&quot;/papers/paper/endogenous-aggregates&quot;&gt;our 2015 paper on heat-triggered protein aggregation in yeast&lt;/a&gt;, Figure 1. (Disaggregation data visualization is &lt;a href=&quot;/data/postheat-disaggregation-yeast-visualization&quot;&gt;here&lt;/a&gt;.)&lt;/p&gt;
 
 &lt;p&gt;Choose detected proteins by official yeast name, from &lt;a href=&quot;http://www.yeastgenome.org/&quot;&gt;SGD&lt;/a&gt;.&lt;/p&gt;
@@ -3838,9 +3839,9 @@ total and soluble fractions. Make aliquots for further analysis.&lt;/p&gt;
  
  <entry>
    <title>Chloroform-methanol extraction of proteins</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//protocols/protocol/chloroform-methanol-precipitation"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//protocols/protocol/chloroform-methanol-precipitation"/>
    <updated>2015-04-21T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//protocols/protocol/chloroform-methanol-precipitation</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//protocols/protocol/chloroform-methanol-precipitation</id>
    <content type="html">
 &lt;p&gt;Detergents, like SDS, and salts, like NaCl, can disrupt liquid chromatography/tandem mass spectrometry (LC-MS/MS) studies by interfering with chemistry and clogging columns and spray needles. Precipitation with chloroform and methanol results in dry protein material, free of salt and detergent, which perform sweetly during these critical steps.&lt;/p&gt;
 
@@ -3867,9 +3868,9 @@ total and soluble fractions. Make aliquots for further analysis.&lt;/p&gt;
  
  <entry>
    <title>The DEAH-box helicase Dhr1 dissociates U3 from the pre-rRNA to promote formation of the central pseudoknot</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//papers/paper/sardana-dhr1-u3"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//papers/paper/sardana-dhr1-u3"/>
    <updated>2015-02-24T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//papers/paper/sardana-dhr1-u3</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//papers/paper/sardana-dhr1-u3</id>
    <content type="html">
 &lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
 
@@ -3880,9 +3881,9 @@ total and soluble fractions. Make aliquots for further analysis.&lt;/p&gt;
  
  <entry>
    <title>Physical and functional interaction between the methyltransferase Bud23 and the essential DEAH-box RNA helicase Ecm16</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//papers/paper/sardana-bud23-ecm16"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//papers/paper/sardana-bud23-ecm16"/>
    <updated>2014-06-15T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//papers/paper/sardana-bud23-ecm16</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//papers/paper/sardana-bud23-ecm16</id>
    <content type="html">
 &lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
 
@@ -3892,9 +3893,9 @@ total and soluble fractions. Make aliquots for further analysis.&lt;/p&gt;
  
  <entry>
    <title>The rRNA methyltransferase Bud23 shows functional interaction with components of the SSU processome and RNase MRP</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//papers/paper/sardana-ssu-processome"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//papers/paper/sardana-ssu-processome"/>
    <updated>2013-06-01T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//papers/paper/sardana-ssu processome</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//papers/paper/sardana-ssu processome</id>
    <content type="html">
 &lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
 
@@ -3904,9 +3905,9 @@ total and soluble fractions. Make aliquots for further analysis.&lt;/p&gt;
  
  <entry>
    <title>From knobs to a central pseudoknot: understanding 40S ribosomal subunit biogenesis through Bud23</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//papers/paper/sardana-dissertation"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//papers/paper/sardana-dissertation"/>
    <updated>2013-05-13T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//papers/paper/sardana-dissertation</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//papers/paper/sardana-dissertation</id>
    <content type="html">
 &lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
 
@@ -3916,9 +3917,9 @@ total and soluble fractions. Make aliquots for further analysis.&lt;/p&gt;
  
  <entry>
    <title>Las1 interacts with Grc3 polynucleotide kinase and is required for ribosome synthesis in Saccharomyces cerevisiae</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//papers/paper/caste-las1"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//papers/paper/caste-las1"/>
    <updated>2013-01-01T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//papers/paper/caste-las1</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//papers/paper/caste-las1</id>
    <content type="html">
 &lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
 
@@ -3928,9 +3929,9 @@ total and soluble fractions. Make aliquots for further analysis.&lt;/p&gt;
  
  <entry>
    <title>The methyltransferase adaptor protein Trm112 is involved in biogenesis of both ribosomal subunits</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//papers/paper/sardana-trm112"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//papers/paper/sardana-trm112"/>
    <updated>2012-11-01T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//papers/paper/sardana-trm112</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//papers/paper/sardana-trm112</id>
    <content type="html">
 &lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
 
@@ -3940,9 +3941,9 @@ total and soluble fractions. Make aliquots for further analysis.&lt;/p&gt;
  
  <entry>
    <title>5′ and 3′ end modifications of spliceosomal RNAs in Plasmodium falciparum</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//papers/paper/bawankar-plasmodium-rna"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//papers/paper/bawankar-plasmodium-rna"/>
    <updated>2009-08-08T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//papers/paper/bawankar-plasmodium-rna</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//papers/paper/bawankar-plasmodium-rna</id>
    <content type="html">
 &lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
 
@@ -3952,9 +3953,9 @@ total and soluble fractions. Make aliquots for further analysis.&lt;/p&gt;
  
  <entry>
    <title>Bud23 methylates G1575 of 18S rRNA and is required for efficient nuclear export of pre-40S subunits</title>
-   <link href="http://www.richasardana.wicmb.cornell.edu//papers/paper/white-bud23-methyltransferase"/>
+   <link href="https://richasardana.github.io/SardanaLabWebsite//papers/paper/white-bud23-methyltransferase"/>
    <updated>2008-05-15T00:00:00+00:00</updated>
-   <id>http://www.richasardana.wicmb.cornell.edu//papers/paper/white-bud23-methyltransferase</id>
+   <id>https://richasardana.github.io/SardanaLabWebsite//papers/paper/white-bud23-methyltransferase</id>
    <content type="html">
 &lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
 
