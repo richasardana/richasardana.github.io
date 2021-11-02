@@ -1,0 +1,638 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Where data belongs</title>
+    <meta name="description" content="Guidelines for storing and organizing data in the Wallace lab">
+    <meta name="author" content="Richa Sardana">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- Bootstrap styles -->
+    <link href="/assets/themes/lab/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <!-- Optional theme -->
+    <link href="/assets/themes/lab/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet"/>
+    <!-- Sticky Footer -->
+    <link href="/assets/themes/lab/bootstrap/css/bs-sticky-footer.css" rel="stylesheet"/>
+    
+    <!-- Custom styles -->
+    <link href="/assets/themes/lab/css/style.css?body=1" rel="stylesheet" type="text/css" media="all"/>
+
+    <!-- icon -->
+    <link rel="shortcut icon" href="/assets/themes/lab/images/logo/favicon.ico"/>
+
+    <!-- Custom fonts and icons via Font Awesome, http://fortawesome.github.io/Font-Awesome/ -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
+
+    <!-- Fonts via Google -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700' rel='stylesheet' type='text/css'/>
+
+    <!-- Math via MathJax -->
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <!-- Update these with your own images
+      <link rel="shortcut icon" href="images/favicon.ico">
+      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    -->
+
+    <!-- atom & rss feed
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+    -->
+
+  </head>
+
+  <body>
+
+  <!-- Static top navbar -->
+
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class='container'>
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- added by Sid on 10/29/21: -->
+		<a href="/" class="navbar-left"><img style="margin-top: 10px" src="/assets/themes/lab/images/logo/lab-logo.png"></a>
+        
+	<!--	commented out by Sid on 10/29/21: -->
+  <!--
+		<a href="/">
+        <img class="pull-left logo" src="/assets/themes/lab/images/logo/lab-logo.svg" type="image/svg+xml">
+        </a>
+		-->
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="jb-navbar-collapse">
+        <ul class="nav navbar-nav navbar-left hidden-sm">
+          <!-- Don't put site title on home page -- there's already a big title there. -->
+          
+          
+          
+          <!-- commented out by Sid on 10/29/21, uncomment to bring back lab name on topnav bar: -->
+<!--          <a class="navbar-brand" href="/">Sardana Lab</a>
+-->		  
+          
+        </ul>
+        <ul class="nav navbar-nav navbar-right pull-right">
+          
+          
+          
+
+
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+  
+    
+  
+    
+      
+    
+  
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/projects/">Research</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/team/">Team</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/papers/">Papers</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/blog/">Blog</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/manual/">Manual</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/Non-science/">Non-science</a></li>
+      	
+      
+    
+  
+
+
+
+          <li class="dropdown nav navbar-nav">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+              More <span class="caret"></span>
+            </a>
+
+            <ul class="dropdown-menu nav navbar-nav" role="menu">
+              
+              
+              
+
+
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+  
+    
+  
+    
+      
+    
+  
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/protocols/">Protocols</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/news/">News</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+
+
+
+            </ul>
+            </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </nav>
+   </div>
+
+   <!-- Content -->
+   <div class="container">
+      
+<div class="page-header">
+  <h1>Where data belongs </h1>
+</div>
+
+
+
+
+<div class="row post-full">
+  <div class="col-md-2">
+    <div class="bigspacer"></div>
+    <div class="glyphbox note"> <!-- DAD: what is this--> 
+        <div class="smallhead">
+          11 Mar 2021
+                     
+        </div>
+        <div class="bigspacer"></div>
+       <div class="smallhead">
+        Share
+      </div>
+        <!-- Paste the 3 next lines where you want the sharing button(s) to appear -->
+        <div class="post-sharing">
+         
+
+  
+  		<!-- Twitter -->
+<i class="fa fa-twitter fa-fw"></i>
+<a class="off" href="https://twitter.com/share?url=&text=" data-text="Where data belongs" data-via="" data-related="sardana_richa" target="_blank">tweet</a>
+
+	
+
+
+        </div>
+    </div>
+  </div>
+  <div class="col-md-10">
+    <div class="bigspacer"></div>
+    <div class="glyphbox note"> <!-- DAD: what is this--> 
+    <!-- Added by Sid on 10/30/2021 for image -->      
+      
+      
+      <div class="bigspacer"></div>
+       
+      <div class="content">
+        
+<h1 id="guidelines-for-storing-and-organizing-data-in-the-wallace-lab">Guidelines for storing and organizing data in the Wallace lab</h1>
+
+<p>The principles behind our approach to data are described in <a href="data-management-plan">data management plan</a>; this manual page contains practical guidelines.</p>
+
+<p>All data must be securely stored and backed up, usually to the lab’s datastore space <code class="language-plaintext highlighter-rouge">wallace_rna</code>.</p>
+
+<p>Data must also be findable, organized, and described, usually with a <code class="language-plaintext highlighter-rouge">README.txt</code> or <code class="language-plaintext highlighter-rouge">README.md</code> file that describes the contents of each directory.</p>
+
+<p><strong>Please ask if there is any doubt at all about any of this.</strong></p>
+
+<h2 id="resources-on-dealing-with-data">Resources on dealing with data</h2>
+
+<p>Dealing with data is important and can get complex.
+Here are some helpful resources that make it easier to deal with data effectively.
+The first two papers are essential reading.</p>
+
+<ul>
+  <li><a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510">Good enough practices in scientific computing</a></li>
+  <li><a href="https://doi.org/10.1080/00031305.2017.1375987">How to Share Data for Collaboration, Shannon E. Ellis &amp; Jeffrey T. Leek</a></li>
+  <li><a href="https://www.ed.ac.uk/biology/research/facilities/research-data-management">Edinburgh’s BioRDM team</a></li>
+  <li>To be continued…</li>
+</ul>
+
+<p>TODO: make a plan for storing microscopy images.</p>
+
+<h1 id="wallace_rna-on-datastore">wallace_rna on datastore</h1>
+
+<p>Most everyday lab data goes in <code class="language-plaintext highlighter-rouge">wallace_rna/data</code>. 
+We have a full list of contents and organisation below (work in progress).</p>
+
+<h2 id="datastore-contents">Datastore Contents</h2>
+
+<ul>
+  <li>
+    <p>quota.txt - automatically generated file that keeps track of data usage compared to quota</p>
+  </li>
+  <li>admin - lab administration, inventories, etc.</li>
+  <li>bigdata - big data like (raw) sequencing and proteomics datasets</li>
+  <li><strong>data</strong> - everyday lab data, images, tables, qPCR, etc etc</li>
+  <li>datasync - use for sharing data outside the group with the <a href="https://www.ed.ac.uk/information-services/computing/desktop-personal/datasync">datasync dropbox-like service</a></li>
+  <li>LabMemberContactNos - emergency contact numbers for people who use the wet lab</li>
+  <li>manual - contains a previous version of the lab manual from 2019</li>
+  <li>presentations - copies of presentations from lab meetings</li>
+  <li>riboviz - data related to the riboviz project <a href="https://github.com/riboviz">riboviz github</a></li>
+</ul>
+
+<p>Folder organization and contents are described in detail below.</p>
+
+<h2 id="wallace_rnaadmin">wallace_rna/admin/</h2>
+
+<p>TODO: write this.</p>
+
+<h3 id="wallace_rnaadmininventories">wallace_rna/admin/Inventories</h3>
+
+<p>Inventories of lab strains, equipment and stocks</p>
+
+<h3 id="todo-revise-these-guidelines-for-organising-glycerol-stock-strains-in-datastore">TODO: REVISE THESE Guidelines for organising glycerol stock strains in datastore</h3>
+
+<p>Information on all Fungal and E.coli strains available in the lab are recorded in an Excel spreadsheet called <code class="language-plaintext highlighter-rouge">Edward Lab Database</code> within the <code class="language-plaintext highlighter-rouge">Strains_and_Associated_Info</code> Folder in datastore: <code class="language-plaintext highlighter-rouge">wallace_rna/admin/Inventories</code>. This spreadsheet is divided up into separate sheets for <code class="language-plaintext highlighter-rouge">Yeast</code> (ie., S.cerevisiae) , <code class="language-plaintext highlighter-rouge">Cryptococcus</code> and <code class="language-plaintext highlighter-rouge">Bacteria</code> (ie., E.coli stocks of plasmids). When you make new strains, full details need to be entered into this spreadsheet, as described in <a href="where-lab-stuff-belongs">where lab stuff belongs</a>.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">Strains_and_Associated_Info</code> folder also includes additional folders and files:</p>
+
+<ul>
+  <li>
+    <p><strong><code class="language-plaintext highlighter-rouge">JA_chimeras_library_yeast_glycerolstock</code></strong> – Jamie’s YeastFab database spreadsheet and platemaps of 96-well storage locations together with explanatory <code class="language-plaintext highlighter-rouge">Readme</code> files as .pdf or .Rmd documents. This folder also contains a subfolder entitled ‘JA_chimeras_snapgene_vector_maps’ which contains the snapgene vector maps and sequencing trace files verifying the assemblies.</p>
+  </li>
+  <li>
+    <p><strong><code class="language-plaintext highlighter-rouge">S_cerevisiae_gRNA_plasmids</code></strong> -  Snapgene files of gRNA/Cas9 plasmids already existing in the lab - these are linked by name to the relevant entry of the plasmid stock in the <code class="language-plaintext highlighter-rouge">Bacteria</code> page of ` Edward Lab Database`.</p>
+  </li>
+  <li>
+    <p><strong><code class="language-plaintext highlighter-rouge">PrimersToTestYeastDelStrains</code></strong> – a list of PCR primer sets from the Yeast Deletion Collection that have been used to test deletion strains we already have, together with the expected sizes of their PCR products.</p>
+  </li>
+  <li>
+    <p><strong><code class="language-plaintext highlighter-rouge">YeastDeletionCollection_Check Primers_PCR_sizes</code></strong> - Full list of Primers and Expected PCR product sizes for all of the Yeast Deletion Collection Strains.</p>
+  </li>
+  <li>
+    <p><strong><code class="language-plaintext highlighter-rouge">YeastDelStrainsfromFoundryin96WellPlate</code></strong> – a spreadsheet with the position of a number of yeast deletion strains we got from the Genome Foundry in a 96-well plate.</p>
+  </li>
+  <li>
+    <p><strong><code class="language-plaintext highlighter-rouge">egf_strains_catalog</code></strong> – a list of yeast strains available from the Genome Foundry</p>
+  </li>
+  <li>
+    <p><strong><code class="language-plaintext highlighter-rouge">-80 freezer storage locations</code></strong> – a spreadsheet showing where communal and personal frozen stocks are kept in the -76oC Freezer – this still needs to be updated to provide space for Rachael . There is also an explanatory <code class="language-plaintext highlighter-rouge">-80 freezer ReadME</code> file.</p>
+  </li>
+  <li>
+    <p>The <strong><code class="language-plaintext highlighter-rouge">CramerLabDelStrains PCRCheck Primers</code></strong> Folder contains snapgene files for CCR4 and POP2(CAF1) genomic sequences together with PCR check primers.</p>
+  </li>
+</ul>
+
+<h2 id="wallace_rnabigdata---big-data-like-raw-sequencing-and-proteomics-datasets">wallace_rna/bigdata - big data like (raw) sequencing and proteomics datasets</h2>
+
+<ul>
+  <li>fastq - contains all raw sequencing data used in the lab in fastq.gz format</li>
+</ul>
+
+<p>When we start to collect proteomics data, that will need a separate subfolder here as well.</p>
+
+<p>TODO: update other contents here.</p>
+
+<h3 id="fastq---contents-and-instructions">fastq - contents and instructions</h3>
+
+<p>All raw sequencing datasets should be placed here as soon as the facility notifies us that the sequencing is complete.</p>
+
+<ol>
+  <li>Download the data to here.</li>
+  <li>If necessary, un-archive a tarball into a directory containing individual .fastq.gz files.</li>
+  <li>Check the data integrity by calculating checksums for the individual <code class="language-plaintext highlighter-rouge">.fastq.gz</code> files and comparing that with the checksums downloaded. If they don’t match, download again.</li>
+  <li>Change file permissions to global read only (e.g. <code class="language-plaintext highlighter-rouge">chmod 444 my_new_data</code>) to make it harder to delete.</li>
+  <li>Update the README file to include your data, a note about it, and a link to a more detailed description such as a sample sheet.</li>
+  <li>If you are feeling paranoid, backup somewhere else as well - and verify your checksums!</li>
+</ol>
+
+<h2 id="wallace_rnadata---everyday-lab-data-images-tables-qpcr-etc-etc">wallace_rna/data - everyday lab data, images, tables, qPCR, etc etc</h2>
+
+<p>This folder is organized primarily by date then your name: <code class="language-plaintext highlighter-rouge">yyyy/mm-mmmm/name</code>.
+We use years (e.g. <code class="language-plaintext highlighter-rouge">2021</code>) and months (e.g. <code class="language-plaintext highlighter-rouge">01-Jan</code>) to ensure that the contents display in consistent order. 
+Please take care to accurately name the folder according to the month when the data were generated; this should be easy if you backup the data quickly.</p>
+
+<p>For example, the directory <code class="language-plaintext highlighter-rouge">wallace_rna/data/2020/07-Jul/Edward/Ssd1_reportergenes_5UTRonly</code> contains Edward’s data from July 2020 on some Ssd1 reporter genes, where the Ssd1 recognition site is on the 5’UTR.
+This folder contains a <code class="language-plaintext highlighter-rouge">README.md</code> file giving an overview of its purpose and all the contents.</p>
+
+<p>For lab data it is helpful to include the date of data generation in a consistent format in every filename, ideally <code class="language-plaintext highlighter-rouge">yyyy-mm-dd</code>. Generally, dates are unambiguous. Then it is easy to cross-reference the lab notebook for that day.</p>
+
+<p>If you have some data that does not easily lend itself to being sorted by months, then please sort it by year and name.
+Be sure to add a README file explaining what the contents are, including one sentence on why it is not suitable to being organized by year and month.</p>
+
+<p>Wherever the data are on datastore, it should also be linked to from the relevant lab notebook page in RSpace.</p>
+
+<p>If in doubt as to whether a file should be saved - save it and describe it in the README file.</p>
+
+<h3 id="about-integrating-with-github">About integrating with github</h3>
+
+<p>It is ok to have more than one backup copy of data as long as it is unambiguous what is the same and what is different - this is another argument for including a date in every file name.
+Version control with git is helpful here.
+If you are doing some data analysis in a github repository, it may make sense to clone a copy of the github repository into the relevant <code class="language-plaintext highlighter-rouge">yyyy/mm-mmmm/name</code> folder on datastore.</p>
+
+<p>If in doubt, ask.</p>
+
+<h2 id="wallace_rnadatasync---use-for-sharing-data-outside-the-group">wallace_rna/datasync - use for sharing data outside the group</h2>
+
+<p>The university’s <a href="https://www.ed.ac.uk/information-services/computing/desktop-personal/datasync">datasync dropbox-like service</a>.</p>
+
+<h2 id="wallace_rnalabmembercontactnos---emergency-contact-numbers-for-people-who-use-the-wet-lab">wallace_rna/LabMemberContactNos - emergency contact numbers for people who use the wet lab</h2>
+
+<h2 id="wallace_rnamanual---contains-a-previous-version-of-the-lab-manual-from-2019">wallace_rna/manual - contains a previous version of the lab manual from 2019</h2>
+
+<p>TODO: decide what to do with this.</p>
+
+<h2 id="wallace_rnapresentations---copies-of-presentations-from-lab-meetings">wallace_rna/presentations - copies of presentations from lab meetings</h2>
+
+<p>This contains all the presentations from past lab meetings and external talks (conferences, seminars, …).
+Please upload your presentation as soon as possible.
+Please ensure that the filename contains your name, the date, and some note of the occasion, for example <code class="language-plaintext highlighter-rouge">EWallace_Fellowsmeeting_29Jan2021.pptx</code>.</p>
+
+<h2 id="wallace_rnariboviz---data-related-to-the-riboviz-project">wallace_rna/riboviz - data related to the riboviz project</h2>
+
+<p>The project is at <a href="https://github.com/riboviz">riboviz github</a>.</p>
+
+<p>Some of the data are too large for github, so they live here.</p>
+
+      </div>
+    </div>
+  </div>
+
+  
+    <ul class="tag_box inline">
+      <li><i class="glyphicon glyphicon-open"></i></li>
+      
+      
+
+
+  
+     
+    	<li><a href="/categories.html#manual-ref">
+    		manual <span>8</span>
+    	</a></li>
+    
+  
+
+
+    </ul>
+    
+  
+    <ul class="tag_box inline">
+      <li><i class="glyphicon glyphicon-tags"></i></li>
+      
+      
+
+
+  
+     
+    	<li><a href="/tags.html#labmanual-ref">labmanual <span>6</span></a></li>
+     
+    	<li><a href="/tags.html#newstart-ref">newstart <span>4</span></a></li>
+    
+  
+
+
+
+    </ul>
+  
+
+  
+    <hr>
+    
+
+</div>
+
+
+   </div>
+
+
+  <!-- Static bottom navbar -->
+  <nav class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-bottom-collapse"> <!-- NOTE! data-target was changed to jb-bottom-collapse -->
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="jb-bottom-collapse">
+        <ul class="nav navbar-nav navbar-left navbar-small">
+          <li><a href=https://www.vet.cornell.edu/departments/molecular-medicine>Molecular Medicine</a></li>
+          <li><a href=http://www.cornell.edu>Cornell University</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right navbar-small">
+          <li><a href='/about.html#about'>About</a></li>
+          <li><a href='/about.html#join'>Join</a></li>
+          <li><a href='/about.html#contact'>Contact</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div>
+  </nav>
+ 
+
+
+    
+
+
+
+
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-62008526-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+
+
+    <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/assets/themes/lab/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
+

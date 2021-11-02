@@ -1,0 +1,816 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Blog</title>
+    <meta name="description" content="Sardana Lab blog">
+    <meta name="author" content="Richa Sardana">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- Bootstrap styles -->
+    <link href="/assets/themes/lab/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <!-- Optional theme -->
+    <link href="/assets/themes/lab/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet"/>
+    <!-- Sticky Footer -->
+    <link href="/assets/themes/lab/bootstrap/css/bs-sticky-footer.css" rel="stylesheet"/>
+    
+    <!-- Custom styles -->
+    <link href="/assets/themes/lab/css/style.css?body=1" rel="stylesheet" type="text/css" media="all"/>
+
+    <!-- icon -->
+    <link rel="shortcut icon" href="/assets/themes/lab/images/logo/favicon.ico"/>
+
+    <!-- Custom fonts and icons via Font Awesome, http://fortawesome.github.io/Font-Awesome/ -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
+
+    <!-- Fonts via Google -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700' rel='stylesheet' type='text/css'/>
+
+    <!-- Math via MathJax -->
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <!-- Update these with your own images
+      <link rel="shortcut icon" href="images/favicon.ico">
+      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    -->
+
+    <!-- atom & rss feed
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+    -->
+
+  </head>
+
+  <body>
+
+  <!-- Static top navbar -->
+
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class='container'>
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- added by Sid on 10/29/21: -->
+		<a href="/" class="navbar-left"><img style="margin-top: 10px" src="/assets/themes/lab/images/logo/lab-logo.png"></a>
+        
+	<!--	commented out by Sid on 10/29/21: -->
+  <!--
+		<a href="/">
+        <img class="pull-left logo" src="/assets/themes/lab/images/logo/lab-logo.svg" type="image/svg+xml">
+        </a>
+		-->
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="jb-navbar-collapse">
+        <ul class="nav navbar-nav navbar-left hidden-sm">
+          <!-- Don't put site title on home page -- there's already a big title there. -->
+          
+          
+          
+          <!-- commented out by Sid on 10/29/21, uncomment to bring back lab name on topnav bar: -->
+<!--          <a class="navbar-brand" href="/">Sardana Lab</a>
+-->		  
+          
+        </ul>
+        <ul class="nav navbar-nav navbar-right pull-right">
+          
+          
+          
+
+
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+  
+    
+  
+    
+      
+    
+  
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/projects/">Research</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/team/">Team</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/papers/">Papers</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="active"><a href="/blog/" class="active">Blog</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/manual/">Manual</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/Non-science/">Non-science</a></li>
+      	
+      
+    
+  
+
+
+
+          <li class="dropdown nav navbar-nav">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+              More <span class="caret"></span>
+            </a>
+
+            <ul class="dropdown-menu nav navbar-nav" role="menu">
+              
+              
+              
+
+
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+  
+    
+  
+    
+      
+    
+  
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/protocols/">Protocols</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/news/">News</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+
+
+
+            </ul>
+            </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </nav>
+   </div>
+
+   <!-- Content -->
+   <div class="container">
+      
+
+
+<div class="pager">
+  
+	  
+  
+	  	
+    
+</div>
+
+
+
+	
+
+	<div class="bigspacer"></div>
+	<div class="row">
+		<div class="col-md-3">
+			<div class="head">
+				<a href="/blog/sardana-lab-website" class="off">Sardana Lab Website</a>
+			</div>
+			<div class="smallnote">
+				28 Oct 2021
+				
+				by <a class="off" href="/team/richa-sardana">Richa</a>
+								
+			</div>	
+		</div>
+		<div class="col-md-8">		
+			<div style="height:5px;"></div>			
+			
+			<div class="post">
+				
+<h2 id="sardana-lab-website-is-up-and-running">Sardana lab website is up and running!</h2>
+
+<p>Can’t wait to get the science started!</p>
+
+<p>The site was generated using <a href="https://jekyllrb.com/">Jekyll</a> Bootstrap and borrows its template from the <a href="http://drummondlab.org/">Drummond lab webpage</a>. The site’s source code is freely available on <a href="https://github.com/drummondlab/drummondlab.github.io">GitHub</a>. Drummond lab site was in turn heavily influenced and templated on <a href="https://bedford.io/team/trevor-bedford/">Bedford lab’s webpage</a>.</p>
+
+
+			</div>
+		</div>			
+		<div class="col-md-1"></div>
+	</div>		
+
+
+
+	
+
+	<div class="bigspacer"></div>
+	<div class="row">
+		<div class="col-md-3">
+			<div class="head">
+				<a href="/blog/LaTeX-biologists" class="off">LaTeX for Biologists</a>
+			</div>
+			<div class="smallnote">
+				25 Oct 2021
+				
+				by <a class="off" href="/team/richa-sardana">Richa</a>
+								
+			</div>	
+		</div>
+		<div class="col-md-8">		
+			<div style="height:5px;"></div>			
+			
+			<div class="post">
+				<h2 id="about">About</h2>
+
+<p>Biologists hardly ever use LaTeX. And I wonder why. With such excellent typesetting, everything you write in LaTeX looks beautiful. And it is absolutely free! Most biologists I know are so used to WYSIWYG (“what you see is what you get”) word processors like Microsoft Word and the ecosystem of everything that connects to them, that there is just too much inertia to try to learn and incorporate LaTeX in their workflow. Additionally, I find myself stuck with using MS Word often because my coworkers or collaborators do not use LaTeX. So I decided to write this primer as an introduction to LaTeX. I myself am no expert at it, was introduced to LaTeX only towards the end of my PhD (but was instantly convinced by its beauty to write <a href="https://repositories.lib.utexas.edu/handle/2152/30458">my dissertation</a> using it), and have only really used an online editor. Hence, my primer is in no way exhaustive or complete, but it is a start.</p>
+
+<h2 id="background">Background</h2>
+
+<p>LaTeX is a document preparation and typesetting system. It was initially developed by <a href="http://www.lamport.org/">Leslie Lamport</a>. LaTeX uses standardized tagging conventions to define the structure and style of the document and combines it with the typesetting system of TeX to generate an output file (usually a pdf). TeX itself was the masterwork of <a href="https://www-cs-faculty.stanford.edu/~knuth/">Don Knuth</a>. In plain terms, you do not have to worry about formatting as you write the text- LaTeX provides you the ability to generate a document that looks really professional with minimal effort.</p>
+
+<h2 id="getting-started">Getting started</h2>
+
+<p>To start using LaTeX, you can download and install a LaTeX editor and compiler, or you can use an online LaTeX editor like <a href="https://www.overleaf.com/">Overleaf</a> (there are many such online editors out there) to get started right away. The latter also gives you the option of sharing and collaborating with others, which can be very useful!
+Let’s say you have a document in mind you want to compose in LaTeX. The first and easiest thing to do is to look for a template for that document type. There are so many resources out there, and people are often generous with openly sharing their templates. The online editors also provide many templates that you could use. But be prepared, you will come across issues that aren’t straightforward (say wraping text around a figure or using biology specific symbols for genotypes or an easy way to write labnotes which involve inserting tables and text and figures all on the same page), but like with all things open source, you may go down a rabbit-hole, but if you put enough time into it, you’ll figure out a way past the issue (or just ask someone who uses it all the time!). Understanding the <a href="https://www.latex-project.org/about/">basic structure</a> of LaTeX documents is useful at this point.</p>
+
+<h2 id="the-accessories-and-resources">The accessories and resources</h2>
+
+<p>Manuscript templates: Most biology journals now do accept LaTeX formats and provide their own templates for writing the manuscripts. See the <a href="http://journals.plos.org/ploscompbiol/s/latex">PLoS Biology</a> template, for example. You can find many templates on Overleaf as well.</p>
+
+<p>Bibliography manager: BibTeX. I use <a href="https://bibdesk.sourceforge.io/">BibDesk</a> and <a href="https://skim-app.sourceforge.io/">Skim</a> to store, cross-reference and annotate my pdfs of journal articles as well as manage my citations.</p>
+
+<p>Lab notebook templates: I find <a href="http://www.jeremiahfaith.com/open_notebook_science/sample_notebook/">this</a> notebook template by <a href="http://www.jeremiahfaith.com/">Jeremiah Faith</a> particularly useful to meet the challenges of the nomenclature I need to incorporate in my own notes.</p>
+
+
+			</div>
+		</div>			
+		<div class="col-md-1"></div>
+	</div>		
+
+
+
+	
+
+	<div class="bigspacer"></div>
+	<div class="row">
+		<div class="col-md-3">
+			<div class="head">
+				<a href="/blog/DNA-origami-cryo-ET" class="off">Structuromics-Part 3</a>
+			</div>
+			<div class="smallnote">
+				30 Mar 2021
+				
+				by <a class="off" href="/team/richa-sardana">Richa</a>
+								
+			</div>	
+		</div>
+		<div class="col-md-8">		
+			<div style="height:5px;"></div>			
+			
+			<div class="post">
+				<p><em>Research Paper Highlight:</em>
+ <strong>DNA origami signposts for identifying proteins on cell membranes by electron cryotomography</strong></p>
+
+<p>Emma Silvester, Benjamin Vollmer, Vojtěch Pražák, Daven Vasishtan, Emily A Machala, Catheryne Whittle, Susan Black, Jonathan Bath, Andrew J Turberfield, Kay Grünewald, Lindsay A Baker</p>
+
+<p><a href="https://www.sciencedirect.com/science/article/pii/S0092867421000763?via%3Dihub">Cell 2021 Feb 18;184(4):1110-1121.e16. doi: 10.1016/j.cell.2021.01.033.</a></p>
+
+<p>For Part 3 of the Structuromics series I am highlighting a paper that uses interesting concepts from different fields to create a cool new tool for cryo-ET. While not exactly using an omics approach, it is a pretty neat use of technology, so I decided to include it here.</p>
+
+<p>See here for <a href="/blog/LIP-MS-paper">Part 1</a>, and <a href="/blog/GI-mapping-protein-structure-paper">Part 2</a></p>
+
+<p>In crowded biological environments it is often difficult to identify small features of interest or those without a distinct appearance, especially without prior structural information in cryo-ET workflows. To learn more about cryo-ET, and the history of elcetro microscopy for biological samples <a href="https://rupress.org/jcb/article/202/3/407/54592">see here</a>.</p>
+
+<p>The authors decided to approach this problem by designing a better tag that is suitable to use with living cells, suitable for frozen hydrated samples, does not obscure the biological sample, not rely on stains or metals (hence not scatter more than the atoms of the specimen itself), while providing precise localization with high confidence. And although there are limitations to the applications of their approach, they did come up with nice solution which I think will likely improve with time. What I found really cool about this work was how they combined ideas and tools already developed in other fields, and applied them to design a good (hopefully improved) tool for cryo-ET analysis.</p>
+
+<p>Here is what they do: They first designed a DNA origami tag, and then combined it with RNA aptamers that target a specific protein, that can then be incubated with biological samples.</p>
+
+<p>Never heard of DNA origami? DNA origami is the folding of a long single stranded DNA with multiple small ‘staple’ strands to generate specifically defined 2D and 3D shapes at the nanoscale. <a href="https://www.nature.com/articles/nature04586">See the original paper here</a>. The advantages for using DNA to generate a cryo-ET tag are that Phosphorus (that forms the DNA backbone) scatters elastically ~4x more electrons than carbon, oxygen, or nitrogen, that can provide high enough contrast but not obscure biological structures around it in cellular tomograms. And, DNA origami has been extensively tested for use with cryoEM, so they already knew the DNA tags can handle the Cryo-ET work flow.
+The DNA origami signpost nanostructure they design is built from a 7,249-nucleotide scaffold strand (single-stranded M13mp18) hybridized to 238 staple oligonucleotides to form a structure of approximately 5 MDa comprising 96 parallel helices arranged in a honeycomb lattice.</p>
+
+<p>Next trick was to target this tag to specific proteins of interest in a biological sample. For this they employed aptamers. Aptamers are RNA oligonucleotides that bind to a specific target with high affinity and specificity, similar to how an antibody binds to an antigen. Read more about aptamers <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3627066/#:~:text=RNA%20Aptamers%20are%20defined%20as,antibody%20binds%20to%20an%20antigen">here</a>. The aptamers against common fluorescent proteins such as GFP and mCherry have been previosuly characterized by some wonderful work done here at Cornell in our Provost <a href="https://www.vet.cornell.edu/research/faculty/michael-kotlikoff-vmd-phd">Mike Kotilikoff’s</a> lab. See that paper <a href="https://academic.oup.com/nar/article/40/5/e39/1104065">here</a>. So the authors decided to test their approach by using the aptamers against GFP/ mCherry to look at proteins that have been tagged with these fluorescent protein tags. In principle, if the workflow can be modified, this could also allow to correlate fluorescence signals with the tomograms.</p>
+
+<p>They then use this tag to test in three applications- to look at proteins in membrane vesicles, proteins on the viral surface, as well as cell surface proteins in mammalian cells. They show that their tag can allow more precise localization of the labeled protein
+whereas immuno-gold labeling puts the gold clusters up to 20-40 nm away. Their tag was easily identifiable, and in many cases could be directly traced to protein density on the vesicle surface. The latter can be useful for purposes of manual particle picking for sub-volume averaging applications, although getting really detailed structual resolution of labeled proteins will take more work.</p>
+
+<p>That’s really the heart of it! The approach is pretty cool, and does achieve many of the objectives they lay out at the beginning. It isn’t perfect, for instance, it is limited by available specific aptamers, and unclear if it will work for visualization of intracellular organelle proteins rather than just those at the cell surface. But, it’s pretty cool!</p>
+
+
+			</div>
+		</div>			
+		<div class="col-md-1"></div>
+	</div>		
+
+
+
+	
+
+	<div class="bigspacer"></div>
+	<div class="row">
+		<div class="col-md-3">
+			<div class="head">
+				<a href="/blog/GI-mapping-protein-structure-paper" class="off">Structuromics-Part 2</a>
+			</div>
+			<div class="smallnote">
+				20 Feb 2021
+				
+				by <a class="off" href="/team/richa-sardana">Richa</a>
+								
+			</div>	
+		</div>
+		<div class="col-md-8">		
+			<div style="height:5px;"></div>			
+			
+			<div class="post">
+				<p><em>Research Paper Highlight:</em>
+ <strong>Genetic interaction mapping informs integrative structure determination of protein complexes</strong></p>
+
+<p>Hannes Braberg, Ignacia Echeverria, Stefan Bohn, Peter Cimermancic, Anthony Shiver, Richard Alexander, Jiewei Xu, Michael Shales, Raghuvar Dronamraju, Shuangying Jiang, Gajendradhar Dwivedi, Derek Bogdanoff, Kaitlin K. Chaung, Ruth Hüttenhain, Shuyi Wang, David Mavor, Riccardo Pellarin, Dina Schneidman, Joel S. Bader, James S. Fraser, John Morris, James E. Haber, Brian D. Strahl, Carol A. Gross, Junbiao Dai, Jef D. Boeke, Andrej Sali, Nevan J. Krogan</p>
+
+<p><a href="https://science.sciencemag.org/content/370/6522/eaaz4910/tab-article-info">Science Vol. 370, Issue 6522, (2020); DOI: 10.1126/science.aaz4910</a></p>
+
+<p>For Part 2 of the Structuromics series I am highlighting a paper that combines high throughout genetic interaction mapping and integrative modeling for in vivo structural profiling.</p>
+
+<p>See here for <a href="/blog/LIP-MS-paper">Part 1</a>.</p>
+
+<p>Large scale genetic interaction (GIs) profiling in model organisms such as budding yeast has been transformative in informing us about cellular pathways and ascribing function to uncharacterized proteins. Applicability of CRISPR-Cas9 based genetic manipulation has made high-throughout genetic interaction profiling possible in mammalian cells as well as almost any model system. In this work, the authors put to test the idea whether genetic interaction profiles can be employed to determine protein structural information.</p>
+
+<p>Traditionally, genetic interaction analysis involves comparing the phenotypes when loss of the protein product of one gene is combined with the loss of another one (for digenic GIs) or multiple (for multigenic GIs). Well, how about generating a library of mutants by mutating every single residue in a protein and combining each with the gene deletion collection? The resulting (hundreds of!) GI profiles or epistatic miniarray profiles (pE-MAPs) can be compared to each other. Residues involved in the same interactions are likely to generate similar GI profiles, which may be distinct with GIs from residues involved in interactions with a different protein. The phenotypic similarities and differences can then be incorporated into integrative modeling algorithms to generate structural models for architectures of protein complexes. Its a tour de force, and the authors show it works!</p>
+
+<p>The quantitative GI profile dataset can be enriched combinatorially, by measuring sensitivity to chemical datasets or by also measuring changes under different stresses. And by employing barcodes and next-gen sequencing approaches the massively-parallel screens can be performed in liquid cultures allowing cost and infrastructure reduction. What is really powerful about this approach is the ability to capture effects of transient interactions that are not otherwise possible to discern from GI datasets. In addition, the structural information infered reflects in vivo protein complex interactions providing a built-in functional readout. There are caveats of course- the choice of amino acid change can have a huge impact on protein stability or protein-protein interactions or that single amino acid changes may illicit only modest effects that may not be captured in GI interactions. The true value of analysis will likely be amplified when combining it with orthogonal approaches- such as cross-linking mass spectrometry or crystallography/ cryo-EM. Extending the analysis to disease associated alleles or for multiple components of protein complexes, too can provide valuable information. Overall, I found it is really amazing how much can be inferred by the approach.</p>
+
+			</div>
+		</div>			
+		<div class="col-md-1"></div>
+	</div>		
+
+
+
+	
+
+	<div class="bigspacer"></div>
+	<div class="row">
+		<div class="col-md-3">
+			<div class="head">
+				<a href="/blog/LIP-MS-paper" class="off">Structuromics-Part 1</a>
+			</div>
+			<div class="smallnote">
+				30 Jan 2021
+				
+				by <a class="off" href="/team/richa-sardana">Richa</a>
+								
+			</div>	
+		</div>
+		<div class="col-md-8">		
+			<div style="height:5px;"></div>			
+			
+			<div class="post">
+				<p><em>Research Paper Highlight:</em>
+ <strong>Dynamic 3D proteomes reveal protein functional alterations at high resolution in situ</strong></p>
+
+<p>Valentina Cappelletti, Thomas Hauser, Ilaria Piazza, Monika Pepelnjak, Liliana Malinovska, Tobias Fuhrer, Yaozong Li, Christian Dorig, Paul Boersema, Ludovic Gillet, Jan Grossbach, Aurelien Dugourd, Julio Saez-Rodriguez, Andreas Beyer, Nicola Zamboni, Amedeo Caflisch, Natalie de Souza, and Paola Picotti.</p>
+
+<p><a href="https://pubmed.ncbi.nlm.nih.gov/33357446/">Cell 184, 545–559, January 21, (2021); DOI: 10.1016/j.cell.2020.12.021</a></p>
+
+<p>In many ways the tale of blind men and the elephant is a good analogy for our understanding of biological systems. We create tools to probe biomolecules and make interpretations from our observations. But no one experimental design or approach is bias-free. To truly understand function, we need multi-dimensional, holistic analyses from complementary observational viewpoints. Technological improvements have allowed merger of biological disciplines that tradionally used non-overlapping approaches to address the same biological questions. One such case that strikes me as spectacular is what has been termed as ‘structuromics’– a combination of genomic, proteomic, genetic and cell biological approaches to ascertain protein structure and function in the cellular context. There have been multiple really cool papers published in the last few months that I’d like to highlight in a multi-part structuromics series.</p>
+
+<p>Part 1 of the series is a paper that combines proteomics and structural biology by employing limited proteolysis and mass spectrometry to predict large scale, and biologically relevant, structural and conformational changes in proteins in response to stress.<br />
+<!--more--></p>
+
+<p>See here for <a href="/blog/GI-mapping-protein-structure-paper">Part 2</a>.</p>
+
+<p>In this work, the authors employ ‘limited proteolysis coupled to mass spectrometry’, or LiP-MS, to obtain information about structural changes in thousands of cellular proteins simultaneously, in response to various stresses. The idea is a simple one - if you subject a protein to proteases, the exposed parts of the protein are readily digested, while the structured/ modified/ complexed part that are hidden are protected. Now, if the protein undergoes structural changes upon binding to a ligand or other proteins, the acessibility and the pattern of protease digestion of the protein will change. The experiment, then, can be repeated under many different conditions, and for many different proteins by employing mass spectrometry to generate quantitative profiles or fingerprints of structural alterations.</p>
+
+<p>Biochemists have used limited proteolysis as a tool to study individual proteins for a long time. What is remarkable about the LiP-MS and other similar approaches is the wealth of information on thousands of cellular proteins that can be obtained at the same time, allowing to see higher order patterns in cellular pathways, which is not possible when studying one protein at a time. Additionally, many proteins aren’t as amenable to pure structural analyses, and these approaches can infer structural information that can guide protein functional studies. By applying their approach to E. coli as well as yeast cells, the authors show that monitoring conformational changes in different conditions provides important functional information that is otherwise missed when looking at protein abundance measurements alone.</p>
+
+<p>The approach is useful on its own, but its richness can be greatly enhanced if it can be combined with complementary workflows. For instance, combining it with other mass spec based readouts- protein abundance, phosphorylation, ubiquitylation, and other modifications, cross-linking based peptide analysis, etc. can tell what mechanisms underlie the conformational changes. Similarly, combining with evolutionary analyses to look at co-evolution rates of amino acid residues within a protein or interacting partners can predict the conservation mechanisms underlying the structural changes. Proteins with low resolution crystal or cryo-EM structures too can be significantly enriched with the knowledge of known conformational changes. There is a lot of room for development of modifications to the approach, and all that can be done is truly exciting!</p>
+
+
+			</div>
+		</div>			
+		<div class="col-md-1"></div>
+	</div>		
+
+
+
+	
+
+	<div class="bigspacer"></div>
+	<div class="row">
+		<div class="col-md-3">
+			<div class="head">
+				<a href="/blog/microproteins-paper" class="off">noncanonical ORF translation</a>
+			</div>
+			<div class="smallnote">
+				29 May 2020
+				
+				by <a class="off" href="/team/richa-sardana">Richa</a>
+								
+			</div>	
+		</div>
+		<div class="col-md-8">		
+			<div style="height:5px;"></div>			
+			
+			<div class="post">
+				<p><em>Research Paper Highlight:</em>
+ <strong>Pervasive functional translation of noncanonical human open reading frames</strong></p>
+
+<p>Jin Chen, J. Zachery Cogan, James K. Nuñez, Alexander P. Fields, Britt Adamson, Daniel N. Itzhak, Jason Y. Li, Matthias Mann, Manuel D. Leonetti, Jonathan S. Weissman. 
+<a href="https://pubmed.ncbi.nlm.nih.gov/32139545/">Science volume 367, Issue 6482, pp. 1140-1146 (2020); DOI: 10.1126/science.aay0262</a></p>
+
+<!--more-->
+
+<p>From the perspective of gene prediction, it is really important to be able to correctly identify open reading frames (ORFs) that are likely to code for functional proteins. In the simplest of cases the ORF starts with a AUG codon, and ends with a stop codon (UAA/UGA/UAG) and the nucleotide count is divisible by three. Even then, one of the biggest challenges for curation and function annotation, has been to deal with the exceedingly high number of predicted small ORFs (containing less than 100 codons). More than 260,000 small ORFs are predicted in budding yeast alone, and their probability of being biologically meaningless is quite high. At the same time, several really interesting microproteins (encoded by the small ORFs) have been identified and characterized in diverse cellular pathways. The question is that of finding a needle in a haystack- how do we identify functional small ORFs amongst the thousands that are predicted.</p>
+
+<p>One of the biggest strides that helped in this quest of finding these tiny protein coding ORFs, came from the development of a highly sensitive and quantitative tool to assess active ribosomal translation called Ribosome profiling by <a href="http://www.ingolia-lab.org/">Nicholas Ingolia</a> and <a href="https://en.wikipedia.org/wiki/Jonathan_Weissman">Jonathan Weissman</a> in their 2009 <a href="https://pubmed.ncbi.nlm.nih.gov/19213877/">paper</a>. Right away, it became obvious that ribosomes actively translate non-canonical small ORFs, many that don’t even start with conventional start codons- an observation that has been made in every model organism and cell system ever since. But the proof of the actual protein products and their functional significance was still lacking.</p>
+
+<p>In this work, they attempt to address that systematically. They perform ribosome profiling in four different cell lines and detect thousands of overlapping small ORFs with ribosomal footprints. But they go further and find evidence of existence of at least a subset of the protein products by total proteome MS as well as by HLA-I peptidomics. The coolest part of the paper, though, is the preliminary functional analysis they present. By performing pooled CRISPR-KO screens, they provide evidence that loss of many of these small ORF products results in definitive disadvantage to cellular fitness. They follow-up candidates of two categories of non-canoical ORFs: those embedded in annotated lncRNAs (long non-coding RNAs) and small ORFs that exist upstream to a main/ annotated/ canonical ORFs downstream. The most intriguing finding of all is that in most of the cases, the protein products of the small uORFs localize to the same cellular location as the protein product of the main ORF, and show physical association with it. The protein products of lncRNAs also localize to discrete cellular locations suggestive of unique functions.</p>
+
+<p>Intriguing as it is, this work opens the door to allow more detailed characterization of function and regulation of these new microproteins. Do non-AUG start codons in many of these small ORFs provide a unique mechanism for regulating their expression? Are there conserved features in these microproteins that might allow identification of their homologs in other organisms (if they exist)? What is the function of these microproteins? Do the protein products of the small uORFs promote or inhibit the functions of the protein products of the main ORFs? Or if the function of the protein product is truly needed? Could it be another mechanism to regulate the function of the corresponding RNA which encodes it- such as by preventing the lncRNA to perform its regulatory function? Lots of new questions to explore!</p>
+
+
+			</div>
+		</div>			
+		<div class="col-md-1"></div>
+	</div>		
+
+
+
+	
+
+	<div class="bigspacer"></div>
+	<div class="row">
+		<div class="col-md-3">
+			<div class="head">
+				<a href="/blog/multi-color-beeswarm-plot" class="off">Representing reproducibility and variability</a>
+			</div>
+			<div class="smallnote">
+				02 Jan 2020
+				
+				by <a class="off" href="/team/richa-sardana">Richa</a>
+								
+			</div>	
+		</div>
+		<div class="col-md-8">		
+			<div style="height:5px;"></div>			
+			
+			<a href="/blog/multi-color-beeswarm-plot"><img class="offset" src="/assets/images/blog/Lord-arxiv-2019-Fig1.png"></a>
+			
+			<div class="post">
+				<p><em>Research Paper Highlight:</em>
+ <strong>If your P value looks too good to be true, it probably is: Communicating reproducibility and variability in cell biology.</strong></p>
+
+<p>Samuel J. Lord, Katrina B. Velle, R. Dyche Mullins and Lillian K. Fritz-Laylin <a href="https://arxiv.org/abs/1911.03509">arXiv:1911.03509v2 (2019)</a></p>
+
+<p>Later published as a Viewpoint in <a href="https://pubmed.ncbi.nlm.nih.gov/32346721">J Cell Biol (2020) 219 (6): e202001064.
+DOI:10.1083/jcb.202001064</a></p>
+
+<!--more-->
+
+<p>Cell biologists are no strangers to data variability- growth conditions, age of the cells, and nutrient availability all contribute to sample-to-sample differences. Accurate quantitative analysis and representation of cell biological measurements should ideally be able to reflect the number of times the experiment was repeated, the variability observed within each replicate set for individual measurements, and the key statistical identifiers for each set.</p>
+
+<p>In this preprint, Lord et al, present a convincing case to represent cell biological quantitative data as multi-colored beeswarm or superplots to accurately reflect actual data quality, reproducibility and variability.</p>
+
+<p>Key highlights to note:</p>
+
+<ol>
+  <li>
+    <p>The problem of comically miniscule (and hence useless) P-values in many cell biology studies is in part due to erroneous and inflated sample size, N. N should represent the number of times an experiment is repeated, not the total number of cells.</p>
+  </li>
+  <li>
+    <p>Bar graphs are problematic because they obscure the distribution of cell-level data as well as the sample-to-sample repeatability.</p>
+  </li>
+  <li>
+    <p>Visual representation of the quantitation should represent variability information about the entire dataset whenever posible. This can be nicely accommodated into color-coded beeswarm SuperPlots. The authors provide detailed ways of making these plots using GraphPad Prism, Excel, R and Python.</p>
+  </li>
+</ol>
+
+<p>For example, if you have three biological replicates of control and treated samples, and you measure the speed of cellular movement of 200 cells in each sample, first calculate the mean of those 200 measurements for each sample, then run a t-test on those sample means (three control, three treated). In the data plot, color-coding the dots by experiment, and plotting the mean as a larger  symbol on top of the dots that denote individual measurements, makes it clear that statistical analyses (e.g. error bars and P values) are correctly calculated across separate experiments.</p>
+
+
+			</div>
+		</div>			
+		<div class="col-md-1"></div>
+	</div>		
+
+
+
+	
+
+	<div class="bigspacer"></div>
+	<div class="row">
+		<div class="col-md-3">
+			<div class="head">
+				<a href="/blog/Introns-regulate-growth" class="off">Introns and growth</a>
+			</div>
+			<div class="smallnote">
+				04 Mar 2019
+				
+				by <a class="off" href="/team/richa-sardana">Richa</a>
+								
+			</div>	
+		</div>
+		<div class="col-md-8">		
+			<div style="height:5px;"></div>			
+			
+			<div class="post">
+				<p><em>Research Paper Highlight:</em>
+ <strong>Excised linear introns regulate growth in yeast.</strong></p>
+
+<p>Morgan et. al., <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6464110/">Nature volume 565, pages606–611 (2019)</a></p>
+
+<!--more-->
+
+<p>Introns are generally thought of as a waste by-product of RNA processing and molecules that are rapidly degraded soon after they are produced.They are assumed to be very short lived species- once the spliceosome joins the two exons, the spliceosome disassembles and the intron (lariat structure which looks like a lasso) is released. It is very quickly debranched by Dbr1, polyadenylated by the TRAMP complex and degraded by the nuclear exosome. Most introns don’t accumulate or seem to have any phenotype in log phase cultures in rich media.</p>
+
+<p>The authors perform RNA seq in log phase vs saturated cultures, and show that some of the introns (their best examples are ECM33 and SAC6) are dramatically stablized in saturated cultures. In fact they show by RNA seq and Northern blots that the mature RNA for these is completely non-detectable in saturated cultures but the intron is really stable. They also show that the stability is intrinsic to the intron, and not dependent on the host gene, i.e, moving the intron into a completely different context (in a URA3 reporter), still phenocopies the intron stability phenotype in saturated cultures. Yet, the sequence does not show any conserved motif or RNA structural motif. They observe that the distance between the branch point and the 3’ splice site tends to be shorter for stable introns as opposed to introns that are not stable, and they nicely test that if they extend the length of this distance, the ECM33 intron is no longer stable or if they shorten the length in an otherwise non-stable intron of ACT1, the intron is now stable. They also attempt to understand how these introns are accumulating, and are only slightly successful in understanding it at all. The introns are stabilized after prolonged treatment (4h) with Rapamycin, DTT and tunicamycin but not short treatments (1h). The effect does not depend on a specific nutrient starvation but general secretory stress (not IRE1 dependent, so not UPR), nor mediated by Tor1 effectors, Sch9 or Tap42. So conclusions for these data are, not surprisingly, a bit hand-wavy.</p>
+
+<p>They conclude by showing that accumulation of stable introns is advantageous to cellular fitness in stationary phase, but detrimental during rapid log phase growth. Their model is that TORC1 inhibition results in accumulation of these introns, these introns engage and titrate away the spliceosomal machinery, preventing them from too much splicing (esp ribosomal genes which are particularly enriched in introns), thus reducing the growth rate overall but allowing for better survival in limiting conditions. Overall, I think the observation of stable introns is quite striking, but it opens up so many questions than were attempted to be addressed in the work. For instance, what are the Tor1 effectors involved? Is the splicing machinery really getting titrated away? How are the stable introns specifically protected from degradation? And then, bringing into perspective that only 5% of yeast contain introns, as compared to roughly 95% of human genes. If this is indeed a conserved response, this should have a really important contribution to growth signaling in mammalian cells. But that will be for a later time.</p>
+
+
+			</div>
+		</div>			
+		<div class="col-md-1"></div>
+	</div>		
+
+
+
+	
+
+	<div class="bigspacer"></div>
+	<div class="row">
+		<div class="col-md-3">
+			<div class="head">
+				<a href="/blog/Ste24-IAPP-Toxicity-paper" class="off">Translocon Declogger Ste24</a>
+			</div>
+			<div class="smallnote">
+				14 Mar 2018
+				
+				by <a class="off" href="/team/richa-sardana">Richa</a>
+								
+			</div>	
+		</div>
+		<div class="col-md-8">		
+			<div style="height:5px;"></div>			
+			
+			<div class="post">
+				<p><em>Research Paper Highlight:</em>
+ <strong>Translocon Declogger Ste24 Protects against IAPP Oligomer-Induced Proteotoxicity.</strong></p>
+
+<p>Can Kayatekin, Audra Amasino, Giorgio Gaglia, Jason Flannick, Julia M. Bonner, Saranna Fanning,
+Priyanka Narayan, M. Inmaculada Barrasa, David Pincus, Dirk Landgraf, Justin Nelson, William R. Hesse, Michael Costanzo,AMP T2D-GENES Consortium, Chad L. Myers, Charles Boone, Jose C. Florez,
+and Susan Lindquist, <a href="https://pubmed.ncbi.nlm.nih.gov/29526462/">Cell 173, 1-12, March 2018</a></p>
+
+<!--more-->
+
+<p>Islet amyloid polypeptide (IAPP) is a small peptide secreted by the pancreatic β islet cells. It is thought to regulate the function of the islet cells by inhibiting insulin secretion. It was discovered (and named) due to its tendency to aggregate into insoluble amyloid fibrils in patients with type 2 diabetes (T2D). Subsequent work showed that the cytotoxicity was contributed by smaller, intracellular oligomeric intermediates of IAPP, not the mature amyloid fibrils. Yet what aspect of cellular biology is impacted by these toxic oligomers has remained unclear.</p>
+
+<p>Kayatekin and colleagues report that IAPP-induced proteotoxicity is in part contributed by the clogging of the endoplasmic reticulum (ER) translocon, and can be rescued by translocon associated transmembrane protease Ste24 in yeast or its human homolog ZMPSTE24. Ste24/ZMPSTE24 were recently discovered to directly interact with clogged translocons and cleave jammed proteins.</p>
+
+<p>In order to understand IAPP toxicity, the authors took advantage of the cell death associated with the expression of an oligomeric version of the IAPP peptide in budding yeast, Saccharomyces cerevisiae. Using complementary genetic screens the authors found that functional Ste24 protease was critical for alleviating IAPP toxicity in yeast. The suppression by Ste24 was specific to IAPP and did not mitigate the toxicity caused by other aggregation prone proteins such as α-synuclein or TDP-43. Emphasizing the conservation of the declogging function, overexpression of the human homolog ZMPSTE24 in yeast lacking Ste24 could efficiently rescue IAPP toxicity. Using their yeast model for assaying declogging capability, the authors analyzed 111 ZMPSTE24 single nucleotide polymorphisms discovered in T2D patients and non-diabetic controls and found an enrichment of loss-of-function mutations among people with T2D (although somewhat mild).</p>
+
+
+			</div>
+		</div>			
+		<div class="col-md-1"></div>
+	</div>		
+
+
+
+<div class="bigspacer"></div>	
+<div class="row">
+	<div class="col-md-12 text-center">
+		<a class="off" href="//archive/">
+			<div class="smallhead">Archive</div>
+			<i class="text-gray fa fa-chevron-circle-down fa-2x"></i>
+		</a>
+	</div>
+</div>
+   </div>
+
+
+  <!-- Static bottom navbar -->
+  <nav class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-bottom-collapse"> <!-- NOTE! data-target was changed to jb-bottom-collapse -->
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="jb-bottom-collapse">
+        <ul class="nav navbar-nav navbar-left navbar-small">
+          <li><a href=https://www.vet.cornell.edu/departments/molecular-medicine>Molecular Medicine</a></li>
+          <li><a href=http://www.cornell.edu>Cornell University</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right navbar-small">
+          <li><a href='/about.html#about'>About</a></li>
+          <li><a href='/about.html#join'>Join</a></li>
+          <li><a href='/about.html#contact'>Contact</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div>
+  </nav>
+ 
+
+
+    
+
+
+
+
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-62008526-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+
+
+    <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/assets/themes/lab/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
+

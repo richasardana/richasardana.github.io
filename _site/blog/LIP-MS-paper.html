@@ -1,0 +1,511 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Structuromics-Part 1</title>
+    <meta name="description" content="">
+    <meta name="author" content="Richa Sardana">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- Bootstrap styles -->
+    <link href="/assets/themes/lab/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <!-- Optional theme -->
+    <link href="/assets/themes/lab/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet"/>
+    <!-- Sticky Footer -->
+    <link href="/assets/themes/lab/bootstrap/css/bs-sticky-footer.css" rel="stylesheet"/>
+    
+    <!-- Custom styles -->
+    <link href="/assets/themes/lab/css/style.css?body=1" rel="stylesheet" type="text/css" media="all"/>
+
+    <!-- icon -->
+    <link rel="shortcut icon" href="/assets/themes/lab/images/logo/favicon.ico"/>
+
+    <!-- Custom fonts and icons via Font Awesome, http://fortawesome.github.io/Font-Awesome/ -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
+
+    <!-- Fonts via Google -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700' rel='stylesheet' type='text/css'/>
+
+    <!-- Math via MathJax -->
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <!-- Update these with your own images
+      <link rel="shortcut icon" href="images/favicon.ico">
+      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    -->
+
+    <!-- atom & rss feed
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+    -->
+
+  </head>
+
+  <body>
+
+  <!-- Static top navbar -->
+
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class='container'>
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- added by Sid on 10/29/21: -->
+		<a href="/" class="navbar-left"><img style="margin-top: 10px" src="/assets/themes/lab/images/logo/lab-logo.png"></a>
+        
+	<!--	commented out by Sid on 10/29/21: -->
+  <!--
+		<a href="/">
+        <img class="pull-left logo" src="/assets/themes/lab/images/logo/lab-logo.svg" type="image/svg+xml">
+        </a>
+		-->
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="jb-navbar-collapse">
+        <ul class="nav navbar-nav navbar-left hidden-sm">
+          <!-- Don't put site title on home page -- there's already a big title there. -->
+          
+          
+          
+          <!-- commented out by Sid on 10/29/21, uncomment to bring back lab name on topnav bar: -->
+<!--          <a class="navbar-brand" href="/">Sardana Lab</a>
+-->		  
+          
+        </ul>
+        <ul class="nav navbar-nav navbar-right pull-right">
+          
+          
+          
+
+
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+  
+    
+  
+    
+      
+    
+  
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/projects/">Research</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/team/">Team</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/papers/">Papers</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/blog/">Blog</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/manual/">Manual</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/Non-science/">Non-science</a></li>
+      	
+      
+    
+  
+
+
+
+          <li class="dropdown nav navbar-nav">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+              More <span class="caret"></span>
+            </a>
+
+            <ul class="dropdown-menu nav navbar-nav" role="menu">
+              
+              
+              
+
+
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+  
+    
+  
+    
+      
+    
+  
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/protocols/">Protocols</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/news/">News</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+
+
+
+            </ul>
+            </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </nav>
+   </div>
+
+   <!-- Content -->
+   <div class="container">
+      
+<div class="page-header">
+  <h1>Structuromics-Part 1 </h1>
+</div>
+
+
+
+
+<div class="row post-full">
+  <div class="col-md-2">
+    <div class="bigspacer"></div>
+    <div class="glyphbox note"> <!-- DAD: what is this--> 
+        <div class="smallhead">
+          30 Jan 2021
+          
+          <div class="bigspacer"></div>
+          by <a class="off" href="/team/richa-sardana">Richa</a>
+                     
+        </div>
+        <div class="bigspacer"></div>
+       <div class="smallhead">
+        Share
+      </div>
+        <!-- Paste the 3 next lines where you want the sharing button(s) to appear -->
+        <div class="post-sharing">
+         
+
+  
+  		<!-- Twitter -->
+<i class="fa fa-twitter fa-fw"></i>
+<a class="off" href="https://twitter.com/share?url=&text=" data-text="Structuromics-Part 1" data-via="" data-related="sardana_richa" target="_blank">tweet</a>
+
+	
+
+
+        </div>
+    </div>
+  </div>
+  <div class="col-md-10">
+    <div class="bigspacer"></div>
+    <div class="glyphbox note"> <!-- DAD: what is this--> 
+    <!-- Added by Sid on 10/30/2021 for image -->      
+      
+      
+      <div class="bigspacer"></div>
+       
+      <div class="content">
+        <p><em>Research Paper Highlight:</em>
+ <strong>Dynamic 3D proteomes reveal protein functional alterations at high resolution in situ</strong></p>
+
+<p>Valentina Cappelletti, Thomas Hauser, Ilaria Piazza, Monika Pepelnjak, Liliana Malinovska, Tobias Fuhrer, Yaozong Li, Christian Dorig, Paul Boersema, Ludovic Gillet, Jan Grossbach, Aurelien Dugourd, Julio Saez-Rodriguez, Andreas Beyer, Nicola Zamboni, Amedeo Caflisch, Natalie de Souza, and Paola Picotti.</p>
+
+<p><a href="https://pubmed.ncbi.nlm.nih.gov/33357446/">Cell 184, 545–559, January 21, (2021); DOI: 10.1016/j.cell.2020.12.021</a></p>
+
+<p>In many ways the tale of blind men and the elephant is a good analogy for our understanding of biological systems. We create tools to probe biomolecules and make interpretations from our observations. But no one experimental design or approach is bias-free. To truly understand function, we need multi-dimensional, holistic analyses from complementary observational viewpoints. Technological improvements have allowed merger of biological disciplines that tradionally used non-overlapping approaches to address the same biological questions. One such case that strikes me as spectacular is what has been termed as ‘structuromics’– a combination of genomic, proteomic, genetic and cell biological approaches to ascertain protein structure and function in the cellular context. There have been multiple really cool papers published in the last few months that I’d like to highlight in a multi-part structuromics series.</p>
+
+<p>Part 1 of the series is a paper that combines proteomics and structural biology by employing limited proteolysis and mass spectrometry to predict large scale, and biologically relevant, structural and conformational changes in proteins in response to stress.<br />
+<!--more--></p>
+
+<p>See here for <a href="/blog/GI-mapping-protein-structure-paper">Part 2</a>.</p>
+
+<p>In this work, the authors employ ‘limited proteolysis coupled to mass spectrometry’, or LiP-MS, to obtain information about structural changes in thousands of cellular proteins simultaneously, in response to various stresses. The idea is a simple one - if you subject a protein to proteases, the exposed parts of the protein are readily digested, while the structured/ modified/ complexed part that are hidden are protected. Now, if the protein undergoes structural changes upon binding to a ligand or other proteins, the acessibility and the pattern of protease digestion of the protein will change. The experiment, then, can be repeated under many different conditions, and for many different proteins by employing mass spectrometry to generate quantitative profiles or fingerprints of structural alterations.</p>
+
+<p>Biochemists have used limited proteolysis as a tool to study individual proteins for a long time. What is remarkable about the LiP-MS and other similar approaches is the wealth of information on thousands of cellular proteins that can be obtained at the same time, allowing to see higher order patterns in cellular pathways, which is not possible when studying one protein at a time. Additionally, many proteins aren’t as amenable to pure structural analyses, and these approaches can infer structural information that can guide protein functional studies. By applying their approach to E. coli as well as yeast cells, the authors show that monitoring conformational changes in different conditions provides important functional information that is otherwise missed when looking at protein abundance measurements alone.</p>
+
+<p>The approach is useful on its own, but its richness can be greatly enhanced if it can be combined with complementary workflows. For instance, combining it with other mass spec based readouts- protein abundance, phosphorylation, ubiquitylation, and other modifications, cross-linking based peptide analysis, etc. can tell what mechanisms underlie the conformational changes. Similarly, combining with evolutionary analyses to look at co-evolution rates of amino acid residues within a protein or interacting partners can predict the conservation mechanisms underlying the structural changes. Proteins with low resolution crystal or cryo-EM structures too can be significantly enriched with the knowledge of known conformational changes. There is a lot of room for development of modifications to the approach, and all that can be done is truly exciting!</p>
+
+
+      </div>
+    </div>
+  </div>
+
+  
+    <ul class="tag_box inline">
+      <li><i class="glyphicon glyphicon-open"></i></li>
+      
+      
+
+
+  
+     
+    	<li><a href="/categories.html#blog-ref">
+    		blog <span>9</span>
+    	</a></li>
+    
+  
+
+
+    </ul>
+    
+  
+    <ul class="tag_box inline">
+      <li><i class="glyphicon glyphicon-tags"></i></li>
+      
+      
+
+
+  
+     
+    	<li><a href="/tags.html#journal club-ref">journal club <span>7</span></a></li>
+     
+    	<li><a href="/tags.html#Structuromics-ref">Structuromics <span>3</span></a></li>
+     
+    	<li><a href="/tags.html#omics-ref">omics <span>2</span></a></li>
+     
+    	<li><a href="/tags.html#Mass spectrometry-ref">Mass spectrometry <span>1</span></a></li>
+     
+    	<li><a href="/tags.html#limited proteolysis-ref">limited proteolysis <span>1</span></a></li>
+     
+    	<li><a href="/tags.html#LiP-MS-ref">LiP-MS <span>1</span></a></li>
+     
+    	<li><a href="/tags.html#structural barcodes-ref">structural barcodes <span>1</span></a></li>
+    
+  
+
+
+
+    </ul>
+  
+
+  
+    <hr>
+    
+
+</div>
+
+
+   </div>
+
+
+  <!-- Static bottom navbar -->
+  <nav class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-bottom-collapse"> <!-- NOTE! data-target was changed to jb-bottom-collapse -->
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="jb-bottom-collapse">
+        <ul class="nav navbar-nav navbar-left navbar-small">
+          <li><a href=https://www.vet.cornell.edu/departments/molecular-medicine>Molecular Medicine</a></li>
+          <li><a href=http://www.cornell.edu>Cornell University</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right navbar-small">
+          <li><a href='/about.html#about'>About</a></li>
+          <li><a href='/about.html#join'>Join</a></li>
+          <li><a href='/about.html#contact'>Contact</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div>
+  </nav>
+ 
+
+
+    
+
+
+
+
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-62008526-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+
+
+    <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/assets/themes/lab/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
