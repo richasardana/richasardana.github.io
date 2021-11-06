@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>News</title>
-    <meta name="description" content="Sardana Lab blog">
+    <title>Representing reproducibility and variability</title>
+    <meta name="description" content="">
     <meta name="author" content="Richa Sardana">
 
     <!-- Enable responsive viewport -->
@@ -275,7 +275,7 @@
     
       
       	
-      	<li class="active"><a href="/news/" class="active">News</a></li>
+      	<li><a href="/news/">News</a></li>
       	
       
     
@@ -313,60 +313,141 @@
    <!-- Content -->
    <div class="container">
       
-
-
-<div class="pager">
-  
-	  
-  
-	  	
-    
+<div class="page-header">
+  <h1>Representing reproducibility and variability </h1>
 </div>
 
 
+
+
+<div class="row post-full">
+  <div class="col-md-2">
+    <div class="bigspacer"></div>
+    <div class="glyphbox note"> <!-- DAD: what is this--> 
+        <div class="smallhead">
+          02 Jan 2020
+          
+          <div class="bigspacer"></div>
+          by <a class="off" href="/team/richa-sardana">Richa</a>
+                     
+        </div>
+        <div class="bigspacer"></div>
+       <div class="smallhead">
+        Share
+      </div>
+        <!-- Paste the 3 next lines where you want the sharing button(s) to appear -->
+        <div class="post-sharing">
+         
+
+  
+  		<!-- Twitter -->
+<i class="fa fa-twitter fa-fw"></i>
+<a class="off" href="https://twitter.com/share?url=&text=" data-text="Representing reproducibility and variability" data-via="" data-related="sardana_richa" target="_blank">tweet</a>
 
 	
 
-	<div class="bigspacer"></div>
-	<div class="row">
-		<div class="col-md-3">
-			<div class="head">
-				Sardana lab doors open
-			</div>
-			<div class="smallnote">
-				01 Nov 2021
-				
-				by <a class="off" href="/team/richa-sardana">richa</a>
-								
-			</div>	
-		</div>
-		<div class="col-md-8">		
-			<div style="height:5px;"></div>			
-			
-			<a href="/news/Sardana-lab-opens"><img class="offset" src="/assets/images/news/lab-doors-open.jpg"></a>
-			
-			<div class="post">
-				<p>Excited to embark on this new journey. Looking for interested students and postdocs to <a href="/about.html#join">join our team!</a></p>
 
-			</div>
-		</div>			
-		<div class="col-md-1"></div>
-	</div>		
+        </div>
+    </div>
+  </div>
+  <div class="col-md-10">
+    <div class="bigspacer"></div>
+    <div class="glyphbox note"> <!-- DAD: what is this--> 
+    <!-- Added by Sid on 10/30/2021 for image -->      
+      
+      <a href=""><img class="offset" src="/assets/images/blog/Lord-arxiv-2019-Fig1.png"></a>
+      
+      
+      <div class="bigspacer"></div>
+       
+      <div class="content">
+        <p><em>Research Paper Highlight:</em>
+ <strong>If your P value looks too good to be true, it probably is: Communicating reproducibility and variability in cell biology.</strong></p>
+
+<p>Samuel J. Lord, Katrina B. Velle, R. Dyche Mullins and Lillian K. Fritz-Laylin <a href="https://arxiv.org/abs/1911.03509">arXiv:1911.03509v2 (2019)</a></p>
+
+<p>Later published as a Viewpoint in <a href="https://pubmed.ncbi.nlm.nih.gov/32346721">J Cell Biol (2020) 219 (6): e202001064.
+DOI:10.1083/jcb.202001064</a></p>
+
+<!--more-->
+
+<p>Cell biologists are no strangers to data variability- growth conditions, age of the cells, and nutrient availability all contribute to sample-to-sample differences. Accurate quantitative analysis and representation of cell biological measurements should ideally be able to reflect the number of times the experiment was repeated, the variability observed within each replicate set for individual measurements, and the key statistical identifiers for each set.</p>
+
+<p>In this preprint, Lord et al, present a convincing case to represent cell biological quantitative data as multi-colored beeswarm or superplots to accurately reflect actual data quality, reproducibility and variability.</p>
+
+<p>Key highlights to note:</p>
+
+<ol>
+  <li>
+    <p>The problem of comically miniscule (and hence useless) P-values in many cell biology studies is in part due to erroneous and inflated sample size, N. N should represent the number of times an experiment is repeated, not the total number of cells.</p>
+  </li>
+  <li>
+    <p>Bar graphs are problematic because they obscure the distribution of cell-level data as well as the sample-to-sample repeatability.</p>
+  </li>
+  <li>
+    <p>Visual representation of the quantitation should represent variability information about the entire dataset whenever posible. This can be nicely accommodated into color-coded beeswarm SuperPlots. The authors provide detailed ways of making these plots using GraphPad Prism, Excel, R and Python.</p>
+  </li>
+</ol>
+
+<p>For example, if you have three biological replicates of control and treated samples, and you measure the speed of cellular movement of 200 cells in each sample, first calculate the mean of those 200 measurements for each sample, then run a t-test on those sample means (three control, three treated). In the data plot, color-coding the dots by experiment, and plotting the mean as a larger  symbol on top of the dots that denote individual measurements, makes it clear that statistical analyses (e.g. error bars and P values) are correctly calculated across separate experiments.</p>
+
+
+      </div>
+    </div>
+  </div>
+
+  
+    <ul class="tag_box inline">
+      <li><i class="glyphicon glyphicon-open"></i></li>
+      
+      
+
+
+  
+     
+    	<li><a href="/categories.html#blog-ref">
+    		blog <span>9</span>
+    	</a></li>
+    
+  
+
+
+    </ul>
+    
+  
+    <ul class="tag_box inline">
+      <li><i class="glyphicon glyphicon-tags"></i></li>
+      
+      
+
+
+  
+     
+    	<li><a href="/tags.html#journal club-ref">journal club <span>7</span></a></li>
+     
+    	<li><a href="/tags.html#P values-ref">P values <span>1</span></a></li>
+     
+    	<li><a href="/tags.html#Statistical analysis-ref">Statistical analysis <span>1</span></a></li>
+     
+    	<li><a href="/tags.html#Beeswarm plot-ref">Beeswarm plot <span>1</span></a></li>
+     
+    	<li><a href="/tags.html#multi-colored dot plot-ref">multi-colored dot plot <span>1</span></a></li>
+     
+    	<li><a href="/tags.html#Superplot-ref">Superplot <span>1</span></a></li>
+    
+  
 
 
 
-<div class="bigspacer"></div>	
-<div class="row">
-	<div class="col-md-12 text-center">
-		<a class="off" href="//archive/">
-			<div class="smallhead">Archive</div>
-			<i class="text-gray fa fa-chevron-circle-down fa-2x"></i>
-		</a>
-	</div>
+    </ul>
+  
+
+  
+    <hr>
+    
+
 </div>
 
-
-<div class="bigspacer"></div>
 
    </div>
 

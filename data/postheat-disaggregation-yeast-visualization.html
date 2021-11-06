@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>News</title>
-    <meta name="description" content="Sardana Lab blog">
+    <title>Disaggregation assay data visualization</title>
+    
     <meta name="author" content="Richa Sardana">
 
     <!-- Enable responsive viewport -->
@@ -275,7 +275,7 @@
     
       
       	
-      	<li class="active"><a href="/news/" class="active">News</a></li>
+      	<li><a href="/news/">News</a></li>
       	
       
     
@@ -313,60 +313,24 @@
    <!-- Content -->
    <div class="container">
       
-
-
-<div class="pager">
-  
-	  
-  
-	  	
-    
+<div class="page-header">
+  <h1>Disaggregation assay data visualization </h1>
 </div>
 
-
-
-	
-
-	<div class="bigspacer"></div>
-	<div class="row">
-		<div class="col-md-3">
-			<div class="head">
-				Sardana lab doors open
-			</div>
-			<div class="smallnote">
-				01 Nov 2021
-				
-				by <a class="off" href="/team/richa-sardana">richa</a>
-								
-			</div>	
-		</div>
-		<div class="col-md-8">		
-			<div style="height:5px;"></div>			
-			
-			<a href="/news/Sardana-lab-opens"><img class="offset" src="/assets/images/news/lab-doors-open.jpg"></a>
-			
-			<div class="post">
-				<p>Excited to embark on this new journey. Looking for interested students and postdocs to <a href="/about.html#join">join our team!</a></p>
-
-			</div>
-		</div>			
-		<div class="col-md-1"></div>
-	</div>		
-
-
-
-<div class="bigspacer"></div>	
 <div class="row">
-	<div class="col-md-12 text-center">
-		<a class="off" href="//archive/">
-			<div class="smallhead">Archive</div>
-			<i class="text-gray fa fa-chevron-circle-down fa-2x"></i>
-		</a>
-	</div>
+  <div class="col-xs-12">
+    <p>Interactive data visualization for disaggregation and new-synthesis data from <a href="/papers/paper/endogenous-aggregates">our 2015 paper on heat-triggered protein aggregation in yeast</a>, Figure 6. (Aggregation data visualization is <a href="/data/heat-aggregation-yeast-visualization">here</a>.)</p>
+
+<p>Choose detected proteins by official yeast name, from <a href="http://www.yeastgenome.org/">SGD</a>.</p>
+
+<p>Cells were grown at 30°C, shifted to labeled media, heat-shocked for 10 minutes at 42°C, moved back to 30°C for recovery, and protein in 100,000g supernatant measured. Y-axis is ratio of protein in supernatant between treated and control cells, X-axis is either time or temperature of shock. Linetype reflects isotopic label on the amino acids: solid line is arginine/lysine imported before onset of heat shock, dashed line is imported after shock.</p>
+
+<iframe width="900" height="720" src="https://dadrummond.shinyapps.io/ratiosup_shiny/" frameborder="0"> </iframe>
+
+
+  </div>
 </div>
 
-
-<div class="bigspacer"></div>
 
    </div>
 

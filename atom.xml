@@ -1,28 +1,1348 @@
----
-layout: null
-title : Atom Feed
----
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>{{ site.title }}</title>
- <link href="{{ site.production_url }}/{{ site.atom_path }}" rel="self"/>
- <link href="{{ site.production_url }}"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{ site.production_url }}</id>
+ <title>Sardana Lab</title>
+ <link href="https://richasardana.github.io/" rel="self"/>
+ <link href="https://richasardana.github.io"/>
+ <updated>2021-11-06T14:54:54+00:00</updated>
+ <id>https://richasardana.github.io</id>
  <author>
-   <name>{{ site.author.name }}</name>
-   <email>{{ site.author.email }}</email>
+   <name>Richa Sardana</name>
+   <email>sardana@cornell.edu</email>
  </author>
 
- {% for post in site.posts %}
+ 
  <entry>
-   <title>{{ post.title }}</title>
-   <link href="{{ site.production_url }}{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{ site.production_url }}{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
+   <title>Lab jobs and ordering</title>
+   <link href="https://richasardana.github.io/manual/lab-jobs"/>
+   <updated>2021-11-03T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/manual/lab-jobs</id>
+   <content type="html">
+&lt;h1 id=&quot;shared-jobs-in-the-lab&quot;&gt;Shared jobs in the lab&lt;/h1&gt;
+
+&lt;p&gt;To ensure that the lab runs smoothly, specific tasks will be assigned to specific people. 
+These jobs are necessary to ensure the lab runs smoothly. Most jobs are allocated to more than one person to ensure that jobs are done if someone is away.
+If you are going to be away or cannot do your lab job for any non-emergency reason, please plan ahead and ask someone else to fill in.
+Conversely, please be ready to help others when asked, when reasonably possible.&lt;/p&gt;
+
+&lt;!--More details on individual jobs are given in the notes, below the table.
+
+| Lab Job                                                              | When?       | Person(s) Responsible  |
+| -------------------------------------------------------------------- | ----------- | ---------------------- |
+| Placing Sardana Lab Orders                                           | 2x weekly   | Richa            |
+| Ordering dry ice from chemistry stores                               | weekly      | Laura                  |
+| Receiving and Putting away Communal Lab Orders                       | Check daily | Rachael/Marah/Weronika |
+| Receiving and Putting away Wallace Lab Orders                        | Check daily | Weronika/Marah/Rachael |
+| Making up 0.5M EDTA, pH8.0 before it runs out                        | As needed   | Weronika/Rachael       |
+| Making up fresh 50x TAE before it runs out                           | As needed   | Marah/Rachael          |
+| Making Competent DH5alpha/Mach1 E.coli cells                         | As needed   | Rachael/Laura          |
+| Looking after the desktop Microscope and tablet                      | As needed   | Liz/Laura              |
+| Looking after the Fragment Analyzer (Wad 3.18)                       | As needed   | Liz/Weronika           |
+| Looking after the Lightcycler 480 qPCR machine (Wad 3.19)            | As needed   | Rosey/Liz              |
+| Looking after the OT-2 Robot                                         | As needed   | Laura/Weronika         |
+| Looking after the Wallace Lab Incubators (Wad 2.19)                  | As needed   | Rosey                  |
+| Looking after the new GelDoc System (when it arrives)                | As needed   | Rosey/Laura            |
+| Looking after the PreCellys                                          | As needed   | Liz                    |
+| Looking after the Wallace Lab Gel Kit and Powerpack                  | As needed   | Everyone               |
+| Returning our ice boxes and lids to our bays                         | Promptly    | Everyone               |
+| Emptying Autoclave Bags before they get too full for the Autoclave   | Check daily | Everyone in that area  |
+| Replacing Envelopes for Sequencing Samples BEFORE they run out       | When low    | Everyone               |
+| Keeping an eye on stocks of Consumables BEFORE they run out          | Constantly  | Everyone               |
+--&gt;
+
+&lt;h2 id=&quot;notes&quot;&gt;Notes&lt;/h2&gt;
+
+&lt;h3 id=&quot;inventory-and-ordering&quot;&gt;Inventory and ordering&lt;/h3&gt;
+
+&lt;p&gt;Everyone is responsible for keeping track of lab stocks of consumables and updating the inventory. No-one wants to interrupt an experiment because stocks of some reagent or consumable are low. Plan ahead and order reagents and consumables ahead of time.&lt;/p&gt;
+
+&lt;h3 id=&quot;looking-after-an-instrument&quot;&gt;Looking after an instrument&lt;/h3&gt;
+
+&lt;p&gt;This usually involves:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;being familiar with the user manual and its location&lt;/li&gt;
+  &lt;li&gt;ensuring that the machine is clean and functional&lt;/li&gt;
+  &lt;li&gt;checking on maintenance requirements&lt;/li&gt;
+  &lt;li&gt;training new users&lt;/li&gt;
+  &lt;li&gt;keeping an eye on use, e.g. users acting erroneously or not cleaning up after themselves.&lt;/li&gt;
+  &lt;li&gt;communicating about problems&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;preparing-communal-lab-buffer-stocks&quot;&gt;Preparing Communal Lab Buffer Stocks&lt;/h3&gt;
+
+&lt;p&gt;In general, a rule of thumb is if you are using a solution, and it is running low, make more. You can find the recipes in the lab protocols. If you don’t know how, ask people. Be a good lab citizen, others will thank you for it. If a chemical is running low, put in a order request asap.&lt;/p&gt;
+
+&lt;h3 id=&quot;glassware-and-plasticware&quot;&gt;Glassware and plasticware&lt;/h3&gt;
+
+&lt;p&gt;Wash the glassware after use, then rinse with dI water, and dry on the dish rack or cart. Culture flasks will be capped and autoclaved for reuse.&lt;/p&gt;
+
+&lt;h1 id=&quot;lab-cleanup&quot;&gt;Lab cleanup&lt;/h1&gt;
+
+&lt;p&gt;Every 6 months we will organize a lab cleanup, in which everyone is expected to participate.&lt;/p&gt;
+
+&lt;p&gt;Lab cleanups include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;incubators&lt;/li&gt;
+  &lt;li&gt;centrifuge&lt;/li&gt;
+  &lt;li&gt;fridges&lt;/li&gt;
+  &lt;li&gt;throwing out old solutions, media, plates&lt;/li&gt;
+  &lt;li&gt;clean up personal spaces&lt;/li&gt;
+  &lt;li&gt;change absorbant pads in areas that routinely get wet, such as, the electrophoresis bench.&lt;/li&gt;
+  &lt;li&gt;updating the lab organization&lt;/li&gt;
+&lt;/ul&gt;
+</content>
  </entry>
- {% endfor %}
+ 
+ <entry>
+   <title>Meetings: Lab, subgroup, and 1-1</title>
+   <link href="https://richasardana.github.io/manual/meetings-overview"/>
+   <updated>2021-11-02T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/manual/meetings-overview</id>
+   <content type="html">
+&lt;h1 id=&quot;meetings&quot;&gt;Meetings&lt;/h1&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#meetings&quot; id=&quot;markdown-toc-meetings&quot;&gt;Meetings&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#lab-meetings-for-everyone-weekly&quot; id=&quot;markdown-toc-lab-meetings-for-everyone-weekly&quot;&gt;Lab meetings for everyone (weekly)&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#giving-a-research-update-lab-meeting&quot; id=&quot;markdown-toc-giving-a-research-update-lab-meeting&quot;&gt;Giving a Research update lab meeting&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#one-slide-meetings&quot; id=&quot;markdown-toc-one-slide-meetings&quot;&gt;One-slide meetings&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#journal-club-meetings&quot; id=&quot;markdown-toc-journal-club-meetings&quot;&gt;Journal club meetings&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#1-1-meetings&quot; id=&quot;markdown-toc-1-1-meetings&quot;&gt;1-1 meetings&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#lab-socials&quot; id=&quot;markdown-toc-lab-socials&quot;&gt;Lab socials&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;lab-meetings-for-everyone-weekly&quot;&gt;Lab meetings for everyone (weekly)&lt;/h1&gt;
+
+&lt;p&gt;Lab meetings are the regular opportunity for the whole group to come together to talk about science, and about important logistics.
+Lab meetings are a mutually respectful and supportive environment.&lt;/p&gt;
+
+&lt;p&gt;Lab meetings can take various formats:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Research update - led by a single lab member, is most common&lt;/li&gt;
+  &lt;li&gt;One-slide meeting -  everyone presents one slide on their recent work&lt;/li&gt;
+  &lt;li&gt;Journal clubs - one or more lab members lead discussion of a relevant paper&lt;/li&gt;
+  &lt;li&gt;Other - for example, a “welcome back” meeting, a “write some of the lab manual” meeting, a “state of the lab” annual-ish meeting&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Whatever the format, the goal of lab meeting is for everyone in the room, including the presenter, to learn things that are useful to their work.&lt;/p&gt;
+
+&lt;h2 id=&quot;giving-a-research-update-lab-meeting&quot;&gt;Giving a Research update lab meeting&lt;/h2&gt;
+
+&lt;p&gt;The purpose of these lab meetings is to communicate and to exchange useful ideas, not to simply “update”, nor to impress. These are also your opportunities to hone your presentation skills, so take advantage of it. 
+This will usually be a talk with slides, with sub-goals:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Teach the group about your work. Make it accessible to everyone. Give a good, thoughful introduction so everyone understands the why, what, and how.&lt;/li&gt;
+  &lt;li&gt;Articulate what you are thinking about your work’s status and future.&lt;/li&gt;
+  &lt;li&gt;Solicit feedback and ideas from other lab members, to improve your project(s).&lt;/li&gt;
+  &lt;li&gt;Practice for talks outside the lab, in a friendly environment.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Research update presentations should usually:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Give an introduction to your project, highlighting important ideas and objectives.&lt;/li&gt;
+  &lt;li&gt;Give each slide a helpful title, ideally a sentence that describes its content.&lt;/li&gt;
+  &lt;li&gt;Explain how to interpret each kind of data that you present, concisely and clearly. All data and axes need readable labels.&lt;/li&gt;
+  &lt;li&gt;Include a small number of crucial ideas/results from elsewhere, appropriately referenced.&lt;/li&gt;
+  &lt;li&gt;Make it clear when the talk shifts to your results; present selected primary data.&lt;/li&gt;
+  &lt;li&gt;Address problems, uncertainties, and obstacles.&lt;/li&gt;
+  &lt;li&gt;End with some kind of conclusion and plan for future work.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A well-thought-out lab meeting will strengthen your future work, by enabling a productive conversation with the group about your ideas and plans. It is the responsibility of everyone else in the lab meeting to engage with the presenter and the presentation.
+Everyone is encouraged to ask questions. Naive and basic questions are encouraged. We are not here to judge, but to be curious and to learn. We all bring value to lab meetings, and for each of us there are very many things we don’t know; if one person has a question, it’s likely other people have the same question.&lt;/p&gt;
+
+&lt;p&gt;Some resources on giving good presentations and lab meetings:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://clauswilke.com/blog/2013/10/20/giving-effective-presentations/&quot;&gt;Giving effective presentations, by Claus Wilke&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://clauswilke.com/blog/2013/08/18/engaging-presentations-and-text-heavy-slides/&quot;&gt;Text on slides, also by Claus Wilke&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mayaschuldiner.wixsite.com/schuldinerlab/mentoring&quot;&gt;Giving a Good Talk, from Maya Schuldiner’s mentoring page&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.abcam.com/content/how-to-survive-your-first-lab-meeting&quot;&gt;How to survive your first lab meeting&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sophtalksscience.com/2017/10/30/how-to-survive-your-first-lab-meeting/&quot;&gt;How to survive and excel in lab meetings&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;one-slide-meetings&quot;&gt;One-slide meetings&lt;/h2&gt;
+
+&lt;p&gt;In brief, everyone presents one slide or one printed page on their recent work. Guidelines:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The slide is an opportunity for scientific feedback and discussion on your work.&lt;/li&gt;
+  &lt;li&gt;You could present a result (a gel, a figure, an analysis, etc)&lt;/li&gt;
+  &lt;li&gt;You could present the design for a future or in-progress experiment&lt;/li&gt;
+  &lt;li&gt;You could present a cartoon or schematic figure to explain a mental model you’re working with&lt;/li&gt;
+  &lt;li&gt;The slide should have a title that is a sentence summarizing the message of the slide&lt;/li&gt;
+  &lt;li&gt;5 minutes is not a lot of time to explain lots of things. There is probably only time for one panel of a figure, or a small cartoon schematic followed by a result.&lt;/li&gt;
+  &lt;li&gt;We don’t care how much you have done (everyone knows you have done a lot) - we all want 5 minutes of interesting scientific discussion.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Claus Wilke’s blogpost, &lt;a href=&quot;https://serialmentor.com/blog/2014/7/8/share-your-preliminary-work-with-other-people-even-if-you-think-its-crap&quot;&gt;share your preliminary work with other people&lt;/a&gt;, gives an eloquent perspective.&lt;/p&gt;
+
+&lt;h1 id=&quot;journal-club-meetings&quot;&gt;Journal club meetings&lt;/h1&gt;
+
+&lt;p&gt;Roughly they work like:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We choose a relevant paper, that everyone should try to read before the meeting. Come prepared to talk about what you learned from the paper and any questions you have.&lt;/li&gt;
+  &lt;li&gt;The paper can be old, new, or a preprint. The big criteria for choice is that it has to be valuable for us to discuss as a group. Maybe it’s the ideas, maybe the methods, maybe the subject matter.&lt;/li&gt;
+  &lt;li&gt;Discussion is usually led by one person, and/or can be shared around the group. We don’t need perfect presentations, just some structure for a good discussion.&lt;/li&gt;
+  &lt;li&gt;It is usually helpful to start with some context about why the paper was written and why you chose the paper / why it’s relevant to us.&lt;/li&gt;
+  &lt;li&gt;The leader is encouraged to showcase their own data/project or other related information in the light of the main journal club paper. These have been some of the most useful journal club moments.&lt;/li&gt;
+  &lt;li&gt;Everyone suggests papers for next subgroup meeting, and we decide on one of them. It is ok to suggest a paper that you have already read.&lt;/li&gt;
+  &lt;li&gt;Another possibility is to discuss journal club papers in themed subgroups.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;1-1-meetings&quot;&gt;1-1 meetings&lt;/h1&gt;
+
+&lt;p&gt;Most lab members have 1-1 meetings with the PI, fortnightly. Use these meetings well to get the best feedback and guidance you can receive to make your research more productive, and build a relationship with you PI. Some guidelines:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The lab member takes notes and sends a summary to PI later on the day of the 1-1 meeting. Notes should begin “1-1 meeting notes [date]”.&lt;/li&gt;
+  &lt;li&gt;Meeting starts by discussing progress on agreed priorities and action points from previous meeting.&lt;/li&gt;
+  &lt;li&gt;Meeting includes reviewing lab notebook, or other data/analysis/writing/slides, as appropriate.&lt;/li&gt;
+  &lt;li&gt;Meeting ends by agreeing priorities for the lab member for their next fortnight, which go in the notes. Realistically, there will be between 1 and 3 priorities for the next two-week period, because larger numbers of things cannot all be prioritised.&lt;/li&gt;
+  &lt;li&gt;Notes should include action points for PI (with deadlines), and any questions arising from the meeting that we don’t yet have answers to.&lt;/li&gt;
+  &lt;li&gt;Notes can be brief; whatever can be written up in 15 minutes is good enough.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Why bother with these guidelines and with writing notes?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Guidelines are a &lt;a href=&quot;http://atulgawande.com/book/the-checklist-manifesto/&quot;&gt;checklist&lt;/a&gt; to make sure we cover the important points.&lt;/li&gt;
+  &lt;li&gt;Notes act as a “diary” of what we did, which makes it easier.&lt;/li&gt;
+  &lt;li&gt;It’s pretty easy to misunderstand each other. Written notes help to clear up those misunderstandings, and especially to clarify what is and is not a priority.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Project students should find these guidelines useful to make the most of their meetings with the PI and any co-supervisors, although the meetings may have a different frequency or format.&lt;/p&gt;
+
+&lt;h1 id=&quot;lab-socials&quot;&gt;Lab socials&lt;/h1&gt;
+
+&lt;p&gt;We will plan to do lab socials together as a group often. Everyone is requested to take initiative and suggest these events and help with making them materialize. Be inclusive. These are occasions to get to know your lab mates better, develop relationships, celelbrate successes, milestones, and birthdays.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Sardana lab doors open</title>
+   <link href="https://richasardana.github.io/news/Sardana-lab-opens"/>
+   <updated>2021-11-01T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/news/Sardana-lab-opens</id>
+   <content type="html">&lt;p&gt;Excited to embark on this new journey. Looking for interested students and postdocs to &lt;a href=&quot;/about.html#join&quot;&gt;join our team!&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Lab notebook guidelines</title>
+   <link href="https://richasardana.github.io/manual/lab-notebook"/>
+   <updated>2021-11-01T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/manual/lab-notebook</id>
+   <content type="html">
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#why-lab-notebooks-are-important&quot; id=&quot;markdown-toc-why-lab-notebooks-are-important&quot;&gt;Why lab notebooks are important&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#principles-for-lab-notebooks&quot; id=&quot;markdown-toc-principles-for-lab-notebooks&quot;&gt;Principles for lab notebooks&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#work-should-be-fair-findable-accessible-interoperable-and-reusable&quot; id=&quot;markdown-toc-work-should-be-fair-findable-accessible-interoperable-and-reusable&quot;&gt;Work should be FAIR: Findable, Accessible, Interoperable, and Reusable&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#examples-of-what-to-include-and-what-not&quot; id=&quot;markdown-toc-examples-of-what-to-include-and-what-not&quot;&gt;Examples of what to include and what not&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#raw-unedited-data-must-be-included&quot; id=&quot;markdown-toc-raw-unedited-data-must-be-included&quot;&gt;Raw unedited data must be included&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#processed-and-summarized-data-must-also-be-included&quot; id=&quot;markdown-toc-processed-and-summarized-data-must-also-be-included&quot;&gt;Processed and summarized data must also be included&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#give-your-files-good-names&quot; id=&quot;markdown-toc-give-your-files-good-names&quot;&gt;Give your files good names&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#guidelines-for-electronic-lab-notebook-entries-and-organization&quot; id=&quot;markdown-toc-guidelines-for-electronic-lab-notebook-entries-and-organization&quot;&gt;Guidelines for electronic lab notebook entries and organization.&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#have-two-kinds-of-tables-of-contents-one-by-date-and-one-by-project-or-experiment-type&quot; id=&quot;markdown-toc-have-two-kinds-of-tables-of-contents-one-by-date-and-one-by-project-or-experiment-type&quot;&gt;Have two kinds of tables of contents, one by date and one by project or experiment type&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;why-lab-notebooks-are-important&quot;&gt;Why lab notebooks are important&lt;/h1&gt;
+
+&lt;p&gt;Good record-keeping is an essential part of good work:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Your lab notebook helps you to remember what you did and why.&lt;/li&gt;
+  &lt;li&gt;Your lab notebook is the best way to communicate activity and data around the lab.&lt;/li&gt;
+  &lt;li&gt;Keeping good records is a legal and funder requirement.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The lab notebook belongs to the institution, not to you personally.
+Keeping it up to date is a responsibility to yourself, to our research group, and to the institution.&lt;/p&gt;
+
+&lt;p&gt;Some scenarios where good lab notebook entries are useful:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;You need to show your last month’s data to the PI or a colleague.&lt;/li&gt;
+  &lt;li&gt;You need to repeat an experiment you last did a year ago.&lt;/li&gt;
+  &lt;li&gt;A new lab member is comparing two approaches to an experiment, their pros and cons, to plan a new version.&lt;/li&gt;
+  &lt;li&gt;An experiment that used to work has stopped working, and we need to go over the details of reagents and what has changed.&lt;/li&gt;
+  &lt;li&gt;You are writing up the methods section of your PhD thesis or paper.&lt;/li&gt;
+  &lt;li&gt;The reviewers for your paper ask to see other items of raw data.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In all these cases, if you have kept good lab notebooks you and your colleagues will be grateful to past you. You might think you will remember the details, but you won’t.
+Without good notebook entries, important points will be forgotten, your or someone else’s time will be wasted, and you risk accusations of misconduct.&lt;/p&gt;
+
+&lt;p&gt;In summary, the lab notebook is a tool to do good work, that is practically useful for you. Keeping your lab notebook up to date is a non-negotiable requirement for students and staff who work in the lab.&lt;/p&gt;
+
+&lt;h1 id=&quot;principles-for-lab-notebooks&quot;&gt;Principles for lab notebooks&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Your experiment is not “done” until it is written up in your lab notebook.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Your lab notebook should:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Index each experiment clearly, with dates, and include, or link to, data and metadata&lt;/li&gt;
+  &lt;li&gt;Describe your work in enough detail to reproduce it.&lt;/li&gt;
+  &lt;li&gt;Place your work in the context of larger goals and projects.&lt;/li&gt;
+  &lt;li&gt;Be updated within a week.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A useful test is, would you be able to reproduce the experiment in a year’s time working from the lab notebook entry? Would someone else be able to reproduce it, a year after that?&lt;/p&gt;
+
+&lt;p&gt;You need to set aside both time and mental energy to write the lab notebook.
+Good habits help.
+For example, you can set up templates for entries for standard experiments that you do.
+You can set aside regular time to update the notebook, including with other lab members to create some accountability.&lt;/p&gt;
+
+&lt;h2 id=&quot;work-should-be-fair-findable-accessible-interoperable-and-reusable&quot;&gt;Work should be FAIR: Findable, Accessible, Interoperable, and Reusable&lt;/h2&gt;
+
+&lt;p&gt;It is helpful to consider the &lt;a href=&quot;https://www.go-fair.org/fair-principles/&quot;&gt;FAIR principles for scientific data management&lt;/a&gt;, which also apply to protocols, analysis, and methods.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Findable:&lt;/em&gt; The first step in (re)using data and protocols is to find them. Your lab notebook entries should be findable by “metadata”, for example project, protocol, strain or oligo identifier, or date of creation.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Accessible:&lt;/em&gt; Once the user finds the required data you should be able to access it. So if the lab notebook entry mentions a dataset elsewhere (e.g. datastore, lab notebook page), link to it with accession information.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Interoperable:&lt;/em&gt; The data usually need to be integrated with other data, and to interoperate with applications or workflows for analysis, storage, and processing. Use standard file formats.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Reusable:&lt;/em&gt; The ultimate goal is to optimise the reuse of data, protocols, and methods. You and others should be able to reuse what you have done, to a high standard, and efficiently.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;examples-of-what-to-include-and-what-not&quot;&gt;Examples of what to include and what not&lt;/h1&gt;
+
+&lt;p&gt;Basically everything that is easy and/or important to include in your lab notebook should be in there. Information doesn’t need to be repeated in multiple notebook entries, because you can hyperlink between entries; as a guide, everything directly relevant to the experiment should be findable (linked to, named, file location described, etc) within 5 minutes.&lt;/p&gt;
+
+&lt;p&gt;To inform the judgment call of what to include and what not:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Index&lt;/em&gt; your experiments- for example, using an excel sheet with the brief description of the experiment, and where the details can be found will save you a lot of time later.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Handwritten notes&lt;/em&gt; are fine to include, just take a photo of it and include in with enough typed searchable metadata that you can find it again.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Bullet points&lt;/em&gt; are fine, you do not need to write in paragraphs. It’s more important to have a terse account that is written quickly than beautiful prose.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Say why&lt;/em&gt; you are doing the experiment - briefly state the aim of the experiment and connect/link it to the larger project. You might have a project or subproject aims page you can link to, or a “parts guide” for a group of related strains/plasmids that gets updated as specific parts are made and verified.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Conclude&lt;/em&gt; what you learned and what you need to do next, however briefly.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Things don’t have to work,&lt;/em&gt; include data from all experiments, “successful” or otherwise.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Strains&lt;/em&gt; you use should list the lab strain ID number, along with a brief description of the key genotype of the strain.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Oligos&lt;/em&gt; include the oligo name/ID and a brief descriptor of the oligo.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Designs&lt;/em&gt; for plasmids, inserts, cloning, etc, should be included in the relevant notebook entries. Usually the design would be in snapgene, genbank, or fasta format,&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Plasmids&lt;/em&gt; once confirmed by diagnostic restriction digestion and sequencing should be assigned a lab plasmid ID number. The plasmids should also be transformed in appropriate bacterial competent cells, and saved as glycerol stocks. In the notes, plasmids should be refered to wiht the ID number and a brief description.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Photos&lt;/em&gt; of tubes, equipment, pipetting layouts, etc - it’s also easy to take a photo and shove it in your notebook, why not do that. These photos help address the situation where you leave the lab and think “oh goodness, did I have the samples in the right order?”&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;PCR&lt;/em&gt;, record the date, purpose, template, oligos, expected sizes, enzymes, buffers, cycling parameters, photos of the gel.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Reagents should be recorded precisely including manufacturer’s part number&lt;/em&gt;, and ideally batch number, when saving lab stock aliquots of shared reagents. Use the label printer to print the information rather than writing it on each tube. The information should include concentration, solvent, manufacturer, lot and batch number, (pH, sterilization info as appropriate), date, and your initials.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Strange observations&lt;/em&gt; should be included, for example “a very hot day in lab and my experiment unexpectedly failed, maybe it’s the temperature?”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;raw-unedited-data-must-be-included&quot;&gt;Raw unedited data must be included&lt;/h1&gt;
+
+&lt;p&gt;Raw unmodified data must be included or linked to, without exception. Usually larger files will be kept on the online lab storage space and linked to, or provide exact information where to find it. Include enough descriptors in your metadata files so you can easily ascribe the files to specific samples/ conditions.&lt;/p&gt;
+
+&lt;h1 id=&quot;processed-and-summarized-data-must-also-be-included&quot;&gt;Processed and summarized data must also be included&lt;/h1&gt;
+
+&lt;p&gt;Yes, this means that most notebook entries will include both raw and processed data.
+This kind of near-repetition is ok. If you processed or obtained data via a website (e.g. gene ontology analysis, RNA folding, qPCR primer design), give enough information to be able to repeat it.&lt;/p&gt;
+
+&lt;h1 id=&quot;give-your-files-good-names&quot;&gt;Give your files good names&lt;/h1&gt;
+
+&lt;p&gt;Starting the filename with a data in standard format &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;yyyy-mm-dd&lt;/code&gt; means that you can unambiguously link the data to the day it is collected and can be easily ordered.
+For example &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;20211030-facs-Mup1-gfp.xls&lt;/code&gt; tells us that these are data from FACS experiment, looking at Mup1-GFP, on 10th Och 2021, which can easily then be linked to the lab notebook entry for the same date.
+For more, see &lt;a href=&quot;https://speakerdeck.com/jennybc/how-to-name-files&quot;&gt;Jenny Bryan’s amazing presentation on naming things&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You may come up with better ways to name and keep track of files.
+Remember the FAIR principles: organize the files so you can find them, access them, interoperate with other pieces of data, and generally reuse the data.&lt;/p&gt;
+
+&lt;h1 id=&quot;guidelines-for-electronic-lab-notebook-entries-and-organization&quot;&gt;Guidelines for electronic lab notebook entries and organization.&lt;/h1&gt;
+
+&lt;p&gt;You are encouraged to use any of the following electronic notebooks:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://teaching.cornell.edu/learning-technologies/collaboration-tools/electronic-lab-notebooks-labarchives&quot;&gt;Labarchives- Electronic digital notebook&lt;/a&gt;- You will use your Cornell netID to login to access Labarchives.
+&lt;a href=&quot;https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006918&quot;&gt;Microsoft One note&lt;/a&gt;
+&lt;a href=&quot;https://www.benchling.com/academic/&quot;&gt;Benchling&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If we decide on aparticular lab notebook, there are some practices that we could adopt to streamline our notetaking, such as set up templates for common lab book entries.&lt;/p&gt;
+
+&lt;h2 id=&quot;have-two-kinds-of-tables-of-contents-one-by-date-and-one-by-project-or-experiment-type&quot;&gt;Have two kinds of tables of contents, one by date and one by project or experiment type&lt;/h2&gt;
+
+&lt;p&gt;We have found it seriously helpful to have one table of contents of activity by date, and another by project. That way you can search either by when it happened or by what it connects to, helping with the principle “Place your work in the context of larger goals and projects.”. 
+You’ll find some templates that will help in starting to index your work.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>New student guide</title>
+   <link href="https://richasardana.github.io/manual/newstart"/>
+   <updated>2021-10-31T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/manual/newstart</id>
+   <content type="html">
+&lt;h1 class=&quot;no_toc&quot; id=&quot;welcome-to-the-sardana-lab&quot;&gt;Welcome to the Sardana lab!&lt;/h1&gt;
+
+&lt;p&gt;This page includes quickstart guides for new lab members. It includes lab values, expectations and responsibilities. Group members are welcome to propose changes, add comments, and work with Richa to update the document.&lt;/p&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#lab-values&quot; id=&quot;markdown-toc-lab-values&quot;&gt;Lab values&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#communication-expectations&quot; id=&quot;markdown-toc-communication-expectations&quot;&gt;Communication expectations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#lab-access&quot; id=&quot;markdown-toc-lab-access&quot;&gt;Lab access&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#lab-presence&quot; id=&quot;markdown-toc-lab-presence&quot;&gt;Lab Presence&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#lab-meetings&quot; id=&quot;markdown-toc-lab-meetings&quot;&gt;Lab meetings&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#nearby-seminars-happy-hours-etc&quot; id=&quot;markdown-toc-nearby-seminars-happy-hours-etc&quot;&gt;Nearby seminars, happy hours, etc.&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#computing&quot; id=&quot;markdown-toc-computing&quot;&gt;Computing&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#cornell-netid&quot; id=&quot;markdown-toc-cornell-netid&quot;&gt;Cornell NETID&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#accounts-to-create&quot; id=&quot;markdown-toc-accounts-to-create&quot;&gt;Accounts to create&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#slack---lab-talk&quot; id=&quot;markdown-toc-slack---lab-talk&quot;&gt;Slack - lab talk&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#outlook-and-google-calendar-groups&quot; id=&quot;markdown-toc-outlook-and-google-calendar-groups&quot;&gt;Outlook and Google calendar groups&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#vpn---off-campus-access&quot; id=&quot;markdown-toc-vpn---off-campus-access&quot;&gt;VPN - off-campus access&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#shared-data-storage-space&quot; id=&quot;markdown-toc-shared-data-storage-space&quot;&gt;Shared data storage space&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#electronic-lab-notebook&quot; id=&quot;markdown-toc-electronic-lab-notebook&quot;&gt;Electronic lab notebook&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#protocol-sharing&quot; id=&quot;markdown-toc-protocol-sharing&quot;&gt;Protocol sharing&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#lab-inventories&quot; id=&quot;markdown-toc-lab-inventories&quot;&gt;Lab inventories&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#orcid&quot; id=&quot;markdown-toc-orcid&quot;&gt;ORCID&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#safety-and-training&quot; id=&quot;markdown-toc-safety-and-training&quot;&gt;Safety and training&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#richas-checklist&quot; id=&quot;markdown-toc-richas-checklist&quot;&gt;Richa’s Checklist&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#fix-missing-things&quot; id=&quot;markdown-toc-fix-missing-things&quot;&gt;Fix missing things&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a name=&quot;values&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;lab-values&quot;&gt;Lab values&lt;/h1&gt;
+
+&lt;p&gt;We can achieve our full potential only if our research environment comprises of a diverse team of people that bring together unique perspectives, experiences, and backgrounds. We will strive to create an environment in which all lab members respect each other, feel comfortable to express themselves, and make useful contributions.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;communication&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;communication-expectations&quot;&gt;Communication expectations&lt;/h1&gt;
+
+&lt;p&gt;Talk to people. Ask questions. Answer questions. Admit when you don’t know the answer. Be curious. But be kind and respectful of others. We will likely be more productive in our research if our lab space is a welcoming and happy environment.&lt;/p&gt;
+
+&lt;p&gt;Most &lt;em&gt;internal&lt;/em&gt; lab day-to-day communication happens on Slack first. When it’s helpful to talk to someone “in person” or by call - ask to set it up. All lab member cell phone numbers will be saved on the Lab drive.&lt;/p&gt;
+
+&lt;p&gt;Most &lt;em&gt;external&lt;/em&gt; communication happens on email. If you’re asking a lab business-related question, if in doubt cc Richa.&lt;/p&gt;
+
+&lt;p&gt;Most lab events will be posted on the Sardana lab calendar, and some will be listed on the Slack channel as well.&lt;/p&gt;
+
+&lt;p&gt;These are asynchronous communication channels - &lt;em&gt;you don’t need to respond immediately&lt;/em&gt;.
+Set notification schedules on Slack so that you aren’t disturbed when you’re focused on a task or you’re off work or asleep, and ignore emails then too. However, &lt;em&gt;please respond to email &amp;amp; Slack messages within one ordinary working day&lt;/em&gt;, i.e. a weekday when you’re not on leave, nor at a conference or training session, nor doing a stressful experiment such as a timecourse. 
+If you don’t have a full response, it’s courteous to respond saying “I don’t know, can I get back to you tomorrow/next week/when I’ve done some reading”. 
+If you’re not working, set an autoreply to do that for you. 
+If you ask someone else a question and they don’t get back to you, ask again the next ordinary working day.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;access&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;lab-access&quot;&gt;Lab access&lt;/h1&gt;
+
+&lt;p&gt;The lab is in the &lt;a href=&quot;https://www.google.com/maps/place/930+Campus+Rd,+Ithaca,+NY+14853/@42.4474267,-76.4673541,17z/data=!3m1!4b1!4m5!3m4!1s0x89d081f87ed5e193:0x37bbabbf4ca02fc8!8m2!3d42.4474267!4d-76.4651654&quot;&gt;Veterinary Medical Center&lt;/a&gt; in the Department of Molecular Medicine at Cornell University’s Ithaca campus. The building requires ID card access after hours, and the lab space and the student office need key access- discuss with Richa if and how to request access permissions for you.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;planning&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;lab-presence&quot;&gt;Lab Presence&lt;/h1&gt;
+
+&lt;p&gt;It is expected that all lab members will apply a consistent and professional effort to their research, and remain in communication with the broader group. This includes making an honest effort to advance research efforts, attending meetings with Richa, lab meetings, journal clubs and departmental seminars.&lt;/p&gt;
+
+&lt;h2 id=&quot;lab-meetings&quot;&gt;Lab meetings&lt;/h2&gt;
+
+&lt;p&gt;Everyone is expected to attend, where possible:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lab meetings.&lt;/li&gt;
+  &lt;li&gt;Scheduled one-on-one meetings with Richa.&lt;/li&gt;
+  &lt;li&gt;Lab journal club meetings.&lt;/li&gt;
+  &lt;li&gt;Lab socials.&lt;/li&gt;
+  &lt;li&gt;DEI group discussions.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--For full details, see the [meetings overview lab manual page](meetings-overview). --&gt;
+
+&lt;h2 id=&quot;nearby-seminars-happy-hours-etc&quot;&gt;Nearby seminars, happy hours, etc.&lt;/h2&gt;
+
+&lt;p&gt;Attendance is encouraged for:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Departmental Journal Club&lt;/li&gt;
+  &lt;li&gt;Departmenal Work in Progress (WIPs)&lt;/li&gt;
+  &lt;li&gt;Departmental and other relevant seminars&lt;/li&gt;
+  &lt;li&gt;Departmental happy hours and mixers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a name=&quot;computing&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;computing&quot;&gt;Computing&lt;/h1&gt;
+
+&lt;p&gt;There are a lot of different online tools, this guide is a starter.&lt;/p&gt;
+
+&lt;h2 id=&quot;cornell-netid&quot;&gt;Cornell NETID&lt;/h2&gt;
+
+&lt;p&gt;First you’ll need your university email account including a &lt;em&gt;NETID&lt;/em&gt; and password. You will need your Cornell NETID login to access various softwares and the VPN.&lt;/p&gt;
+
+&lt;!--The university&apos;s email goes by default to [outlook](https://outlook.office.com/owa/?realm=ed.ac.uk), although it is possible to set up with other clients. 
+Outlook has the advantage of interfacing with the outlook calendar system, sharepoint, microsoft teams, and so on.
+So, we use it for the lab calendar. --&gt;
+
+&lt;h2 id=&quot;accounts-to-create&quot;&gt;Accounts to create&lt;/h2&gt;
+
+&lt;h3 id=&quot;slack---lab-talk&quot;&gt;Slack - lab talk&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://sardanalabslack.slack.com/&quot;&gt;Sardana lab slack workspace&lt;/a&gt; - this is where most of the lab talk happens. Sign up first so you can ask other questions there.&lt;/p&gt;
+
+&lt;h3 id=&quot;outlook-and-google-calendar-groups&quot;&gt;Outlook and Google calendar groups&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Request access to the calendar for lab activities, as as well as to sign up for shared departmental equipment.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;vpn---off-campus-access&quot;&gt;VPN - off-campus access&lt;/h3&gt;
+
+&lt;p&gt;For many off-campus options you connect through the VPN (virtual private network).&lt;/p&gt;
+
+&lt;p&gt;Register for a VPN account using: &lt;a href=&quot;https://it.cornell.edu/cuvpn&quot;&gt;information services vpn site&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;shared-data-storage-space&quot;&gt;Shared data storage space&lt;/h3&gt;
+
+&lt;p&gt;Please request access to the lab’s online storage space.&lt;/p&gt;
+
+&lt;h3 id=&quot;electronic-lab-notebook&quot;&gt;Electronic lab notebook&lt;/h3&gt;
+
+&lt;p&gt;You are required to take exhaustive lab notes, and strongly encouraged to maintain an electronic notebook. These notebooks should be uploaded on the lab’s online storage space. You are encouraged to use any of the following electronic notebooks:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://teaching.cornell.edu/learning-technologies/collaboration-tools/electronic-lab-notebooks-labarchives&quot;&gt;Labarchives- Electronic digital notebook&lt;/a&gt;- You will use your Cornell netID to login to access Labarchives.
+&lt;a href=&quot;https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006918&quot;&gt;Microsoft One note&lt;/a&gt;
+&lt;a href=&quot;https://www.benchling.com/academic/&quot;&gt;Benchling&lt;/a&gt;
+&lt;a href=&quot;https://www.researchspace.com/&quot;&gt;Rspace&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We have &lt;a href=&quot;&quot;&gt;guidelines for how to write lab notebook entries to go in the lab manual&lt;/a&gt;, feel free to discuss with others in the lab too.&lt;/p&gt;
+
+&lt;h3 id=&quot;protocol-sharing&quot;&gt;Protocol sharing&lt;/h3&gt;
+
+&lt;p&gt;All laboratory protocols are shared on the lab’s online storage space.&lt;/p&gt;
+
+&lt;h3 id=&quot;lab-inventories&quot;&gt;Lab inventories&lt;/h3&gt;
+
+&lt;p&gt;All lab inventories and databases (chemicals, enzymes, strains, plasmids, oligos) reside on the online storage space. You can use your Cornell netID to login and access/edit the databases, and make ordering requests.&lt;/p&gt;
+
+&lt;h3 id=&quot;orcid&quot;&gt;ORCID&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://orcid.org/&quot;&gt;ORCID&lt;/a&gt; provides a persistent digital identifier (an ORCID iD) that you own and control, and that distinguishes you from every other researcher. Set one up, it will be useful.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;safety&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;safety-and-training&quot;&gt;Safety and training&lt;/h1&gt;
+
+&lt;p&gt;All lab personnel need to take online EH&amp;amp;S training for basic laboratory safety. Some members may need more specialized training if their work requires handling specialized samples. You will also need to be added to the MUA with Institutional Biosafety Committee (IBC). Discuss the training and authorization you need with Richa. The guidelines for general laboratory safety can also be accessed on the [EHS website] (https://ehs.cornell.edu/research-safety/general-laboratory-safety).&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;edward_checklist&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;richas-checklist&quot;&gt;Richa’s Checklist&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Request building and lab access&lt;/li&gt;
+  &lt;li&gt;Request access to VPN&lt;/li&gt;
+  &lt;li&gt;Invite to Slack&lt;/li&gt;
+  &lt;li&gt;Invite to lab calendar&lt;/li&gt;
+  &lt;li&gt;Invite to Quartzy for order requests&lt;/li&gt;
+  &lt;li&gt;Invite to Lab online database&lt;/li&gt;
+  &lt;li&gt;Request access for Software licenses&lt;/li&gt;
+  &lt;li&gt;Request IBC authorization and safety training&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a name=&quot;fix_things&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;fix-missing-things&quot;&gt;Fix missing things&lt;/h1&gt;
+
+&lt;p&gt;Is there something that you needed to know that wasn’t covered here? Ask the lab on slack. Ask other people until you get an answer. Then suggest an update to this information, so that the next person who needs it can benefit too.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Membrane protein homeostasis mechanisms</title>
+   <link href="https://richasardana.github.io/projects/home/research"/>
+   <updated>2021-10-30T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/projects/home/research</id>
+   <content type="html">&lt;p&gt;We study how &lt;strong&gt;membrane protein trafficking&lt;/strong&gt; and &lt;strong&gt;quality control mechanisms&lt;/strong&gt; surveil the membrane proteome, and how their &lt;strong&gt;dysregulation&lt;/strong&gt; results in &lt;strong&gt;human disease&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Our research studies &lt;strong&gt;how membrane proteins are classified&lt;/strong&gt; as functional or non-functional by cellular protein quality control mechanisms:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;How do cellular QC mechanisms make these decisions?&lt;/li&gt;
+  &lt;li&gt;What features of the proteins are recognized?&lt;/li&gt;
+  &lt;li&gt;What features of the QC machinery provide them the ability to make the distinction?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We are also interested in understanding &lt;strong&gt;how integral membrane proteins are correctly maintained&lt;/strong&gt; at specific intracellular organelles:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;How are specific proteins selectively packaged for sorting?&lt;/li&gt;
+  &lt;li&gt;What are the consequences of defects in these pathways?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A better understanding of these processes is especially relevant for &lt;strong&gt;designing therapeutic interventions for pathological conditions&lt;/strong&gt; where membrane proteins are mis-sorted to the wrong cellular location or when damaged proteins are not efficiently removed resulting in accumulation of protein aggregates inside the cells.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Wendy Sweeney</title>
+   <link href="https://richasardana.github.io/team/wendy-sweeney"/>
+   <updated>2021-10-29T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/team/wendy-sweeney</id>
+   <content type="html">&lt;p&gt;Wendy is the Administrative Assistant in &lt;a href=&quot;https://www.vet.cornell.edu/departments/molecular-medicine&quot;&gt;Molecular Medicine&lt;/a&gt;. She provides administrative and ordering support to the lab.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Kevin Lyon</title>
+   <link href="https://richasardana.github.io/team/kevin-lyon"/>
+   <updated>2021-10-29T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/team/kevin-lyon</id>
+   <content type="html">&lt;p&gt;Kevin is the Administrative Manager in &lt;a href=&quot;https://www.vet.cornell.edu/departments/molecular-medicine&quot;&gt;Molecular Medicine&lt;/a&gt;. His administrative support keeps the lab running smoothly.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Chris Chavez</title>
+   <link href="https://richasardana.github.io/team/chris-chavez"/>
+   <updated>2021-10-29T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/team/chris-chavez</id>
+   <content type="html">&lt;p&gt;Chris is an undergraduate student at &lt;a href=&quot;https://www.cornell.edu/&quot;&gt;Cornell University&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Beth Straight</title>
+   <link href="https://richasardana.github.io/team/beth-straight"/>
+   <updated>2021-10-29T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/team/beth-straight</id>
+   <content type="html">&lt;p&gt;Beth is an undergraduate student at &lt;a href=&quot;https://www.cornell.edu/&quot;&gt;Cornell University&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Ashley Yu</title>
+   <link href="https://richasardana.github.io/team/ashley-yu"/>
+   <updated>2021-10-29T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/team/ashley-yu</id>
+   <content type="html">&lt;p&gt;Ashley is an undergraduate student at &lt;a href=&quot;https://www.cornell.edu/&quot;&gt;Cornell University&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Sardana Lab</title>
+   <link href="https://richasardana.github.io/misc/home/home"/>
+   <updated>2021-10-29T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/misc/home/home</id>
+   <content type="html">&lt;p&gt;We study how &lt;strong&gt;membrane protein trafficking&lt;/strong&gt; and &lt;strong&gt;quality control mechanisms&lt;/strong&gt; surveil the membrane proteome, and how their &lt;strong&gt;dysregulation&lt;/strong&gt; results in &lt;strong&gt;human disease&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;We are in the &lt;strong&gt;Department of Molecular Medicine&lt;/strong&gt; in the Veterinary Medical Center at &lt;strong&gt;Cornell University&lt;/strong&gt;.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>About</title>
+   <link href="https://richasardana.github.io/misc/about"/>
+   <updated>2021-10-29T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/misc/about</id>
+   <content type="html">
+&lt;p&gt;&lt;a name=&quot;contact&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;contact&quot;&gt;Contact&lt;/h1&gt;
+
+&lt;p&gt;Here’s where and how you can find us:&lt;/p&gt;
+
+&lt;h2 id=&quot;mailing-address&quot;&gt;Mailing Address&lt;/h2&gt;
+&lt;p&gt;Office: C4-175 VMC&lt;br /&gt;
+Lab: C4-168 VMC&lt;br /&gt;
+930 Campus Road&lt;br /&gt;
+Ithaca, NY 14853-6401&lt;/p&gt;
+
+&lt;p&gt;We are in the Department of Molecular Medicine at Cornell University.&lt;/p&gt;
+
+&lt;p&gt;On the &lt;a href=&quot;https://www.google.com/maps/place/930+Campus+Rd,+Ithaca,+NY+14853/@42.4474267,-76.4673541,17z/data=!3m1!4b1!4m5!3m4!1s0x89d081f87ed5e193:0x37bbabbf4ca02fc8!8m2!3d42.4474267!4d-76.4651654&quot;&gt;map&lt;/a&gt;, we are located in the Veterinary Medical Center. Our lab is on the fourth floor.&lt;/p&gt;
+
+&lt;h2 id=&quot;email&quot;&gt;Email&lt;/h2&gt;
+&lt;p&gt;sardana@cornell.edu&lt;/p&gt;
+
+&lt;h2 id=&quot;phone&quot;&gt;Phone&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Lab: +1 (607) 253 3609&lt;/li&gt;
+  &lt;li&gt;Office: +1 (607) 253 3318&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a name=&quot;join&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;join-us&quot;&gt;Join us&lt;/h2&gt;
+
+&lt;p&gt;Interested in joining our team? We’d love to hear from you!&lt;/p&gt;
+
+&lt;p&gt;We encourage prospective postdocs, graduate students, and undergrads to get in touch: send an email describing your interests in this lab, and attach a CV.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;about&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;about-the-website&quot;&gt;About the website&lt;/h2&gt;
+
+&lt;p&gt;This static site was generated using &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; Bootstrap and borrows its template from the &lt;a href=&quot;http://drummondlab.org/&quot;&gt;Drummond lab webpage&lt;/a&gt;. The site’s source code is freely available on &lt;a href=&quot;https://github.com/drummondlab/drummondlab.github.io&quot;&gt;GitHub&lt;/a&gt;. Drummond lab site was in turn heavily influenced and templated on &lt;a href=&quot;https://bedford.io/team/trevor-bedford/&quot;&gt;Bedford lab’s webpage&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Richa Sardana</title>
+   <link href="https://richasardana.github.io/team/richa-sardana"/>
+   <updated>2021-10-28T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/team/richa-sardana</id>
+   <content type="html">&lt;p&gt;Richa is an Assistant Professor at &lt;a href=&quot;https://www.cornell.edu/&quot;&gt;Cornell University&lt;/a&gt; in the Department of &lt;a href=&quot;https://www.vet.cornell.edu/departments/molecular-medicine&quot;&gt;Molecular Medicine&lt;/a&gt;. She joined the Cornell faculty in November 2021.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Data Management Planning</title>
+   <link href="https://richasardana.github.io/manual/data-management-plan"/>
+   <updated>2021-10-28T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/manual/data-management-plan</id>
+   <content type="html">
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#data-management-planning&quot; id=&quot;markdown-toc-data-management-planning&quot;&gt;Data management planning&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#data-types-and-sources&quot; id=&quot;markdown-toc-data-types-and-sources&quot;&gt;Data types and sources&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#formats-and-standards&quot; id=&quot;markdown-toc-formats-and-standards&quot;&gt;Formats and standards&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#roles-and-responsibilities&quot; id=&quot;markdown-toc-roles-and-responsibilities&quot;&gt;Roles and responsibilities&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#best-practices&quot; id=&quot;markdown-toc-best-practices&quot;&gt;Best practices&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;data-management-planning&quot;&gt;Data management planning&lt;/h1&gt;
+
+&lt;p&gt;Our aim should be to make our research results (publications, methodology, data analysis etc.) and the process to be made publicly accessible and usable. For that we need a plan for careful documentation and organization of our data. This document lists the key aspects of data management and what practices are important.&lt;/p&gt;
+
+&lt;h1 id=&quot;data-types-and-sources&quot;&gt;Data types and sources&lt;/h1&gt;
+
+&lt;p&gt;Our research employs many low and high-throughput methodologies, including quantitative microscopy, proteomics, and sequencing. It is imperative that all lab members maintain good notekeeping. All raw, processed, and analysed data should be cross-referenced with experimental notes, documented, stored, and organized in logical file structures, version controlled, and backed up in hard drives and online repositories.&lt;/p&gt;
+
+&lt;h1 id=&quot;formats-and-standards&quot;&gt;Formats and standards&lt;/h1&gt;
+
+&lt;p&gt;Whenever possible, we should strive to use non-proprietary file formats for sharing and archiving to maximize the potential for reuse and longevity of the data. When analyzing raw and processed data from other researchers, all analysis pipelines and metadata should be well documented with appropriate ‘readme files’ so that the analysis is understandable and usable by others.&lt;/p&gt;
+
+&lt;h1 id=&quot;roles-and-responsibilities&quot;&gt;Roles and responsibilities&lt;/h1&gt;
+
+&lt;p&gt;It is the primary responsibility of the trainee to ensure their data is well documented and regularly updated. The working data and metadata and presentation summaries should be regularly uploaded on the lab drive. When working collaboratively, how the working data will be accessed, managed and shared should be clearly discussed. Published datasets will be made available on online repositories with unique DOI identifiers. Some archiving options include &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/geo/&quot;&gt;Gene Expression Omnibus&lt;/a&gt;, &lt;a href=&quot;https://www.ebi.ac.uk/pride/archive/&quot;&gt;PRIDE archive&lt;/a&gt;, &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt;, &lt;a href=&quot;http://datadryad.org/&quot;&gt;Dryad&lt;/a&gt;, &lt;a href=&quot;https://zenodo.org/&quot;&gt;Zenodo&lt;/a&gt;, and &lt;a href=&quot;https://figshare.com/&quot;&gt;Figshare&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;best-practices&quot;&gt;Best practices&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://data.research.cornell.edu/content/best-practices&quot;&gt;Cornell’s Data Management Planning &amp;amp; Services&lt;/a&gt; provides a comprehensive list of best practices for data acquisition, storage, and dissemnation.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Sardana Lab Website</title>
+   <link href="https://richasardana.github.io/blog/sardana-lab-website"/>
+   <updated>2021-10-28T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/blog/sardana-lab-website</id>
+   <content type="html">
+&lt;h2 id=&quot;sardana-lab-website-is-up-and-running&quot;&gt;Sardana lab website is up and running!&lt;/h2&gt;
+
+&lt;p&gt;Can’t wait to get the science started!&lt;/p&gt;
+
+&lt;p&gt;The site was generated using &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; Bootstrap and borrows its template from the &lt;a href=&quot;http://drummondlab.org/&quot;&gt;Drummond lab webpage&lt;/a&gt;. The site’s source code is freely available on &lt;a href=&quot;https://github.com/drummondlab/drummondlab.github.io&quot;&gt;GitHub&lt;/a&gt;. Drummond lab site was in turn heavily influenced and templated on &lt;a href=&quot;https://bedford.io/team/trevor-bedford/&quot;&gt;Bedford lab’s webpage&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>LaTeX for Biologists</title>
+   <link href="https://richasardana.github.io/blog/LaTeX-biologists"/>
+   <updated>2021-10-25T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/blog/LaTeX-biologists</id>
+   <content type="html">&lt;h2 id=&quot;about&quot;&gt;About&lt;/h2&gt;
+
+&lt;p&gt;Biologists hardly ever use LaTeX. And I wonder why. With such excellent typesetting, everything you write in LaTeX looks beautiful. And it is absolutely free! Most biologists I know are so used to WYSIWYG (“what you see is what you get”) word processors like Microsoft Word and the ecosystem of everything that connects to them, that there is just too much inertia to try to learn and incorporate LaTeX in their workflow. Additionally, I find myself stuck with using MS Word often because my coworkers or collaborators do not use LaTeX. So I decided to write this primer as an introduction to LaTeX. I myself am no expert at it, was introduced to LaTeX only towards the end of my PhD (but was instantly convinced by its beauty to write &lt;a href=&quot;https://repositories.lib.utexas.edu/handle/2152/30458&quot;&gt;my dissertation&lt;/a&gt; using it), and have only really used an online editor. Hence, my primer is in no way exhaustive or complete, but it is a start.&lt;/p&gt;
+
+&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;LaTeX is a document preparation and typesetting system. It was initially developed by &lt;a href=&quot;http://www.lamport.org/&quot;&gt;Leslie Lamport&lt;/a&gt;. LaTeX uses standardized tagging conventions to define the structure and style of the document and combines it with the typesetting system of TeX to generate an output file (usually a pdf). TeX itself was the masterwork of &lt;a href=&quot;https://www-cs-faculty.stanford.edu/~knuth/&quot;&gt;Don Knuth&lt;/a&gt;. In plain terms, you do not have to worry about formatting as you write the text- LaTeX provides you the ability to generate a document that looks really professional with minimal effort.&lt;/p&gt;
+
+&lt;h2 id=&quot;getting-started&quot;&gt;Getting started&lt;/h2&gt;
+
+&lt;p&gt;To start using LaTeX, you can download and install a LaTeX editor and compiler, or you can use an online LaTeX editor like &lt;a href=&quot;https://www.overleaf.com/&quot;&gt;Overleaf&lt;/a&gt; (there are many such online editors out there) to get started right away. The latter also gives you the option of sharing and collaborating with others, which can be very useful!
+Let’s say you have a document in mind you want to compose in LaTeX. The first and easiest thing to do is to look for a template for that document type. There are so many resources out there, and people are often generous with openly sharing their templates. The online editors also provide many templates that you could use. But be prepared, you will come across issues that aren’t straightforward (say wraping text around a figure or using biology specific symbols for genotypes or an easy way to write labnotes which involve inserting tables and text and figures all on the same page), but like with all things open source, you may go down a rabbit-hole, but if you put enough time into it, you’ll figure out a way past the issue (or just ask someone who uses it all the time!). Understanding the &lt;a href=&quot;https://www.latex-project.org/about/&quot;&gt;basic structure&lt;/a&gt; of LaTeX documents is useful at this point.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-accessories-and-resources&quot;&gt;The accessories and resources&lt;/h2&gt;
+
+&lt;p&gt;Manuscript templates: Most biology journals now do accept LaTeX formats and provide their own templates for writing the manuscripts. See the &lt;a href=&quot;http://journals.plos.org/ploscompbiol/s/latex&quot;&gt;PLoS Biology&lt;/a&gt; template, for example. You can find many templates on Overleaf as well.&lt;/p&gt;
+
+&lt;p&gt;Bibliography manager: BibTeX. I use &lt;a href=&quot;https://bibdesk.sourceforge.io/&quot;&gt;BibDesk&lt;/a&gt; and &lt;a href=&quot;https://skim-app.sourceforge.io/&quot;&gt;Skim&lt;/a&gt; to store, cross-reference and annotate my pdfs of journal articles as well as manage my citations.&lt;/p&gt;
+
+&lt;p&gt;Lab notebook templates: I find &lt;a href=&quot;http://www.jeremiahfaith.com/open_notebook_science/sample_notebook/&quot;&gt;this&lt;/a&gt; notebook template by &lt;a href=&quot;http://www.jeremiahfaith.com/&quot;&gt;Jeremiah Faith&lt;/a&gt; particularly useful to meet the challenges of the nomenclature I need to incorporate in my own notes.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Structuromics-Part 3</title>
+   <link href="https://richasardana.github.io/blog/DNA-origami-cryo-ET"/>
+   <updated>2021-03-30T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/blog/DNA-origami-cryo-ET</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;Research Paper Highlight:&lt;/em&gt;
+ &lt;strong&gt;DNA origami signposts for identifying proteins on cell membranes by electron cryotomography&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Emma Silvester, Benjamin Vollmer, Vojtěch Pražák, Daven Vasishtan, Emily A Machala, Catheryne Whittle, Susan Black, Jonathan Bath, Andrew J Turberfield, Kay Grünewald, Lindsay A Baker&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S0092867421000763?via%3Dihub&quot;&gt;Cell 2021 Feb 18;184(4):1110-1121.e16. doi: 10.1016/j.cell.2021.01.033.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For Part 3 of the Structuromics series I am highlighting a paper that uses interesting concepts from different fields to create a cool new tool for cryo-ET. While not exactly using an omics approach, it is a pretty neat use of technology, so I decided to include it here.&lt;/p&gt;
+
+&lt;p&gt;In crowded biological environments it is often difficult to identify small features of interest or those without a distinct appearance, especially without prior structural information in cryo-ET workflows. To learn more about cryo-ET, and the history of elcetro microscopy for biological samples &lt;a href=&quot;https://rupress.org/jcb/article/202/3/407/54592&quot;&gt;see here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The authors decided to approach this problem by designing a better tag that is suitable to use with living cells, suitable for frozen hydrated samples, does not obscure the biological sample, not rely on stains or metals (hence not scatter more than the atoms of the specimen itself), while providing precise localization with high confidence. And although there are limitations to the applications of their approach, they did come up with nice solution which I think will likely improve with time. What I found really cool about this work was how they combined ideas and tools already developed in other fields, and applied them to design a good (hopefully improved) tool for cryo-ET analysis.&lt;/p&gt;
+
+&lt;p&gt;Here is what they do: They first designed a DNA origami tag, and then combined it with RNA aptamers that target a specific protein, that can then be incubated with biological samples.&lt;/p&gt;
+
+&lt;p&gt;Never heard of DNA origami? DNA origami is the folding of a long single stranded DNA with multiple small ‘staple’ strands to generate specifically defined 2D and 3D shapes at the nanoscale. &lt;a href=&quot;https://www.nature.com/articles/nature04586&quot;&gt;See the original paper here&lt;/a&gt;. The advantages for using DNA to generate a cryo-ET tag are that Phosphorus (that forms the DNA backbone) scatters elastically ~4x more electrons than carbon, oxygen, or nitrogen, that can provide high enough contrast but not obscure biological structures around it in cellular tomograms. And, DNA origami has been extensively tested for use with cryoEM, so they already knew the DNA tags can handle the Cryo-ET work flow.
+The DNA origami signpost nanostructure they design is built from a 7,249-nucleotide scaffold strand (single-stranded M13mp18) hybridized to 238 staple oligonucleotides to form a structure of approximately 5 MDa comprising 96 parallel helices arranged in a honeycomb lattice.&lt;/p&gt;
+
+&lt;p&gt;Next trick was to target this tag to specific proteins of interest in a biological sample. For this they employed aptamers. Aptamers are RNA oligonucleotides that bind to a specific target with high affinity and specificity, similar to how an antibody binds to an antigen. Read more about aptamers &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3627066/#:~:text=RNA%20Aptamers%20are%20defined%20as,antibody%20binds%20to%20an%20antigen&quot;&gt;here&lt;/a&gt;. The aptamers against common fluorescent proteins such as GFP and mCherry have been previosuly characterized by some wonderful work done here at Cornell in our Provost &lt;a href=&quot;https://www.vet.cornell.edu/research/faculty/michael-kotlikoff-vmd-phd&quot;&gt;Mike Kotilikoff’s&lt;/a&gt; lab. See that paper &lt;a href=&quot;https://academic.oup.com/nar/article/40/5/e39/1104065&quot;&gt;here&lt;/a&gt;. So the authors decided to test their approach by using the aptamers against GFP/ mCherry to look at proteins that have been tagged with these fluorescent protein tags. In principle, if the workflow can be modified, this could also allow to correlate fluorescence signals with the tomograms.&lt;/p&gt;
+
+&lt;p&gt;They then use this tag to test in three applications- to look at proteins in membrane vesicles, proteins on the viral surface, as well as cell surface proteins in mammalian cells. They show that their tag can allow more precise localization of the labeled protein
+whereas immuno-gold labeling puts the gold clusters up to 20-40 nm away. Their tag was easily identifiable, and in many cases could be directly traced to protein density on the vesicle surface. The latter can be useful for purposes of manual particle picking for sub-volume averaging applications, although getting really detailed structual resolution of labeled proteins will take more work.&lt;/p&gt;
+
+&lt;p&gt;That’s really the heart of it! The approach is pretty cool, and does achieve many of the objectives they lay out at the beginning. It isn’t perfect, for instance, it is limited by available specific aptamers, and unclear if it will work for visualization of intracellular organelle proteins rather than just those at the cell surface. But, it’s pretty cool!&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Structuromics-Part 2</title>
+   <link href="https://richasardana.github.io/blog/GI-mapping-protein-structure-paper"/>
+   <updated>2021-02-20T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/blog/GI-mapping-protein-structure-paper</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;Research Paper Highlight:&lt;/em&gt;
+ &lt;strong&gt;Genetic interaction mapping informs integrative structure determination of protein complexes&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Hannes Braberg, Ignacia Echeverria, Stefan Bohn, Peter Cimermancic, Anthony Shiver, Richard Alexander, Jiewei Xu, Michael Shales, Raghuvar Dronamraju, Shuangying Jiang, Gajendradhar Dwivedi, Derek Bogdanoff, Kaitlin K. Chaung, Ruth Hüttenhain, Shuyi Wang, David Mavor, Riccardo Pellarin, Dina Schneidman, Joel S. Bader, James S. Fraser, John Morris, James E. Haber, Brian D. Strahl, Carol A. Gross, Junbiao Dai, Jef D. Boeke, Andrej Sali, Nevan J. Krogan&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://science.sciencemag.org/content/370/6522/eaaz4910/tab-article-info&quot;&gt;Science Vol. 370, Issue 6522, (2020); DOI: 10.1126/science.aaz4910&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For Part 2 of the Structuromics series I am highlighting a paper that combines high throughout genetic interaction mapping and integrative modeling for in vivo structural profiling.&lt;/p&gt;
+
+&lt;p&gt;Large scale genetic interaction (GIs) profiling in model organisms such as budding yeast has been transformative in informing us about cellular pathways and ascribing function to uncharacterized proteins. Applicability of CRISPR-Cas9 based genetic manipulation has made high-throughout genetic interaction profiling possible in mammalian cells as well as almost any model system. In this work, the authors put to test the idea whether genetic interaction profiles can be employed to determine protein structural information.&lt;/p&gt;
+
+&lt;p&gt;Traditionally, genetic interaction analysis involves comparing the phenotypes when loss of the protein product of one gene is combined with the loss of another one (for digenic GIs) or multiple (for multigenic GIs). Well, how about generating a library of mutants by mutating every single residue in a protein and combining each with the gene deletion collection? The resulting (hundreds of!) GI profiles or epistatic miniarray profiles (pE-MAPs) can be compared to each other. Residues involved in the same interactions are likely to generate similar GI profiles, which may be distinct with GIs from residues involved in interactions with a different protein. The phenotypic similarities and differences can then be incorporated into integrative modeling algorithms to generate structural models for architectures of protein complexes. Its a tour de force, and the authors show it works!&lt;/p&gt;
+
+&lt;p&gt;The quantitative GI profile dataset can be enriched combinatorially, by measuring sensitivity to chemical datasets or by also measuring changes under different stresses. And by employing barcodes and next-gen sequencing approaches the massively-parallel screens can be performed in liquid cultures allowing cost and infrastructure reduction. What is really powerful about this approach is the ability to capture effects of transient interactions that are not otherwise possible to discern from GI datasets. In addition, the structural information infered reflects in vivo protein complex interactions providing a built-in functional readout. There are caveats of course- the choice of amino acid change can have a huge impact on protein stability or protein-protein interactions or that single amino acid changes may illicit only modest effects that may not be captured in GI interactions. The true value of analysis will likely be amplified when combining it with orthogonal approaches- such as cross-linking mass spectrometry or crystallography/ cryo-EM. Extending the analysis to disease associated alleles or for multiple components of protein complexes, too can provide valuable information. Overall, I found it is really amazing how much can be inferred by the approach.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Structuromics-Part 1</title>
+   <link href="https://richasardana.github.io/blog/LIP-MS-paper"/>
+   <updated>2021-01-30T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/blog/LIP-MS-paper</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;Research Paper Highlight:&lt;/em&gt;
+ &lt;strong&gt;Dynamic 3D proteomes reveal protein functional alterations at high resolution in situ&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Valentina Cappelletti, Thomas Hauser, Ilaria Piazza, Monika Pepelnjak, Liliana Malinovska, Tobias Fuhrer, Yaozong Li, Christian Dorig, Paul Boersema, Ludovic Gillet, Jan Grossbach, Aurelien Dugourd, Julio Saez-Rodriguez, Andreas Beyer, Nicola Zamboni, Amedeo Caflisch, Natalie de Souza, and Paola Picotti.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/33357446/&quot;&gt;Cell 184, 545–559, January 21, (2021); DOI: 10.1016/j.cell.2020.12.021&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In many ways the tale of blind men and the elephant is a good analogy for our understanding of biological systems. We create tools to probe biomolecules and make interpretations from our observations. But no one experimental design or approach is bias-free. To truly understand function, we need multi-dimensional, holistic analyses from complementary observational viewpoints. Technological improvements have allowed merger of biological disciplines that tradionally used non-overlapping approaches to address the same biological questions. One such case that strikes me as spectacular is what has been termed as ‘structuromics’– a combination of genomic, proteomic, genetic and cell biological approaches to ascertain protein structure and function in the cellular context. There have been multiple really cool papers published in the last few months that I’d like to highlight in a multi-part structuromics series.&lt;/p&gt;
+
+&lt;p&gt;Part 1 of the series is a paper that combines proteomics and structural biology by employing limited proteolysis and mass spectrometry to predict large scale, and biologically relevant, structural and conformational changes in proteins in response to stress.&lt;br /&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;In this work, the authors employ ‘limited proteolysis coupled to mass spectrometry’, or LiP-MS, to obtain information about structural changes in thousands of cellular proteins simultaneously, in response to various stresses. The idea is a simple one - if you subject a protein to proteases, the exposed parts of the protein are readily digested, while the structured/ modified/ complexed part that are hidden are protected. Now, if the protein undergoes structural changes upon binding to a ligand or other proteins, the acessibility and the pattern of protease digestion of the protein will change. The experiment, then, can be repeated under many different conditions, and for many different proteins by employing mass spectrometry to generate quantitative profiles or fingerprints of structural alterations.&lt;/p&gt;
+
+&lt;p&gt;Biochemists have used limited proteolysis as a tool to study individual proteins for a long time. What is remarkable about the LiP-MS and other similar approaches is the wealth of information on thousands of cellular proteins that can be obtained at the same time, allowing to see higher order patterns in cellular pathways, which is not possible when studying one protein at a time. Additionally, many proteins aren’t as amenable to pure structural analyses, and these approaches can infer structural information that can guide protein functional studies. By applying their approach to E. coli as well as yeast cells, the authors show that monitoring conformational changes in different conditions provides important functional information that is otherwise missed when looking at protein abundance measurements alone.&lt;/p&gt;
+
+&lt;p&gt;The approach is useful on its own, but its richness can be greatly enhanced if it can be combined with complementary workflows. For instance, combining it with other mass spec based readouts- protein abundance, phosphorylation, ubiquitylation, and other modifications, cross-linking based peptide analysis, etc. can tell what mechanisms underlie the conformational changes. Similarly, combining with evolutionary analyses to look at co-evolution rates of amino acid residues within a protein or interacting partners can predict the conservation mechanisms underlying the structural changes. Proteins with low resolution crystal or cryo-EM structures too can be significantly enriched with the knowledge of known conformational changes. There is a lot of room for development of modifications to the approach, and all that can be done is truly exciting!&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Membrane protein quality control mechanisms in the Endo-Lysosome system</title>
+   <link href="https://richasardana.github.io/papers/paper/PQC-review"/>
+   <updated>2021-01-04T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/papers/paper/PQC-review</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;Protein quality control (PQC) machineries play a critical role in selective identification and removal of mistargeted, misfolded, and aberrant proteins. This task is extremely complicated due to the enormous diversity of the proteome. It also requires nuanced and careful differentiation between ‘normal’ and ‘folding intermediates’ from ‘abnormal’ and ‘misfolded’ protein states. Multiple genetic and proteomic approaches have started to delineate the molecular underpinnings of how these machineries recognize their target and how their activity is regulated. In this review, we summarize our understanding of the various E3 ubiquitin ligases and associated machinery that mediate PQC in the endo-lysosome system in yeast and humans, how they are regulated, and mechanisms of target selection, with the intent of guiding future research in this area.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Bud23 promotes the final disassembly of the small subunit Processome in Saccharomyces cerevisiae</title>
+   <link href="https://richasardana.github.io/papers/paper/black-bud23"/>
+   <updated>2020-12-13T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/papers/paper/black-bud23</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;The first metastable assembly intermediate of the eukaryotic ribosomal small subunit (SSU) is the SSU Processome, a large complex of RNA and protein factors that is thought to represent an early checkpoint in the assembly pathway. Transition of the SSU Processome towards continued maturation requires the removal of the U3 snoRNA and biogenesis factors as well as ribosomal RNA processing. While the factors that drive these events are largely known, how they do so is not. The methyltransferase Bud23 has a role during this transition, but its function, beyond the nonessential methylation of ribosomal RNA, is not characterized. Here, we have carried out a comprehensive genetic screen to understand Bud23 function. We identified 67 unique extragenic bud23Δ-suppressing mutations that mapped to genes encoding the SSU Processome factors DHR1, IMP4, UTP2 (NOP14), BMS1 and the SSU protein RPS28A. These factors form a physical interaction network that links the binding site of Bud23 to the U3 snoRNA and many of the amino acid substitutions weaken protein-protein and protein-RNA interactions. Importantly, this network links Bud23 to the essential GTPase Bms1, which acts late in the disassembly pathway, and the RNA helicase Dhr1, which catalyzes U3 snoRNA removal. Moreover, particles isolated from cells lacking Bud23 accumulated late SSU Processome factors and ribosomal RNA processing defects. We propose a model in which Bud23 dissociates factors surrounding its binding site to promote SSU Processome progression.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Calcineurin-dependent regulation of endocytosis by a plasma membrane ubiquitin ligase adaptor, Rcr1</title>
+   <link href="https://richasardana.github.io/papers/paper/zhu-rcr1"/>
+   <updated>2020-08-03T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/papers/paper/zhu-rcr1</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;Rsp5, the Nedd4 family member in yeast, is an E3 ubiquitin ligase involved in numerous cellular processes, many of which require Rsp5 to interact with PY-motif containing adaptor proteins. Here, we show that two paralogous transmembrane Rsp5 adaptors, Rcr1 and Rcr2, are sorted to distinct cellular locations: Rcr1 is a plasma membrane (PM) protein, whereas Rcr2 is sorted to the vacuole. Rcr2 is delivered to the vacuole using ubiquitin as a sorting signal. Rcr1 is delivered to the PM by the exomer complex using a newly uncovered PM sorting motif. Further, we show that Rcr1, but not Rcr2, is up-regulated via the calcineurin/Crz1 signaling pathway. Upon exogenous calcium treatment, Rcr1 ubiquitinates and down-regulates the chitin synthase Chs3. We propose that the PM-anchored Rsp5/Rcr1 ubiquitin ligase-adaptor complex can provide an acute response to degrade unwanted proteins under stress conditions, thereby maintaining cell integrity.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>noncanonical ORF translation</title>
+   <link href="https://richasardana.github.io/blog/microproteins-paper"/>
+   <updated>2020-05-29T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/blog/microproteins-paper</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;Research Paper Highlight:&lt;/em&gt;
+ &lt;strong&gt;Pervasive functional translation of noncanonical human open reading frames&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Jin Chen, J. Zachery Cogan, James K. Nuñez, Alexander P. Fields, Britt Adamson, Daniel N. Itzhak, Jason Y. Li, Matthias Mann, Manuel D. Leonetti, Jonathan S. Weissman. 
+&lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/32139545/&quot;&gt;Science volume 367, Issue 6482, pp. 1140-1146 (2020); DOI: 10.1126/science.aay0262&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;From the perspective of gene prediction, it is really important to be able to correctly identify open reading frames (ORFs) that are likely to code for functional proteins. In the simplest of cases the ORF starts with a AUG codon, and ends with a stop codon (UAA/UGA/UAG) and the nucleotide count is divisible by three. Even then, one of the biggest challenges for curation and function annotation, has been to deal with the exceedingly high number of predicted small ORFs (containing less than 100 codons). More than 260,000 small ORFs are predicted in budding yeast alone, and their probability of being biologically meaningless is quite high. At the same time, several really interesting microproteins (encoded by the small ORFs) have been identified and characterized in diverse cellular pathways. The question is that of finding a needle in a haystack- how do we identify functional small ORFs amongst the thousands that are predicted.&lt;/p&gt;
+
+&lt;p&gt;One of the biggest strides that helped in this quest of finding these tiny protein coding ORFs, came from the development of a highly sensitive and quantitative tool to assess active ribosomal translation called Ribosome profiling by &lt;a href=&quot;http://www.ingolia-lab.org/&quot;&gt;Nicholas Ingolia&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Jonathan_Weissman&quot;&gt;Jonathan Weissman&lt;/a&gt; in their 2009 &lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/19213877/&quot;&gt;paper&lt;/a&gt;. Right away, it became obvious that ribosomes actively translate non-canonical small ORFs, many that don’t even start with conventional start codons- an observation that has been made in every model organism and cell system ever since. But the proof of the actual protein products and their functional significance was still lacking.&lt;/p&gt;
+
+&lt;p&gt;In this work, they attempt to address that systematically. They perform ribosome profiling in four different cell lines and detect thousands of overlapping small ORFs with ribosomal footprints. But they go further and find evidence of existence of at least a subset of the protein products by total proteome MS as well as by HLA-I peptidomics. The coolest part of the paper, though, is the preliminary functional analysis they present. By performing pooled CRISPR-KO screens, they provide evidence that loss of many of these small ORF products results in definitive disadvantage to cellular fitness. They follow-up candidates of two categories of non-canoical ORFs: those embedded in annotated lncRNAs (long non-coding RNAs) and small ORFs that exist upstream to a main/ annotated/ canonical ORFs downstream. The most intriguing finding of all is that in most of the cases, the protein products of the small uORFs localize to the same cellular location as the protein product of the main ORF, and show physical association with it. The protein products of lncRNAs also localize to discrete cellular locations suggestive of unique functions.&lt;/p&gt;
+
+&lt;p&gt;Intriguing as it is, this work opens the door to allow more detailed characterization of function and regulation of these new microproteins. Do non-AUG start codons in many of these small ORFs provide a unique mechanism for regulating their expression? Are there conserved features in these microproteins that might allow identification of their homologs in other organisms (if they exist)? What is the function of these microproteins? Do the protein products of the small uORFs promote or inhibit the functions of the protein products of the main ORFs? Or if the function of the protein product is truly needed? Could it be another mechanism to regulate the function of the corresponding RNA which encodes it- such as by preventing the lncRNA to perform its regulatory function? Lots of new questions to explore!&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>WHO hand sanitizer spray recipe</title>
+   <link href="https://richasardana.github.io/non-science/hand-sanitizer-spray"/>
+   <updated>2020-03-25T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/non-science/hand-sanitizer-spray</id>
+   <content type="html">&lt;p&gt;&lt;strong&gt;WHO guidelines for local production of hand sanitizer spray&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Cannot find hand sanitizer in the grocery stores because people are hoarding it? Don’t panic.  World Health Organization recommends a simple recipe to make your own with three ingredients that you can find in any pharmacy: Ethanol or Isopropyl Alcohol (either works fine), Glycerin, Hydrogen Peroxide.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.who.int/gpsc/5may/Guide_to_Local_Production.pdf&quot;&gt;See the detailed WHO guidelines here.&lt;/a&gt;
+This recipe is for a spray sanitizer which can be used to sanitize hands, as well as surfaces.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Bud23 promotes the progression of the Small Subunit Processome to the pre-40S ribosome in Saccharomyces cerevisiae</title>
+   <link href="https://richasardana.github.io/papers/paper/black-bud23-preprint"/>
+   <updated>2020-02-06T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/papers/paper/black-bud23-preprint</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;The Small Subunit Processome is a metastable complex that is thought to represent an early checkpoint in the ribosomal small subunit (SSU) assembly pathway. Progression of the SSU Processome towards a mature state involves dynamic rearrangements of RNAs and proteins, but what drives this progression is not known. Previous studies have suggested that the methyltransferase Bud23 acts during SSU Processome progression. Here, we carried out a comprehensive genetic screen that identified bypass suppressors of bud23Δ and link Bud23 to a network of physical interactions that stabilize the SSU Processome. Moreover, two of these factors, the RNA helicase Dhr1 and the EF-Tu-like GTPase Bms1, are thought to facilitate crucial structural rearrangements. We propose a model in which Bud23 binding to the 3’-domain promotes the release of factors surrounding its binding site to drive rearrangements during the progression of the SSU Processome.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Representing reproducibility and variability</title>
+   <link href="https://richasardana.github.io/blog/multi-color-beeswarm-plot"/>
+   <updated>2020-01-02T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/blog/multi-color-beeswarm-plot</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;Research Paper Highlight:&lt;/em&gt;
+ &lt;strong&gt;If your P value looks too good to be true, it probably is: Communicating reproducibility and variability in cell biology.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Samuel J. Lord, Katrina B. Velle, R. Dyche Mullins and Lillian K. Fritz-Laylin &lt;a href=&quot;https://arxiv.org/abs/1911.03509&quot;&gt;arXiv:1911.03509v2 (2019)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Later published as a Viewpoint in &lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/32346721&quot;&gt;J Cell Biol (2020) 219 (6): e202001064.
+DOI:10.1083/jcb.202001064&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Cell biologists are no strangers to data variability- growth conditions, age of the cells, and nutrient availability all contribute to sample-to-sample differences. Accurate quantitative analysis and representation of cell biological measurements should ideally be able to reflect the number of times the experiment was repeated, the variability observed within each replicate set for individual measurements, and the key statistical identifiers for each set.&lt;/p&gt;
+
+&lt;p&gt;In this preprint, Lord et al, present a convincing case to represent cell biological quantitative data as multi-colored beeswarm or superplots to accurately reflect actual data quality, reproducibility and variability.&lt;/p&gt;
+
+&lt;p&gt;Key highlights to note:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;The problem of comically miniscule (and hence useless) P-values in many cell biology studies is in part due to erroneous and inflated sample size, N. N should represent the number of times an experiment is repeated, not the total number of cells.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Bar graphs are problematic because they obscure the distribution of cell-level data as well as the sample-to-sample repeatability.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Visual representation of the quantitation should represent variability information about the entire dataset whenever posible. This can be nicely accommodated into color-coded beeswarm SuperPlots. The authors provide detailed ways of making these plots using GraphPad Prism, Excel, R and Python.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;For example, if you have three biological replicates of control and treated samples, and you measure the speed of cellular movement of 200 cells in each sample, first calculate the mean of those 200 measurements for each sample, then run a t-test on those sample means (three control, three treated). In the data plot, color-coding the dots by experiment, and plotting the mean as a larger  symbol on top of the dots that denote individual measurements, makes it clear that statistical analyses (e.g. error bars and P values) are correctly calculated across separate experiments.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>DIY Hairpin Leg sidetables</title>
+   <link href="https://richasardana.github.io/non-science/hairpin-leg-table"/>
+   <updated>2019-03-10T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/non-science/hairpin-leg-table</id>
+   <content type="html">&lt;p&gt;Needed side tables. Don’t have any carpentary experience but really wanted to build something. After wasting a lot of time online, here is what I came up with - hair pin leg tables with solid wood cutting boards as table tops!&lt;/p&gt;
+
+&lt;h1 id=&quot;supplies&quot;&gt;Supplies&lt;/h1&gt;
+&lt;p&gt;Any solid wood cutting board of the size of your choosing. I used a 13” x 18” x 3/4” wood board.&lt;/p&gt;
+
+&lt;p&gt;Hair pin legs of the height of your choosing. I used 28” (Black) 3/8” Thick Metal Steel Leg Set for 4.&lt;/p&gt;
+
+&lt;p&gt;Wood screws of a depth less than the thickness of the wood. I used #8 x 5/8” Antique Brass Truss Interior Wood Screws.&lt;/p&gt;
+
+&lt;p&gt;Drill machine, drill bits and screw driver.&lt;/p&gt;
+
+&lt;p&gt;Top coat of your choosing (to protect the table surface).&lt;/p&gt;
+
+&lt;h1 id=&quot;the-process&quot;&gt;The process&lt;/h1&gt;
+&lt;p&gt;Select the face that will be the underside of the table top. Measure out and mark the spots where you want to afix the legs. Using the smallest size drill bit, pre-drill 1/2” holes. Then using a screw driver, attach the legs. Turn the table upside down, apply three coats of the top coat (allow it to dry between each coat, and sand it finely if you so choose). Side table ready for use!&lt;/p&gt;
+
+&lt;!--
+&lt;div class=&quot;card mb-3&quot;&gt;
+    &lt;img class=&quot;card-img-top&quot; src=&quot;https://dl.dropboxusercontent.com/s/lpi9h64bvvzuvp3/IMG_20200411_094915.jpg?dl=0&quot;/&gt;
+    &lt;div class=&quot;card-body bg-light&quot;&gt;
+        &lt;div class=&quot;card-text&quot;&gt;
+            DIY-Cutting board-hairpin leg sidetables.
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+--&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Introns and growth</title>
+   <link href="https://richasardana.github.io/blog/Introns-regulate-growth"/>
+   <updated>2019-03-04T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/blog/Introns-regulate-growth</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;Research Paper Highlight:&lt;/em&gt;
+ &lt;strong&gt;Excised linear introns regulate growth in yeast.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Morgan et. al., &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6464110/&quot;&gt;Nature volume 565, pages606–611 (2019)&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Introns are generally thought of as a waste by-product of RNA processing and molecules that are rapidly degraded soon after they are produced.They are assumed to be very short lived species- once the spliceosome joins the two exons, the spliceosome disassembles and the intron (lariat structure which looks like a lasso) is released. It is very quickly debranched by Dbr1, polyadenylated by the TRAMP complex and degraded by the nuclear exosome. Most introns don’t accumulate or seem to have any phenotype in log phase cultures in rich media.&lt;/p&gt;
+
+&lt;p&gt;The authors perform RNA seq in log phase vs saturated cultures, and show that some of the introns (their best examples are ECM33 and SAC6) are dramatically stablized in saturated cultures. In fact they show by RNA seq and Northern blots that the mature RNA for these is completely non-detectable in saturated cultures but the intron is really stable. They also show that the stability is intrinsic to the intron, and not dependent on the host gene, i.e, moving the intron into a completely different context (in a URA3 reporter), still phenocopies the intron stability phenotype in saturated cultures. Yet, the sequence does not show any conserved motif or RNA structural motif. They observe that the distance between the branch point and the 3’ splice site tends to be shorter for stable introns as opposed to introns that are not stable, and they nicely test that if they extend the length of this distance, the ECM33 intron is no longer stable or if they shorten the length in an otherwise non-stable intron of ACT1, the intron is now stable. They also attempt to understand how these introns are accumulating, and are only slightly successful in understanding it at all. The introns are stabilized after prolonged treatment (4h) with Rapamycin, DTT and tunicamycin but not short treatments (1h). The effect does not depend on a specific nutrient starvation but general secretory stress (not IRE1 dependent, so not UPR), nor mediated by Tor1 effectors, Sch9 or Tap42. So conclusions for these data are, not surprisingly, a bit hand-wavy.&lt;/p&gt;
+
+&lt;p&gt;They conclude by showing that accumulation of stable introns is advantageous to cellular fitness in stationary phase, but detrimental during rapid log phase growth. Their model is that TORC1 inhibition results in accumulation of these introns, these introns engage and titrate away the spliceosomal machinery, preventing them from too much splicing (esp ribosomal genes which are particularly enriched in introns), thus reducing the growth rate overall but allowing for better survival in limiting conditions. Overall, I think the observation of stable introns is quite striking, but it opens up so many questions than were attempted to be addressed in the work. For instance, what are the Tor1 effectors involved? Is the splicing machinery really getting titrated away? How are the stable introns specifically protected from degradation? And then, bringing into perspective that only 5% of yeast contain introns, as compared to roughly 95% of human genes. If this is indeed a conserved response, this should have a really important contribution to growth signaling in mammalian cells. But that will be for a later time.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Rsp5 Ubiquitin ligase–mediated quality control system clears membrane proteins mistargeted to the vacuole membrane</title>
+   <link href="https://richasardana.github.io/papers/paper/sardana-vacuole-membrane-degradation"/>
+   <updated>2019-01-07T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/papers/paper/sardana-vacuole-membrane-degradation</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;Maintenance of organelle identity is profoundly dependent on the coordination between correct targeting of proteins and removal of mistargeted and damaged proteins. This task is mediated by organelle-specific protein quality control (QC) systems. In yeast, the endocytosis and QC of most plasma membrane (PM) proteins requires the Rsp5 ubiquitin ligase and ART adaptor network. We show that intracellular adaptors of Rsp5, Ear1, and Ssh4 mediate recognition and vacuolar degradation of PM proteins that escape or bypass PM QC systems. This second tier of surveillance helps to maintain cell integrity upon heat stress and protects from proteotoxicity. To understand the mechanism of the recognition of aberrant PM cargos by Ssh4-Rsp5, we mistarget multiple PM proteins de novo to the vacuolar membrane. We found that Ssh4-Rsp5 can target and ubiquitinate multiple lysines within a restricted distance from the membrane, providing a fail-safe mechanism for a diverse cargo repertoire. The mistargeting or misfolding of PM proteins likely exposes these lysines or shifts them into the “ubiquitination zone” accessible to the Ssh4-Rsp5 complex.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Ithaca Murals</title>
+   <link href="https://richasardana.github.io/non-science/ithaca-murals-map"/>
+   <updated>2019-01-06T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/non-science/ithaca-murals-map</id>
+   <content type="html">&lt;p&gt;Check out the Ithaca murals website if you haven’t visited it already. Caleb et al. have done a wonderful job putting together a murals map that you could refer to. Great idea for organizing a group mural walk/ bike ride!
+&lt;a href=&quot;https://www.ithacamurals.com/mural-map.html&quot;&gt;Ithaca murals website link&lt;/a&gt;&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Methods for studying the regulation of membrane traffic by ubiquitin and the ESCRT pathway</title>
+   <link href="https://richasardana.github.io/papers/paper/guiney-methods"/>
+   <updated>2019-01-01T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/papers/paper/guiney-methods</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;Covalent modification of proteins with ubiquitin dynamically regulates their function and fate. The ubiquitination of most plasma membrane proteins initiates endocytosis and ESCRT-mediated sorting to the lysosomal lumen for degradation. Powerful genetic approaches in the budding yeast Saccharomyces cerevisiae have been particularly instrumental in the discovery and elucidation of these molecular mechanisms, which are conserved in all eukaryotes. Here we provide two detailed protocols and tools for studying ubiquitination-dependent membrane trafficking mechanisms in yeast. The first utilizes fusions between a protein of interest and an auxotrophic marker to screen for mutants that affect ubiquitin-mediated endocytosis. The second method artificially ubiquitinates a protein of interest, allowing downstream trafficking steps to be studied independently from the regulatory signals that initiate endocytosis.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Recipe blog</title>
+   <link href="https://richasardana.github.io/non-science/recipe-blog"/>
+   <updated>2018-12-25T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/non-science/recipe-blog</id>
+   <content type="html">&lt;p&gt;Recipes on the internet are easy to find but harder to keep track of and remember. Sometimes Sid and I find one we like and then tweak to fit our liking. We figured why not create a website that logs them in a easy to use and interactive fashion. We came up with this static website using &lt;a href=&quot;https://github.com/seanlane/gochowdown&quot;&gt;Gochowdown&lt;/a&gt; theme for Hugo. Gochowdown was itself built on &lt;a href=&quot;https://github.com/clarklab/chowdown&quot;&gt;Chowdown&lt;/a&gt; for Jekyll. The hope is to experiment more with not just cooking but also with Jekyll and Hugo. Here is the link: &lt;a href=&quot;https://richa-sid-recipe-blog.netlify.app&quot;&gt;Richa and Sid’s Recipe Blog&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Public art- painting an outdoor electrical box</title>
+   <link href="https://richasardana.github.io/non-science/electrical-box"/>
+   <updated>2018-11-10T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/non-science/electrical-box</id>
+   <content type="html">&lt;!--
+## About
+
+&lt;div class=&quot;card mb-3&quot;&gt;
+    &lt;img class=&quot;card-img-top&quot; src=&quot;https://dl.dropboxusercontent.com/s/ryzeal6bljtlqg1/LivesWeLiveMuralRicha.jpg?dl=0&quot;/&gt;
+    &lt;div class=&quot;card-body bg-light&quot;&gt;
+        &lt;div class=&quot;card-text&quot;&gt;
+            The Lives we live mural for Ithaca Murals at N.Cayuga &amp; Court St.
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+--&gt;
+
+&lt;p&gt;My first &lt;a href=&quot;https://photos.app.goo.gl/nOyYkpEu1nb3eqaF3&quot;&gt;public art project&lt;/a&gt; -it was an amazing experience and so much fun!&lt;/p&gt;
+
+&lt;p&gt;Going into this project my intent was to combine something Indian with the spirit of Ithaca. I decided to incorporate symbols of Warli art (see below for some background on Warli art), and have tried to interact with the viewer who will be able to identify some of Ithaca features while trying to appreciate a different art form.&lt;/p&gt;
+
+&lt;p&gt;The electrical box is at the intersection of &lt;a href=&quot;https://www.google.com/maps/place/E+Court+St+%26+W+Court+St,+Ithaca,+NY+14850/@42.4425899,-76.5035444,17z/data=!3m1!4b1!4m5!3m4!1s0x89d081832f7dcd2b:0x3e247ea7b4213e3!8m2!3d42.4425899!4d-76.499167&quot;&gt;N. Cayuga &amp;amp; Court St&lt;/a&gt; in Ithaca. Stop by to look if you are in the area!&lt;/p&gt;
+
+&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
+
+&lt;p&gt;The Warli people are an indigenous tribe living in the state of Maharashtra in western India; many still live on the northern outskirts of the city of Mumbai. The brick red and white paintings of the Warli tribe decorate the walls of their houses. The paintings are simple and distinct, and are considered an ancient prevailing art. Basic shapes – triangles, squares, circles, and crooked lines – are used to depict complex scenes, such as wedding, field harvest, celebration, dance, musicians, nature, landscapes, farming, animals, rituals. The art is really a depiction of how the community lives, celebrates, hopes, and supports. There is nothing abstract in the depiction, and still it leaves room for you to recreate the atmosphere of happiness and music in your mind.&lt;/p&gt;
+
+&lt;p&gt;Ithaca is home to people from diverse backgrounds and a lot of flux. The beauty and hospitality of the town, and its natural beauty win the hearts of anyone who cross their paths here. At the same time, the town is enriched by the uniqueness of all the people who come and go, and the many who continue to stay on. When I saw the request for proposals for the utility boxes, I felt using Warli art would be a perfect medium for me to blend the symbolic features of the tribal art while capturing and celebrating the welcoming spirit of Ithaca and the commons. To me, there is an unbroken line from early tribal art forms such as Warli to today’s street art.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-process-and-pictures&quot;&gt;The Process and pictures&lt;/h2&gt;
+
+&lt;p&gt;This electrical box is a new installation, so I did not need to worry about removing existing old paint which probably saved some initial surface prepping time. The first step was to prime the boxes with an appropriate metal primer (Thanks to Caleb and the other artists for this!). This is how the boxes looked after priming, ready to get some real color on them!&lt;/p&gt;
+
+&lt;p&gt;Next we rolled on the base coat color. This was also my first time using a foam roller for paint application. And thanks to Sid’s skill at getting the most even base coat, it ended up saving a lot of brushing time. I sketched out a basic outline of what I wanted to make. There was quite a bit of improvisation at this step which continued all along till I was done with the mural. I had not anticipated how or how much I would modify ideas as I went along- but it certainly made the process more challenging and fun.&lt;/p&gt;
+
+&lt;p&gt;Some more thoughts on the experience and some pictures capturing the evolution of the &lt;a href=&quot;https://photos.app.goo.gl/nOyYkpEu1nb3eqaF3&quot;&gt;work&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Also check out the work of other artists on the &lt;a href=&quot;https://www.ithacamurals.com/artists.html&quot;&gt;Ithaca mural website&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Art in the Backyard- painting our backyard garden closet</title>
+   <link href="https://richasardana.github.io/non-science/garden-closet"/>
+   <updated>2018-05-12T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/non-science/garden-closet</id>
+   <content type="html">
+&lt;p&gt;A bit of color and art in our backyard has made it a happier place. Did this back in 2017, and it is holding up quite well. The mural decorates the door of our garden closet. It took several weeks (mostly because of the weather, time constraints etc.) to finish, and has opened endless possibilities for what all we want to cover in murals in and around the house! Can’t find a pic of how it looked before (or maybe we forgot to click one, but it was a plain wooden cabinet), but here is one of the final product.&lt;/p&gt;
+
+&lt;!--
+&lt;div class=&quot;card-columns&quot;&gt;
+    
+&lt;/div&gt;
+
+
+&lt;div class=&quot;modal fade&quot; id=&quot;exampleModal&quot;&gt;
+  &lt;div class=&quot;modal-dialog modal-lg modal-dialog-centered&quot;&gt;
+    &lt;div class=&quot;modal-content&quot;&gt;
+      &lt;div class=&quot;modal-body&quot;&gt;
+        &lt;img class=&quot;modal-img w-100&quot; /&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+  $(document).ready(function() {
+    $(&apos;#exampleModal&apos;).on(&apos;show.bs.modal&apos;, function (event) {
+      var button = $(event.relatedTarget)
+      var img = button.data(&apos;img&apos;)
+      var modal = $(this)
+      modal.find(&apos;.modal-img&apos;).attr(&apos;src&apos;, img)
+    })
+  })
+&lt;/script&gt;
+--&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Translocon Declogger Ste24</title>
+   <link href="https://richasardana.github.io/blog/Ste24-IAPP-Toxicity-paper"/>
+   <updated>2018-03-14T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/blog/Ste24-IAPP-Toxicity-paper</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;Research Paper Highlight:&lt;/em&gt;
+ &lt;strong&gt;Translocon Declogger Ste24 Protects against IAPP Oligomer-Induced Proteotoxicity.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Can Kayatekin, Audra Amasino, Giorgio Gaglia, Jason Flannick, Julia M. Bonner, Saranna Fanning,
+Priyanka Narayan, M. Inmaculada Barrasa, David Pincus, Dirk Landgraf, Justin Nelson, William R. Hesse, Michael Costanzo,AMP T2D-GENES Consortium, Chad L. Myers, Charles Boone, Jose C. Florez,
+and Susan Lindquist, &lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/29526462/&quot;&gt;Cell 173, 1-12, March 2018&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Islet amyloid polypeptide (IAPP) is a small peptide secreted by the pancreatic β islet cells. It is thought to regulate the function of the islet cells by inhibiting insulin secretion. It was discovered (and named) due to its tendency to aggregate into insoluble amyloid fibrils in patients with type 2 diabetes (T2D). Subsequent work showed that the cytotoxicity was contributed by smaller, intracellular oligomeric intermediates of IAPP, not the mature amyloid fibrils. Yet what aspect of cellular biology is impacted by these toxic oligomers has remained unclear.&lt;/p&gt;
+
+&lt;p&gt;Kayatekin and colleagues report that IAPP-induced proteotoxicity is in part contributed by the clogging of the endoplasmic reticulum (ER) translocon, and can be rescued by translocon associated transmembrane protease Ste24 in yeast or its human homolog ZMPSTE24. Ste24/ZMPSTE24 were recently discovered to directly interact with clogged translocons and cleave jammed proteins.&lt;/p&gt;
+
+&lt;p&gt;In order to understand IAPP toxicity, the authors took advantage of the cell death associated with the expression of an oligomeric version of the IAPP peptide in budding yeast, Saccharomyces cerevisiae. Using complementary genetic screens the authors found that functional Ste24 protease was critical for alleviating IAPP toxicity in yeast. The suppression by Ste24 was specific to IAPP and did not mitigate the toxicity caused by other aggregation prone proteins such as α-synuclein or TDP-43. Emphasizing the conservation of the declogging function, overexpression of the human homolog ZMPSTE24 in yeast lacking Ste24 could efficiently rescue IAPP toxicity. Using their yeast model for assaying declogging capability, the authors analyzed 111 ZMPSTE24 single nucleotide polymorphisms discovered in T2D patients and non-diabetic controls and found an enrichment of loss-of-function mutations among people with T2D (although somewhat mild).&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Featured on Traffic Light Cook</title>
+   <link href="https://richasardana.github.io/non-science/Featured-on-Traffic-Light-Cook"/>
+   <updated>2018-02-10T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/non-science/Featured-on-Traffic-Light-Cook</id>
+   <content type="html">&lt;p&gt;Garima Lal who writes this great blog on heathy eating and cooking practices, featured me on one of her ‘Cooking Motivation’ series! Check out the post &lt;a href=&quot;https://www.trafficlightcook.com/cooking-motivation-richa-sardana-plus-homemade-granola-recipe/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Disaggregation assay data visualization</title>
+   <link href="https://richasardana.github.io/data/postheat-disaggregation-yeast-visualization"/>
+   <updated>2015-07-23T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/data/postheat-disaggregation-yeast-visualization</id>
+   <content type="html">&lt;p&gt;Interactive data visualization for disaggregation and new-synthesis data from &lt;a href=&quot;/papers/paper/endogenous-aggregates&quot;&gt;our 2015 paper on heat-triggered protein aggregation in yeast&lt;/a&gt;, Figure 6. (Aggregation data visualization is &lt;a href=&quot;/data/heat-aggregation-yeast-visualization&quot;&gt;here&lt;/a&gt;.)&lt;/p&gt;
+
+&lt;p&gt;Choose detected proteins by official yeast name, from &lt;a href=&quot;http://www.yeastgenome.org/&quot;&gt;SGD&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Cells were grown at 30°C, shifted to labeled media, heat-shocked for 10 minutes at 42°C, moved back to 30°C for recovery, and protein in 100,000g supernatant measured. Y-axis is ratio of protein in supernatant between treated and control cells, X-axis is either time or temperature of shock. Linetype reflects isotopic label on the amino acids: solid line is arginine/lysine imported before onset of heat shock, dashed line is imported after shock.&lt;/p&gt;
+
+&lt;iframe width=&quot;900&quot; height=&quot;720&quot; src=&quot;https://dadrummond.shinyapps.io/ratiosup_shiny/&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Aggregation assay data visualization</title>
+   <link href="https://richasardana.github.io/data/heat-aggregation-yeast-visualization"/>
+   <updated>2015-07-23T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/data/heat-aggregation-yeast-visualization</id>
+   <content type="html">&lt;p&gt;Interactive data visualization for data from &lt;a href=&quot;/papers/paper/endogenous-aggregates&quot;&gt;our 2015 paper on heat-triggered protein aggregation in yeast&lt;/a&gt;, Figure 1. (Disaggregation data visualization is &lt;a href=&quot;/data/postheat-disaggregation-yeast-visualization&quot;&gt;here&lt;/a&gt;.)&lt;/p&gt;
+
+&lt;p&gt;Choose detected proteins by official yeast name, from &lt;a href=&quot;http://www.yeastgenome.org/&quot;&gt;SGD&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Y-axis is proportion of protein in 100,000g supernatant, X-axis is either time or temperature of shock.&lt;/p&gt;
+
+&lt;iframe width=&quot;900&quot; height=&quot;720&quot; src=&quot;https://dadrummond.shinyapps.io/psup_shiny/&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The DEAH-box helicase Dhr1 dissociates U3 from the pre-rRNA to promote formation of the central pseudoknot</title>
+   <link href="https://richasardana.github.io/papers/paper/sardana-dhr1-u3"/>
+   <updated>2015-02-24T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/papers/paper/sardana-dhr1-u3</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;In eukaryotes, the highly conserved U3 small nucleolar RNA (snoRNA) base-pairs to multiple sites in the pre-ribosomal RNA (pre-rRNA) to promote early cleavage and folding events. Binding of the U3 box A region to the pre-rRNA is mutually exclusive with folding of the central pseudoknot (CPK), a universally conserved rRNA structure of the small ribosomal subunit essential for protein synthesis. Here, we report that the DEAH-box helicase Dhr1 (Ecm16) is responsible for displacing U3. An active site mutant of Dhr1 blocked release of U3 from the pre-ribosome, thereby trapping a pre-40S particle. This particle had not yet achieved its mature structure because it contained U3, pre-rRNA, and a number of early-acting ribosome synthesis factors but noticeably lacked ribosomal proteins (r-proteins) that surround the CPK. Dhr1 was cross-linked in vivo to the pre-rRNA and to U3 sequences flanking regions that base-pair to the pre-rRNA including those that form the CPK. Point mutations in the box A region of U3 suppressed a cold-sensitive mutation of Dhr1, strongly indicating that U3 is an in vivo substrate of Dhr1. To support the conclusions derived from in vivo analysis we showed that Dhr1 unwinds U3-18S duplexes in vitro by using a mechanism reminiscent of DEAD box proteins.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Physical and functional interaction between the methyltransferase Bud23 and the essential DEAH-box RNA helicase Ecm16</title>
+   <link href="https://richasardana.github.io/papers/paper/sardana-bud23-ecm16"/>
+   <updated>2014-06-15T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/papers/paper/sardana-bud23-ecm16</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;The small ribosomal subunit assembles cotranscriptionally on the nascent primary transcript. Cleavage at site A2 liberates the pre-40S subunit. We previously identified Bud23 as a conserved eukaryotic methyltransferase that is required for efficient cleavage at A2. Here, we report that Bud23 physically and functionally interacts with the DEAH-box RNA helicase Ecm16 (also known as Dhr1). Ecm16 is also required for cleavage at A2. We identified mutations in ECM16 that suppressed the growth and A2 cleavage defects of a bud23Δ mutant. RNA helicases often require protein cofactors to provide substrate specificity. We used yeast (Saccharomyces cerevisiae) two-hybrid analysis to map the binding site of Bud23 on Ecm16. Despite the physical and functional interaction between these factors, mutations that disrupted the interaction, as assayed by two-hybrid analysis, did not display a growth defect. We previously identified mutations in UTP2 and UTP14 that suppressed bud23Δ. We suggest that a network of protein interactions may mask the loss of interaction that we have defined by two-hybrid analysis. A mutation in motif I of Ecm16 that is predicted to impair its ability to hydrolyze ATP led to accumulation of Bud23 in an ∼45S particle containing Ecm16. Thus, Bud23 enters the pre-40S pathway at the time of Ecm16 function.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The rRNA methyltransferase Bud23 shows functional interaction with components of the SSU processome and RNase MRP</title>
+   <link href="https://richasardana.github.io/papers/paper/sardana-ssu-processome"/>
+   <updated>2013-06-01T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/papers/paper/sardana-ssu processome</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;Bud23 is responsible for the conserved methylation of G1575 of 18S rRNA, in the P-site of the small subunit of the ribosome. bud23Δ mutants have severely reduced small subunit levels and show a general failure in cleavage at site A2 during rRNA processing. Site A2 is the primary cleavage site for separating the precursors of 18S and 25S rRNAs. Here, we have taken a genetic approach to identify the functional environment of BUD23. We found mutations in UTP2 and UTP14, encoding components of the SSU processome, as spontaneous suppressors of a bud23Δ mutant. The suppressors improved growth and subunit balance and restored cleavage at site A2. In a directed screen of 50 ribosomal trans-acting factors, we identified strong positive and negative genetic interactions with components of the SSU processome and strong negative interactions with components of RNase MRP. RNase MRP is responsible for cleavage at site A3 in pre-rRNA, an alternative cleavage site for separating the precursor rRNAs. The strong negative genetic interaction between RNase MRP mutants and bud23Δ is likely due to the combined defects in cleavage at A2 and A3. Our results suggest that Bud23 plays a role at the time of A2 cleavage, earlier than previously thought. The genetic interaction with the SSU processome suggests that Bud23 could be involved in triggering disassembly of the SSU processome, or of particular subcomplexes of the processome.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>From knobs to a central pseudoknot: understanding 40S ribosomal subunit biogenesis through Bud23</title>
+   <link href="https://richasardana.github.io/papers/paper/sardana-dissertation"/>
+   <updated>2013-05-13T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/papers/paper/sardana-dissertation</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;Ribosomes are universally conserved macromolecular machines that translate cellular genetic information into proteins. All ribosomes are com- posed of two ribonucleoprotein subunits. In eukaryotes these are called 40S (small) and 60S (large) subunits. Biogenesis of both subunits begins from a common precursor ribosomal RNA (rRNA) transcript in the nucleolus. The 18S rRNA of the small subunit is encoded in the 5ʹ end of the precursor transcript. U3 snoRNA and about 70 accessory factors associate with the 50 end of the pre-rRNA, to form the SSU processome or 90S pre-ribosome, which can be observed as terminal knobs in electron micrographs. After the initial processing and folding, the pre-rRNA is cleaved at site A2 to release the pre-40S. This event is dependent on the formation of the central pseudoknot, a structure that maintains the integrity of 40S architecture. Bud23 is the methyltransferase responsible for modification of the base G1575 in the P-site of the small subunit. Work presented here demonstrates that the in vivo stability, and thus function, of Bud23 is dependent on the presence of Trm112, a novel ribosome biogenesis factor identified in this work. Analysis of rRNA processing and strong negative genetic interactions with RNaseMRP mutants, provide strong evidence for that BUD23 is required for A2 cleavage. Extragenic suppressors of bud23 [delta] were identified in UTP14, UTP2, IMP4 and ECM16, coding for SSU processome components. Bud23 and the RNA helicase Ecm16 interact physically as well as genetically. Most fascinatingly, using ecm16 enzymatic mutants, this work provides compelling evidence that Ecm16 facilitates removal of U3 snoRNA from pre-rRNA, a prerequisite for central pseudoknot formation and 90S to pre-40S transition. These findings suggest a model in which binding of Bud23 monitors the status of 40S assembly, triggering Ecm16 activity to promote release of the pre-40S from 90S only after the critical folding of the small subunit rRNA.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Las1 interacts with Grc3 polynucleotide kinase and is required for ribosome synthesis in Saccharomyces cerevisiae</title>
+   <link href="https://richasardana.github.io/papers/paper/caste-las1"/>
+   <updated>2013-01-01T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/papers/paper/caste-las1</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;Ribosome biogenesis is a multi-step process that couples cell growth with cell proliferation. Although several large-scale analysis of pre-ribosomal particles have identified numerous trans-acting factors involved in this process, many proteins involved in pre-rRNA processing and ribosomal subunit maturation have yet to be identified. Las1 was originally identified in Saccharomyces cerevisiae as a protein involved in cell morphogenesis. We previously demonstrated that the human homolog, Las1L, is required for efficient ITS2 rRNA processing and synthesis of the 60S ribosomal subunit. Here, we report that the functions of Las1 in ribosome biogenesis are also conserved in S. cerevisiae. Depletion of Las1 led to the accumulation of both the 27S and 7S rRNA intermediates and impaired the synthesis of the 60S subunit. We show that Las1 co-precipitates mainly with the 27S rRNA and associates with an Nsa1 and Rix1-containing pre-60S particle. We further identify Grc3 as a major Las1-interacting protein. We demonstrate that the kinase activity of Grc3 is required for efficient pre-rRNA processing and that depletion of Grc3 leads to rRNA processing defects similar to the ones observed in Las1-depleted cells. We propose that Las1 and Grc3 function together in a conserved mechanism to modulate rRNA processing and eukaryotic ribosome biogenesis.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The methyltransferase adaptor protein Trm112 is involved in biogenesis of both ribosomal subunits</title>
+   <link href="https://richasardana.github.io/papers/paper/sardana-trm112"/>
+   <updated>2012-11-01T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/papers/paper/sardana-trm112</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;We previously identified Bud23 as the methyltransferase that methylates G1575 of rRNA in the P-site of the small (40S) ribosomal subunit. In this paper, we show that Bud23 requires the methyltransferase adaptor protein Trm112 for stability in vivo. Deletion of Trm112 results in a bud23Δ-like mutant phenotype. Thus Trm112 is required for efficient small-subunit biogenesis. Genetic analysis suggests the slow growth of a trm112Δ mutant is due primarily to the loss of Bud23. Surprisingly, suppression of the bud23Δ-dependent 40S defect revealed a large (60S) biogenesis defect in a trm112Δ mutant. Using sucrose gradient sedimentation analysis and coimmunoprecipitation, we show that Trm112 is also involved in 60S subunit biogenesis. The 60S defect may be dependent on Nop2 and Rcm1, two additional Trm112 interactors that we identify. Our work extends the known range of Trm112 function from modification of tRNAs and translation factors to both ribosomal subunits, showing that its effects span all aspects of the translation machinery. Although Trm112 is required for Bud23 stability, our results suggest that Trm112 is not maintained in a stable complex with Bud23. We suggest that Trm112 stabilizes its free methyltransferase partners not engaged with substrate and/or helps to deliver its methyltransferase partners to their substrates.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>5′ and 3′ end modifications of spliceosomal RNAs in Plasmodium falciparum</title>
+   <link href="https://richasardana.github.io/papers/paper/bawankar-plasmodium-rna"/>
+   <updated>2009-08-08T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/papers/paper/bawankar-plasmodium-rna</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;5’ caps provide recognition sequences for the nuclear import of snRNAs. The 5’ and 3’ ends of snRNAs were studied in Plasmodium falciparum with a modified adapter ligation method, which showed that 5’ ends of U1, U2, U4, U5 and U6 snRNAs are capped. In P. falciparum, the 3’ ends of U1, U2, U4 and U5 snRNAs have free hydroxyl groups whereas U6 snRNA has a blocked 3’ end. An immunoprecipitation assay for trimethyl guanosine caps shows that the cap structures of parasite U1-U5 snRNAs are hypermethylated while U6 snRNA may be gamma-mono-methylated. Bioinformatics analysis of proteins involved in hypermethylation and trafficking of snRNAs indicates that the methyltransferase TGS1 is present in the P. falciparum genome. PfTGS1 is larger than its orthologs and may have transmembrane domains in the C-terminus. Surprisingly, the snRNA trafficking protein Snurportin is absent from the P. falciparum genome suggesting that reminiscent of yeast, parasite snRNAs may be retained in the nucleus.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Bud23 methylates G1575 of 18S rRNA and is required for efficient nuclear export of pre-40S subunits</title>
+   <link href="https://richasardana.github.io/papers/paper/white-bud23-methyltransferase"/>
+   <updated>2008-05-15T00:00:00+00:00</updated>
+   <id>https://richasardana.github.io/papers/paper/white-bud23-methyltransferase</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;BUD23 was identified from a bioinformatics analysis of Saccharomyces cerevisiae genes involved in ribosome biogenesis. Deletion of BUD23 leads to severely impaired growth, reduced levels of the small (40S) ribosomal subunit, and a block in processing 20S rRNA to 18S rRNA, a late step in 40S maturation. Bud23 belongs to the S-adenosylmethionine-dependent Rossmann-fold methyltransferase superfamily and is related to small-molecule methyltransferases. Nevertheless, we considered that Bud23 methylates rRNA. Methylation of G1575 is the only mapped modification for which the methylase has not been assigned. Here, we show that this modification is lost in bud23 mutants. The nuclear accumulation of the small-subunit reporters Rps2-green fluorescent protein (GFP) and Rps3-GFP, as well as the rRNA processing intermediate, the 5′ internal transcribed spacer 1, indicate that bud23 mutants are defective for small-subunit export. Mutations in Bud23 that inactivated its methyltransferase activity complemented a bud23Δ mutant. In addition, mutant ribosomes in which G1575 was changed to adenosine supported growth comparable to that of cells with wild-type ribosomes. Thus, Bud23 protein, but not its methyltransferase activity, is important for biogenesis and export of the 40S subunit in yeast.&lt;/p&gt;
+</content>
+ </entry>
+ 
  
 </feed>
