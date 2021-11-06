@@ -8,9 +8,8 @@ highlighter: rouge
 
 markdown: kramdown
 
-excerpt_separator: <!--more-->
 
-repository: richasardana/SardanaLabWebsite.github.io
+repository: richasardana/sardanalabwebsite.github.io
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
@@ -38,7 +37,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : https://richasardana.github.io
+production_url : https://richasardana.github.io/sardanalabwebsite
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -113,7 +112,7 @@ JB :
   analytics :
     provider : google
     google : 
-      tracking_id : 'UA-62008526-1'
+      #tracking_id : 'UA-62008526-1'
     getclicky :
       site_id : 
     mixpanel :
@@ -166,4 +165,3 @@ JB :
 plugins_dir:
   - jekyll-redirect-from
   
-theme: jekyll-theme-minimal
