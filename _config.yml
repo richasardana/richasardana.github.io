@@ -8,6 +8,7 @@ highlighter: rouge
 
 markdown: kramdown
 
+# Important: set this as the repository name!
 
 repository: https://richasardana.github.io
 
