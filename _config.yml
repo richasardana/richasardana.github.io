@@ -166,3 +166,4 @@ JB :
 plugins_dir:
   - jekyll-redirect-from
   
+theme: jekyll-theme-minimal
