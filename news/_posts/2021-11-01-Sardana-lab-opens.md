@@ -7,4 +7,5 @@ image: /assets/images/news/lab-doors-open.jpg
 category: news
 tags: []
 ---
-Excited to embark on this new journey. Looking for interested students and postdocs to [join our team!](/about.html#join)
+Excited to embark on this new journey. Looking for interested students and postdocs to [join our team!](/about.html#join).
+Original 'we believe' Poster credit: [Sammy Katta](https://sammykatta.com/diversity). 
