@@ -9,7 +9,7 @@ volume:
 issue: 
 pages: 
 authors: "Richa Sardana, Carolyn M Highland, Beth E Straight, Christopher F Chavez, J Christopher Fromme, Scott D Emr"
-image: /assets/images/papers/2021-sardana-elife.png
+image: /assets/images/papers/2021-sardana-elife.jpg
 redirect_from: 
 fulltext: 
 pdflink: 
