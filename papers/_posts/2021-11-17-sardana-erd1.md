@@ -5,11 +5,11 @@ year: "2021"
 shortref: "Sardana <i>et al.</i> <i>eLife</i> 2021"
 nickname: erd1-gt-recycling
 journal: "eLife"
-volume: 
-issue: 
+volume: 10
+issue: e70774
 pages: 
 authors: "Richa Sardana, Carolyn M Highland, Beth E Straight, Christopher F Chavez, J Christopher Fromme, Scott D Emr"
-image: /assets/images/papers/2021-sardana-elife.jpg
+image: /assets/images/papers/2021-sardana-elife-cover.jpg
 redirect_from: 
 fulltext: 
 pdflink: 
