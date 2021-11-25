@@ -3,7 +3,7 @@ layout: news
 title: "First Sardana lab paper"
 author: "Richa"
 author_handle: richa
-image: /assets/images/news/2021-sardana-elife-cover.jpg
+image: /assets/images/news/sardana-elife-cover.jpg
 category: news
 tags: []
 ---
