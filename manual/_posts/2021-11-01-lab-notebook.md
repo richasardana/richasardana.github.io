@@ -62,7 +62,7 @@ It is helpful to consider the [FAIR principles for scientific data management](h
 - *Findable:* The first step in (re)using data and protocols is to find them. Your lab notebook entries should be findable by "metadata", for example project, protocol, strain or oligo identifier, or date of creation.
 - *Accessible:* Once the user finds the required data you should be able to access it. So if the lab notebook entry mentions a dataset elsewhere (e.g. datastore, lab notebook page), link to it with accession information.
 - *Interoperable:* The data usually need to be integrated with other data, and to interoperate with applications or workflows for analysis, storage, and processing. Use standard file formats.
-- *Reusable:* The ultimate goal is to optimise the reuse of data, protocols, and methods. You and others should be able to reuse what you have done, to a high standard, and efficiently.
+- *Reusable:* The ultimate goal is to optimize the reuse of data, protocols, and methods. You and others should be able to reuse what you have done, to a high standard, and efficiently.
 
 
 # Examples of what to include and what not
@@ -80,7 +80,7 @@ To inform the judgment call of what to include and what not:
 - *Strains* you use should list the lab strain ID number, along with a brief description of the key genotype of the strain.
 - *Oligos* include the oligo name/ID and a brief descriptor of the oligo.
 - *Designs* for plasmids, inserts, cloning, etc, should be included in the relevant notebook entries. Usually the design would be in snapgene, genbank, or fasta format, 
-- *Plasmids* once confirmed by diagnostic restriction digestion and sequencing should be assigned a lab plasmid ID number. The plasmids should also be transformed in appropriate bacterial competent cells, and saved as glycerol stocks. In the notes, plasmids should be refered to wiht the ID number and a brief description.
+- *Plasmids* once confirmed by diagnostic restriction digestion and sequencing should be assigned a lab plasmid ID number. The plasmids should also be transformed in appropriate bacterial competent cells, and saved as glycerol stocks. In the notes, plasmids should be referred to with the ID number and a brief description. Whenever possible, the sequencing results should be linked as alignments to the parent plasmid files.
 - *Photos* of tubes, equipment, pipetting layouts, etc - it's also easy to take a photo and shove it in your notebook, why not do that. These photos help address the situation where you leave the lab and think "oh goodness, did I have the samples in the right order?"
 - *PCR*, record the date, purpose, template, oligos, expected sizes, enzymes, buffers, cycling parameters, photos of the gel. 
 - *Reagents should be recorded precisely including manufacturer's part number*, and ideally batch number, when saving lab stock aliquots of shared reagents. Use the label printer to print the information rather than writing it on each tube. The information should include concentration, solvent, manufacturer, lot and batch number, (pH, sterilization info as appropriate), date, and your initials. 
@@ -112,11 +112,13 @@ Remember the FAIR principles: organize the files so you can find them, access th
 
 You are encouraged to use any of the following electronic notebooks:
 
-[Labarchives- Electronic digital notebook](https://teaching.cornell.edu/learning-technologies/collaboration-tools/electronic-lab-notebooks-labarchives)- You will use your Cornell netID to login to access Labarchives.
-[Microsoft One note](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006918)
-[Benchling](https://www.benchling.com/academic/)
+- [Labarchives- Electronic digital notebook](https://teaching.cornell.edu/learning-technologies/collaboration-tools/electronic-lab-notebooks-labarchives)- You will use your Cornell netID to login to access Labarchives.
+- [Microsoft One note](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006918)
+- [Benchling](https://www.benchling.com/academic/)
+- [Rspace](https://www.researchspace.com/)
+- Notes can also be organized in a series of well organized folders, and documented and indexed with searchable tags in lists. Talk with Richa as you figure out a solution that works for you.
 
-If we decide on aparticular lab notebook, there are some practices that we could adopt to streamline our notetaking, such as set up templates for common lab book entries.
+If we decide on a particular lab notebook, there are some practices that we could adopt to streamline our notetaking, such as set up templates for common lab book entries.
 
 ## Have two kinds of tables of contents, one by date and one by project or experiment type
 

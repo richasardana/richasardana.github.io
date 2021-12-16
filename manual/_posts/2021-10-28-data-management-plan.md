@@ -30,5 +30,5 @@ It is the primary responsibility of the trainee to ensure their data is well doc
 
 # Best practices
 
-[Cornell's Data Management Planning & Services](https://data.research.cornell.edu/content/best-practices) provides a comprehensive list of best practices for data acquisition, storage, and dissemnation.
+[Cornell's Data Management Planning & Services](https://data.research.cornell.edu/content/best-practices) provides a comprehensive list of best practices for data acquisition, storage, and dissemination.
 

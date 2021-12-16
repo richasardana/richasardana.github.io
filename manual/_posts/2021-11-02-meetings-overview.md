@@ -34,7 +34,7 @@ Whatever the format, the goal of lab meeting is for everyone in the room, includ
 The purpose of these lab meetings is to communicate and to exchange useful ideas, not to simply "update", nor to impress. These are also your opportunities to hone your presentation skills, so take advantage of it. 
 This will usually be a talk with slides, with sub-goals:
 
-* Teach the group about your work. Make it accessible to everyone. Give a good, thoughful introduction so everyone understands the why, what, and how.
+* Teach the group about your work. Make it accessible to everyone. Give a good, thoughtful introduction so everyone understands the why, what, and how.
 * Articulate what you are thinking about your work's status and future.
 * Solicit feedback and ideas from other lab members, to improve your project(s).
 * Practice for talks outside the lab, in a friendly environment.
@@ -96,7 +96,7 @@ Most lab members have 1-1 meetings with the PI, fortnightly. Use these meetings 
 * The lab member takes notes and sends a summary to PI later on the day of the 1-1 meeting. Notes should begin "1-1 meeting notes [date]". 
 * Meeting starts by discussing progress on agreed priorities and action points from previous meeting.
 * Meeting includes reviewing lab notebook, or other data/analysis/writing/slides, as appropriate.
-* Meeting ends by agreeing priorities for the lab member for their next fortnight, which go in the notes. Realistically, there will be between 1 and 3 priorities for the next two-week period, because larger numbers of things cannot all be prioritised.
+* Meeting ends by agreeing priorities for the lab member for their next fortnight, which go in the notes. Realistically, there will be between 1 and 3 priorities for the next two-week period, because larger numbers of things cannot all be prioritized.
 * Notes should include action points for PI (with deadlines), and any questions arising from the meeting that we don't yet have answers to.
 * Notes can be brief; whatever can be written up in 15 minutes is good enough.
 
@@ -111,6 +111,6 @@ Project students should find these guidelines useful to make the most of their m
 
 # Lab socials
 
-We will plan to do lab socials together as a group often. Everyone is requested to take initiative and suggest these events and help with making them materialize. Be inclusive. These are occasions to get to know your lab mates better, develop relationships, celelbrate successes, milestones, and birthdays.
+We will plan to do lab socials together as a group often. Everyone is requested to take initiative and suggest these events and help with making them materialize. Be inclusive. These are occasions to get to know your lab mates better, develop relationships, celebrate successes, milestones, and birthdays.
 
 
