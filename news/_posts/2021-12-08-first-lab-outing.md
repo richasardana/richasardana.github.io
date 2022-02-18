@@ -3,7 +3,7 @@ layout: news
 title: "First lab celebration"
 author: "Richa"
 author_handle: richa
-image: /assets/images/news/20211208_first_lab_outing.jpg
+image: 
 category: news
 tags: []
 ---
