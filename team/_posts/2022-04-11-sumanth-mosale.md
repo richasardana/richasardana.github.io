@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Sumanth MS"
-position: MolMed Administrative Assistant
+position: Postdoc
 nickname: Wendy
 handle: 
 email: sm2445@cornell.edu
