@@ -7,4 +7,4 @@ image:
 category: news
 tags: []
 ---
-Sumanth joins the lab as our first EVER (and brave) postdoc! Welcome to the group, Sumanth! 
+Sumanth joins as the lab's first brave postdoc! Welcome to the group, Sumanth! 
