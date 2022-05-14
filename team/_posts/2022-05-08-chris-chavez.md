@@ -1,7 +1,7 @@
 ---
 layout: member
-title: "Chris Chavez"
-position: Undergraduate researcher
+title: "Christopher Chavez"
+position: Undergrad
 nickname: Chris
 handle: 
 email: cfc55@cornell.edu

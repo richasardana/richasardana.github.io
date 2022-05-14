@@ -8,7 +8,7 @@ journal: "eLife"
 volume: 10
 issue: e70774
 pages: 
-authors: "Richa Sardana, Carolyn M Highland, Beth E Straight, Christopher F Chavez, J Christopher Fromme, Scott D Emr"
+authors: "Richa Sardana, Carolyn M Highland, Beth Straight, Christopher Chavez, J Christopher Fromme, Scott D Emr"
 image: /assets/images/papers/2021-sardana-elife-cover.jpg
 redirect_from: 
 fulltext: 

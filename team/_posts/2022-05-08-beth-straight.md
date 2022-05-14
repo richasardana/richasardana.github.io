@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Beth Straight"
-position: Undergraduate researcher
+position: Undergrad
 nickname: Beth
 handle: 
 email: bes89@cornell.edu 
