@@ -1,6 +1,6 @@
 ---
 layout: news
-title: "Sardana lab hosts the McClintock Life Science lecture"
+title: "Lab hosts the McClintock Life Science lecture at Cornell"
 author: "Richa"
 author_handle: richa
 image: 
