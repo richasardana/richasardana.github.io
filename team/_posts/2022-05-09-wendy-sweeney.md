@@ -10,7 +10,7 @@ github:
 scholar: 
 image: /assets/images/team/wendy-sweeney.jpg
 cv: 
-alum: false
+alum: true
 ---
 Wendy is the Administrative Assistant in [Molecular Medicine]. She provides administrative and ordering support to the lab. 
 

@@ -10,8 +10,8 @@ github:
 scholar: 
 image: /assets/images/team/beth_straight.jpg
 cv: 
-alum: false
+alum: true
 ---
-Beth is an undergraduate student at [Cornell University]. Beth joined the lab in November 2021.
+Beth is an undergraduate student at [Cornell University]. Beth joined the lab in November 2021. Beth graduated from [Cornell University] in Dec 2022.
 
 [Cornell University]: https://www.cornell.edu/

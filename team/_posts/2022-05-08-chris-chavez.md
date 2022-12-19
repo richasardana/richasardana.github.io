@@ -10,7 +10,7 @@ github:
 scholar: 
 image: /assets/images/team/chris_chavez.jpg
 cv: 
-alum: false
+alum: true
 ---
 Chris is an undergraduate student at [Cornell University]. Chris joined the lab in November 2021. 
 
