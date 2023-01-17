@@ -3,10 +3,9 @@ layout: post
 title: "LaTeX for biologists "
 description: ""
 author_handle: richa
-category: blog
+category: non-science
 tags: [LaTeX, biologists, typesetting]
-
-title: LaTeX for Biologists 
+ 
 ---
 
 ## About
