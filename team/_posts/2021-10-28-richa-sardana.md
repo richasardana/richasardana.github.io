@@ -8,7 +8,7 @@ email: sardana@cornell.edu
 twitter: sardana_richa
 github: 
 scholar: phbRiBkAAAAJ
-image: /assets/images/team/Richa-Picture1.png
+image: /assets/images/team/Richa-Picture2.jpg
 cv: 
 alum: false
 ---
