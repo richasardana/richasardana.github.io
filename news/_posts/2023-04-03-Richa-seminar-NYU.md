@@ -7,4 +7,4 @@ image:
 category: news
 tags: []
 ---
-Richa gave an invited seminar on Membrane proteostasis mechanisms in the Department of Biology at NYU. It was fantastic talking about out our research and interacting with students and faculty.
+Richa gave an invited seminar on Membrane proteostasis mechanisms in the Department of Biology at NYU. It was fantastic talking about our research and interacting with students and faculty.
