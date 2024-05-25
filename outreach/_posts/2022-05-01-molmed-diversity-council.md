@@ -7,7 +7,4 @@ tags: [lab manual, Mentoring, STEM, Inclusion, Science communication, Outreach]
 ---
 {% include JB/setup %}
 
-* TOC
-{:toc}
-
-Richa chaired the Diversity council to create a document on Inclusivity and commitments that define the values of the department of Molecular Medicine. 
+Richa chaired the Diversity council to create a document on Inclusivity and commitments that define the values of the Department of Molecular Medicine. 
