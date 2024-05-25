@@ -10,6 +10,4 @@ tags: [lab manual, Mentoring, STEM, Inclusion, Science communication, Outreach]
 * TOC
 {:toc}
 
-# Molecular Medicine Diversity Council
-
-2022: Molecular Medicine Diversity council: Richa chaired the Diversity council to create a document on Inclusivity and commitments that define the values of the department of Molecular Medicine. 
+Richa chaired the Diversity council to create a document on Inclusivity and commitments that define the values of the department of Molecular Medicine. 
