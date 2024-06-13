@@ -1,6 +1,6 @@
 ---
 layout: member
-title: "SRiley Grimes"
+title: "Riley Grimes"
 position: Undergrad
 nickname: Riley
 handle: 
