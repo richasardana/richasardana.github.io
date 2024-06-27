@@ -4,7 +4,7 @@ title: "Isabelle Cohen"
 position: Undergrad
 nickname: Isabelle
 handle: 
-email: ic9@icsd.k12.ny.us
+email: 
 twitter: 
 github: 
 scholar: 
