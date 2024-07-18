@@ -1,0 +1,35 @@
+changes in two places:
+
+archive.html
+
+<li><a href="/outreach/">Outreach</a></li>
+
+under More
+<li><a href="/blog/">Blog</a></li>
+        
+
+added folder called outreach
+created index.html
+
+
+about.html
+<li><a href="/outreach/">Outreach</a></li>
+
+under More
+<li><a href="/blog/">Blog</a></li>
+        
+categories.html
+<li><a href="/outreach/">Outreach</a></li>
+
+under More
+<li><a href="/blog/">Blog</a></li>
+
+ordering
+1. research
+2. team
+3. papers
+4. outreach
+5. Blog
+6. News
+7. Manual
+8. Misc
