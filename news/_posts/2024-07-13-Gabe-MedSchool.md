@@ -7,4 +7,4 @@ image:
 category: news
 tags: []
 ---
-Congratulations to Gabe for getting accepted into Mt. Sinai medical school- woohoo!!
+Congratulations to Gabe for getting accepted into Icahn School of Medicine at Mount Sinai, NYC- woohoo!!
