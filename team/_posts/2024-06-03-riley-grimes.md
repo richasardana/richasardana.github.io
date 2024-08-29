@@ -10,9 +10,9 @@ github:
 scholar: 
 image: /assets/images/team/riley-grimes.jpg
 cv: 
-alum: false
+alum: true
 ---
-Riley is an undergraduate student participating in the [MBG-Cell Signaling REU] summer 2024 program at [Cornell University]. Riley is a Sophomore at Meredith College in Raleigh, North Carolina
+Riley is an undergraduate student participating in the [MBG-Cell Signaling REU] summer 2024 program at [Cornell University]. Riley is a student at Meredith College in Raleigh, North Carolina
 majoring in Biology and Chemistry. 
 
 [Cornell University]: https://www.cornell.edu/
