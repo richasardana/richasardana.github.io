@@ -12,3 +12,6 @@ Sardana lab participates in the yearly 'Expand your horizons' community outreach
 Apr, 2023: Sardana lab organized two hands-on workshops for 9th grade Ithaca high school girls on building and using a simple mircroscope. 
 
 Apr, 2024: Sardana lab organized three hands-on workshops for 7th/ 8th grade Ithaca high school girls on the principles of microscopy. 
+
+Apr, 2025: Sardana lab organized three hands-on workshops for 7th/ 8th grade Ithaca high school girls on the principles of microscopy this year again. Students enjoyed and appreciated the workshops!
+
