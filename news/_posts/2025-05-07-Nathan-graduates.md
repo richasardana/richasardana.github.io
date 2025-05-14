@@ -7,4 +7,4 @@ image:
 category: news
 tags: []
 ---
-Congratulations Nathan! Wish you all the very best, Nathan!
+Congratulations! Wish you all the very best, Nathan!
