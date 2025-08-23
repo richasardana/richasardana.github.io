@@ -7,4 +7,4 @@ image:
 category: news
 tags: []
 ---
-Lab organized our annual outreach STEM workshop for 7th and 8th grade girls as part of the 'Expand Your Horizons (EYH)' program this year on the concepts of microscopy and exploring the world beyond what our eyes can see! Kudos to Sumanth for leading the effort!
+Lab organized our annual outreach STEM workshops for 7th and 8th grade girls as part of the 'Expand Your Horizons (EYH)' program this year on the concepts of microscopy and exploring the world beyond what our eyes can see! Kudos to Sumanth for leading the effort!
