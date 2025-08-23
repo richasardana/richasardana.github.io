@@ -10,7 +10,7 @@ github:
 scholar: 
 image: /assets/images/team/solomon-baik.jpeg
 cv: 
-alum: false
+alum: true
 ---
 Solomon is an undergraduate student at [Cornell University] in the College of Human Ecology (expected graduation 2026). He is a project manager for Cayuga Healthcare Consulting and an EMT at the Varna Volunteer Fire Company. He also enjoys playing the piano.
 
