@@ -1,6 +1,6 @@
 ---
 layout: news
-title: "{Jade and Julia present at ASCB}"
+title: "Jade and Julia present at ASCB"
 author: "Richa"
 author_handle: richa
 image: 

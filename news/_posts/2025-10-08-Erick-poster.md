@@ -1,6 +1,6 @@
 ---
 layout: news
-title: "{Erick presents at BRC}"
+title: "Erick presents at BRC"
 author: "Richa"
 author_handle: richa
 image: 

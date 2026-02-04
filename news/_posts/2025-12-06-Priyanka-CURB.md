@@ -1,6 +1,6 @@
 ---
 layout: news
-title: "{Priyanka presents at CURB}"
+title: "Priyanka presents at CURB"
 author: "Richa"
 author_handle: richa
 image: 
