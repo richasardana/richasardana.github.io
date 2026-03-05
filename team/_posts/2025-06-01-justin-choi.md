@@ -8,7 +8,7 @@ email: jjc436@cornell.edu
 twitter: 
 github: 
 scholar: 
-image: /assets/images/team/default-member.png
+image: /assets/images/team/justin-choi.jpg
 cv: 
 alum: false
 ---
