@@ -26,7 +26,7 @@ category: paper
 published: true
 preprint: true
 embargo: false	
-peerreview: false
+peerreview: true
 review: false
 tags: [yeast, Bud23, ribosome biogenesis, SSU processome, Dhr1]
 ---
