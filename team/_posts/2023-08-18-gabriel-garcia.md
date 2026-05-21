@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Gabriel Garcia"
-position: Undergrad
+position: Former Undergrad
 nickname: Gabe
 handle: 
 email: gag97@cornell.edu
@@ -10,9 +10,9 @@ github:
 scholar: 
 image: /assets/images/team/gabriel-garcia.jpg
 cv: 
-alum: false
+alum: true
 ---
-Gabe is an undergraduate student at [Cornell University] in CALS majoring in biology with a minor in American Indian and Indigenous Studies (expected graduation 2026). Gabe joined the lab in August 2023. He also loves teaching others languages and going on long runs.
+Gabe was an undergraduate student at [Cornell University] in CALS majoring in biology with a minor in American Indian and Indigenous Studies. He also loves teaching others languages and going on long runs. Gabe joined the lab in August 2023, until his graduation in May 2026. He is currently a medical student at the Icahn School of Medicine at Mt. Sinai.
 
 
 [Cornell University]: https://www.cornell.edu/

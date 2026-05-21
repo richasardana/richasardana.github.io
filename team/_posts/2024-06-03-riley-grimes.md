@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Riley Grimes"
-position: Undergrad
+position: Former REU Undergrad
 nickname: Riley
 handle: 
 email: rg788@cornell.edu

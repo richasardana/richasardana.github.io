@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Isabelle Cohen"
-position: High Schooler
+position: Former High School Student
 nickname: Isabelle
 handle: 
 email: 
