@@ -8,7 +8,7 @@ email: wkg7@cornell.edu
 twitter: 
 github: 
 scholar: 
-image: /assets/images/team/wendy-greentree.jpg
+image: /assets/images/team/default-member.png
 cv: 
 alum: false
 ---
