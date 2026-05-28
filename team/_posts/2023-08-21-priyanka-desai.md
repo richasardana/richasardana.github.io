@@ -8,7 +8,7 @@ email: pdd43@cornell.edu
 twitter: 
 github: 
 scholar: 
-image: /assets/images/team/priyanka-desai.jpeg
+image: /assets/images/team/default-member.png
 cv: 
 alum: true
 ---

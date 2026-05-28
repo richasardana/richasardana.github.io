@@ -8,7 +8,7 @@ email: gag97@cornell.edu
 twitter: 
 github: 
 scholar: 
-image: /assets/images/team/gabriel-garcia.jpg
+image: /assets/images/team/default-member.png
 cv: 
 alum: true
 ---

@@ -8,7 +8,7 @@ email: sjb346@cornell.edu
 twitter: 
 github: 
 scholar: 
-image: /assets/images/team/solomon-baik.jpeg
+image: /assets/images/team/default-member.png
 cv: 
 alum: true
 ---

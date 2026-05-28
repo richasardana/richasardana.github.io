@@ -8,7 +8,7 @@ email: rg788@cornell.edu
 twitter: 
 github: 
 scholar: 
-image: /assets/images/team/riley-grimes.jpg
+image: /assets/images/team/default-member.png
 cv: 
 alum: true
 ---

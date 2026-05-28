@@ -8,7 +8,7 @@ email: sm2445@cornell.edu
 twitter: 
 github: 
 scholar: 
-image: /assets/images/team/sumanth-mosale2.jpg
+image: /assets/images/team/default-member.png
 cv: 
 alum: true
 ---

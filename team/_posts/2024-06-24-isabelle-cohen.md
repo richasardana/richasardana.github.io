@@ -8,7 +8,7 @@ email:
 twitter: 
 github: 
 scholar: 
-image: /assets/images/team/isabelle-cohen.jpeg
+image: /assets/images/team/default-member.png
 cv: 
 alum: true
 ---
