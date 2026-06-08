@@ -8,10 +8,10 @@ email: jjc436@cornell.edu
 twitter: 
 github: 
 scholar: 
-image: /assets/images/team/justin-choi.jpg
+image: /assets/images/team/default-member.png
 cv: 
-alum: false
+alum: true
 ---
-Justin is an undergraduate student at [Cornell University] in CALS (expected graduation 2028) majoring in Biology. Justin joined the lab in June 2025. 
+Justin is an undergraduate student at [Cornell University] in CALS (expected graduation 2028) majoring in Biology. Justin joined the lab in June 2025 and worked until Spring 2026.
 
 [Cornell University]: https://www.cornell.edu/
