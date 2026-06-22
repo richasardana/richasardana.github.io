@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Justin Choi"
-position: Undergrad
+position: Former Undergrad
 nickname: Justin
 handle: 
 email: jjc436@cornell.edu
